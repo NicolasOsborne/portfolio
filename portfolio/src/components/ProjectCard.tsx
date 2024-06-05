@@ -1,4 +1,5 @@
 import { IconType } from 'react-icons'
+import Button from './Button'
 
 interface ProjectCardProps {
   projectURL: string
@@ -32,10 +33,16 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
         <h3 className='text-lg font-semibold mx-2'>{projectTitle}</h3>
         <p className='my-2 mx-2'>{projectDescription}</p>
       </figcaption>
-      <div className='flex flex-wrap gap-2 mb-2 mx-2'>
-        {projectLanguages.map((LanguageIcon, index) => (
-          <LanguageIcon key={index} size={20} />
-        ))}
+      <div className='flex flex-row justify-between'>
+        <div className='flex flex-wrap gap-2 mb-2 mx-2'>
+          {projectLanguages.map((LanguageIcon, index) => (
+            <LanguageIcon key={index} size={20} />
+          ))}
+        </div>
+        <div className='flex flex-row gap-4'>
+          <Button text='Voir le code' onClick={() => {}} />
+          <Button text='Voir le site' onClick={() => {}} />
+        </div>
       </div>
     </a>
   )

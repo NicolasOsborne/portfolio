@@ -8,7 +8,7 @@ const PastJobs = () => {
   return (
     <section className='border-b-4 border-black py-10'>
       <h2 className='text-center mb-5'>Dans ma vie, j'ai aussi été</h2>
-      <div className='flex flex-row justify-center gap-4 py-12'>
+      <div className='flex flex-row flex-wrap justify-center gap-4 py-12'>
         <SkillIcon logo={GiHops} name='Brasseur' />
         <SkillIcon logo={GiBarStool} name='Pub Manager' />
         <SkillIcon logo={RiBeerLine} name='Barman' />

@@ -25,7 +25,7 @@ const Skills = () => {
     <section className='border-b-4 border-black'>
       <div className='border-b-4 border-black'>
         <h2 className='text-center'>Langages</h2>
-        <div className='flex flex-row justify-center gap-4 py-12'>
+        <div className='flex flex-row flex-wrap justify-center gap-4 py-12'>
           <SkillIcon logo={DiHtml5} name='HTML' />
           <SkillIcon logo={DiCss3} name='CSS' />
           <SkillIcon logo={DiSass} name='SASS' />
@@ -44,7 +44,7 @@ const Skills = () => {
       <div className='grid grid-cols-2'>
         <div className='border-r-4 border-black'>
           <h3 className='text-center'>Outils</h3>
-          <div className='flex flex-row justify-center gap-4 py-12'>
+          <div className='flex flex-row flex-wrap justify-center gap-4 py-12'>
             <SkillIcon logo={FiFigma} name='Figma' />
             <SkillIcon logo={TbBrandVscode} name='VS Code' />
             <SkillIcon logo={RiGithubFill} name='Github' />
