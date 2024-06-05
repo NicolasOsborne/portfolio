@@ -6,19 +6,20 @@ import {
   RiJavascriptFill,
   RiNodejsFill,
   RiReactjsFill,
-  RiTailwindCssLine,
 } from 'react-icons/ri'
 import { BiLogoMongodb, BiLogoRedux, BiLogoTypescript } from 'react-icons/bi'
-import { TbBrandVite, TbBrandVscode } from 'react-icons/tb'
 import {
   SiJest,
   SiNotion,
   SiPostman,
   SiPrestashop,
   SiSwagger,
+  SiTailwindcss,
   SiVercel,
+  SiVite,
 } from 'react-icons/si'
 import { FaGitAlt, FaWordpress } from 'react-icons/fa'
+import { VscVscodeInsiders } from 'react-icons/vsc'
 
 const Skills = () => {
   return (
@@ -50,13 +51,9 @@ const Skills = () => {
             name='NodeJS'
             className='bg-green-400'
           />
+          <SkillIcon logo={SiVite} name='Vite' className='bg-fuchsia-400' />
           <SkillIcon
-            logo={TbBrandVite}
-            name='Vite'
-            className='bg-fuchsia-400'
-          />
-          <SkillIcon
-            logo={RiTailwindCssLine}
+            logo={SiTailwindcss}
             name='Tailwind'
             className='bg-cyan-400'
           />
@@ -75,7 +72,7 @@ const Skills = () => {
           <div className='flex flex-row flex-wrap justify-center gap-10 py-12'>
             <SkillIcon logo={FiFigma} name='Figma' className='bg-fuchsia-400' />
             <SkillIcon
-              logo={TbBrandVscode}
+              logo={VscVscodeInsiders}
               name='VS Code'
               className='bg-cyan-400'
             />
