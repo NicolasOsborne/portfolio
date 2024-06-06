@@ -7,16 +7,16 @@ const Header = () => {
         </a>
         <div className='flex items-center gap-10'>
           <a className='text-xl font-base' href='/about'>
-            About
+            À propos
           </a>
           <a className='text-xl font-base' href='/skills'>
             Skills
           </a>
           <a className='text-xl font-base' href='/projects'>
-            Projects
+            Projets
           </a>
           <a className='text-xl font-base' href='/experience'>
-            Experience
+            Expérience
           </a>
           <a className='text-xl font-base' href='/contact'>
             Contact

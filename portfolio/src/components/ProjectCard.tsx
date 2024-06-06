@@ -31,7 +31,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   }
 
   return (
-    <div className='flex flex-col border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]'>
+    <div className='flex flex-col w-[500px] border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]'>
       <figure className='w-full'>
         <img
           src={projectCover}

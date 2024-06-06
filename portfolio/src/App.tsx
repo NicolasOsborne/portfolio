@@ -10,12 +10,11 @@ import Contact from './sections/Contact'
 import Footer from './layout/Footer'
 
 function App() {
-  const items = ['Développeur Front-End', 'Intégrateur Web']
   return (
     <>
       <Header />
       <Hero />
-      <Marquee items={items} />
+      <Marquee />
       <About />
       <Skills />
       <Projects />

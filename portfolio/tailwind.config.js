@@ -23,8 +23,8 @@ export default {
         heading: '700',
       },
       animation: {
-        marquee: 'marquee 5s linear infinite',
-        marquee2: 'marquee2 5s linear infinite',
+        marquee: 'marquee 30s linear infinite',
+        marquee2: 'marquee2 30s linear infinite',
       },
       keyframes: {
         marquee: {

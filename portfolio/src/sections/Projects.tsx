@@ -50,7 +50,7 @@ const Projects = () => {
         <ProjectCard
           projectCover={Extellient}
           projectTitle='Extellient'
-          projectDescription="Refonte du site internet de l'agence grenobloise Extellient"
+          projectDescription="Refonte du site internet de l'agence grenobloise Extellient. Intégration et référencement SEO"
           projectLanguages={[FaWordpress]}
           projectGithubURL=''
           projectWebsiteURL='https://www.extellient.com/'
