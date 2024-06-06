@@ -23,9 +23,12 @@ import { VscVscodeInsiders } from 'react-icons/vsc'
 
 const Skills = () => {
   return (
-    <section className='border-b-4 border-black scroll-mt-header' id='skills'>
+    <section
+      className='border-b-4 border-black scroll-mt-header pt-10'
+      id='skills'
+    >
       <div className='border-b-4 border-black'>
-        <h2 className='text-center'>Langages</h2>
+        <h2 className='text-center text-4xl font-heading'>Langages</h2>
         <div className='flex flex-row flex-wrap justify-center gap-10 py-12'>
           <SkillIcon logo={DiHtml5} name='HTML' className='bg-red-400' />
           <SkillIcon logo={DiCss3} name='CSS' className='bg-orange-400' />
@@ -67,8 +70,8 @@ const Skills = () => {
         </div>
       </div>
       <div className='grid grid-cols-2'>
-        <div className='border-r-4 border-black'>
-          <h3 className='text-center'>Outils</h3>
+        <div className='border-r-4 border-black pt-10'>
+          <h3 className='text-center text-3xl font-heading'>Outils</h3>
           <div className='flex flex-row flex-wrap justify-center gap-10 py-12'>
             <SkillIcon logo={FiFigma} name='Figma' className='bg-fuchsia-400' />
             <SkillIcon
@@ -97,8 +100,8 @@ const Skills = () => {
             <SkillIcon logo={SiVercel} name='Vercel' className='bg-gray-400' />
           </div>
         </div>
-        <div>
-          <h3 className='text-center'>Soft Skills</h3>
+        <div className='pt-10'>
+          <h3 className='text-center text-3xl font-heading'>Soft Skills</h3>
         </div>
       </div>
     </section>

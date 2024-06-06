@@ -32,8 +32,8 @@ const Projects = () => {
       className='border-b-4 border-black py-10 scroll-mt-header'
       id='projects'
     >
-      <h2 className='text-center mb-5'>Projets</h2>
-      <div className='w-full flex flex-wrap justify-center gap-5'>
+      <h2 className='text-center mb-5 text-4xl font-heading'>Projets</h2>
+      <div className='w-full flex flex-wrap justify-center gap-5 mt-10'>
         <ProjectCard
           projectCover={Vetipole}
           projectTitle='Vétipôle'

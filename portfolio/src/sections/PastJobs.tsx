@@ -7,7 +7,9 @@ import Button from '../components/Button'
 const PastJobs = () => {
   return (
     <section className='border-b-4 border-black py-10'>
-      <h2 className='text-center mb-5'>Dans ma vie, j'ai aussi été</h2>
+      <h2 className='text-center mb-5 text-4xl font-heading'>
+        Dans ma vie, j'ai aussi été
+      </h2>
       <div className='flex flex-row flex-wrap justify-center gap-10 py-12'>
         <SkillIcon logo={GiHops} name='Brasseur' className='bg-red-400' />
         <SkillIcon
