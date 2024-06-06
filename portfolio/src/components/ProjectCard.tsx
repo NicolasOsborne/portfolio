@@ -46,7 +46,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
       <div className='flex flex-row justify-between items-center pr-4 pb-4 pt-2'>
         <div className='flex flex-wrap gap-2 mx-2'>
           {projectLanguages.map((LanguageIcon, index) => (
-            <LanguageIcon key={index} size={24} />
+            <LanguageIcon key={index} size={24} className='text-mainAccent' />
           ))}
         </div>
         <div className='flex flex-row gap-4'>

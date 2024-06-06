@@ -1,5 +1,5 @@
-import { DiCss3, DiHtml5, DiSass } from 'react-icons/di'
 import SkillIcon from '../components/SkillIcon'
+import { DiCss3, DiHtml5, DiSass } from 'react-icons/di'
 import { FiFigma } from 'react-icons/fi'
 import {
   RiGithubFill,
