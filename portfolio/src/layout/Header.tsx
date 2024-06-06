@@ -11,27 +11,27 @@ const Header = () => {
           NICOO
         </a>
         <div className='hidden md:flex items-center gap-10'>
-          <a className='text-xl font-base hover:text-mainAccent' href='/about'>
+          <a className='text-xl font-base hover:text-mainAccent' href='#about'>
             À propos
           </a>
-          <a className='text-xl font-base hover:text-mainAccent' href='/skills'>
+          <a className='text-xl font-base hover:text-mainAccent' href='#skills'>
             Skills
           </a>
           <a
             className='text-xl font-base hover:text-mainAccent'
-            href='/projects'
+            href='#projects'
           >
             Projets
           </a>
           <a
             className='text-xl font-base hover:text-mainAccent'
-            href='/experience'
+            href='#experience'
           >
             Expérience
           </a>
           <a
             className='text-xl font-base hover:text-mainAccent'
-            href='/contact'
+            href='#contact'
           >
             Contact
           </a>
@@ -56,31 +56,31 @@ const Header = () => {
               >
                 <a
                   className='block w-full border-b-2 border-black bg-main px-5 py-4 hover:bg-mainAccent'
-                  href='/about'
+                  href='#about'
                 >
                   À propos
                 </a>
                 <a
                   className='block w-full border-b-2 border-black bg-main px-5 py-4 hover:bg-mainAccent'
-                  href='/skills'
+                  href='#skills'
                 >
                   Skills
                 </a>
                 <a
                   className='block w-full border-b-2 border-black bg-main px-5 py-4 hover:bg-mainAccent'
-                  href='/projects'
+                  href='#projects'
                 >
                   Projets
                 </a>
                 <a
                   className='block w-full border-b-2 border-black bg-main px-5 py-4 hover:bg-mainAccent'
-                  href='/experience'
+                  href='#experience'
                 >
                   Expérience
                 </a>
                 <a
                   className='block w-full border-b-2 border-black bg-main px-5 py-4 hover:bg-mainAccent'
-                  href='/contact'
+                  href='#contact'
                 >
                   Contact
                 </a>

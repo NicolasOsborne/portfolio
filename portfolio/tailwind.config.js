@@ -2,6 +2,9 @@
 export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
+    scrollMargin: {
+      header: '88px',
+    },
     extend: {
       colors: {
         bg: '#daf5f0',

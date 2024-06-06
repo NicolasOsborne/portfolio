@@ -2,7 +2,10 @@ import Profile from '../assets/images/profile_pic.jpg'
 
 const About = () => {
   return (
-    <section className='grid grid-cols-2 border-b-4 border-black'>
+    <section
+      className='grid grid-cols-2 border-b-4 border-black scroll-mt-header'
+      id='about'
+    >
       <div className='border-r-4 border-black p-10 flex flex-col'>
         <h2 className='text-center'>À Propos</h2>
         <p>

@@ -28,7 +28,10 @@ import Dock from '../assets/images/projects/Dock.jpg'
 
 const Projects = () => {
   return (
-    <section className='border-b-4 border-black py-10'>
+    <section
+      className='border-b-4 border-black py-10 scroll-mt-header'
+      id='projects'
+    >
       <h2 className='text-center mb-5'>Projets</h2>
       <div className='w-full flex flex-wrap justify-center gap-5'>
         <ProjectCard

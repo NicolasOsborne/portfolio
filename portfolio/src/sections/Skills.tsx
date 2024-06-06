@@ -23,7 +23,7 @@ import { VscVscodeInsiders } from 'react-icons/vsc'
 
 const Skills = () => {
   return (
-    <section className='border-b-4 border-black'>
+    <section className='border-b-4 border-black scroll-mt-header' id='skills'>
       <div className='border-b-4 border-black'>
         <h2 className='text-center'>Langages</h2>
         <div className='flex flex-row flex-wrap justify-center gap-10 py-12'>
