@@ -21,13 +21,19 @@ export default {
         boxShadowX: '4px',
         boxShadowY: '4px',
       },
+      fontFamily: {
+        hero: ['Monoton', 'sans-serif'],
+        heading: ['Ubuntu', 'sans-serif'],
+        body: ['Space Grotesk', 'sans-serif'],
+      },
       fontWeight: {
         base: '500',
-        heading: '700',
+        heading: '500',
       },
       animation: {
         marquee: 'marquee 30s linear infinite',
         marquee2: 'marquee2 30s linear infinite',
+        slideDown: 'slideDown 0.5s ease-in-out forwards',
       },
       keyframes: {
         marquee: {
@@ -37,6 +43,10 @@ export default {
         marquee2: {
           '0%': { transform: 'translateX(100%)' },
           '100%': { transform: 'translateX(0%)' },
+        },
+        slideDown: {
+          '0%': { transform: 'translateY(0px)' },
+          '100%': { transform: 'translateY(50px)' },
         },
       },
     },

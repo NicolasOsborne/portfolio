@@ -23,7 +23,7 @@ const SkillIcon = ({
       >
         <LogoComponent size={30} />
       </div>
-      <p className='text-center text-sm'>{name}</p>
+      <p className='text-center text-sm font-body font-base'>{name}</p>
     </div>
   )
 }

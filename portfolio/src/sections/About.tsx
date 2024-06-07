@@ -8,7 +8,7 @@ const About = () => {
     >
       <div className='border-r-4 border-black p-10 flex flex-col gap-10'>
         <h2 className='text-4xl font-heading text-center'>À Propos</h2>
-        <p>
+        <p className='font-body'>
           Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
           ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
           lorem ipsum lorem ipsum lorem ipsum lorem ipsum

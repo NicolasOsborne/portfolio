@@ -7,7 +7,7 @@ const ContactForm = () => {
   const [email, setEmail] = useState('')
   const [message, setMessage] = useState('')
   return (
-    <form className='bg-bg border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] w-1/2'>
+    <form className='bg-bg border-2 border-black font-body shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] w-3/4 lg:w-1/2'>
       <div className='flex flex-col gap-2 px-8 py-4'>
         <label htmlFor='name'>Nom</label>
         <Input

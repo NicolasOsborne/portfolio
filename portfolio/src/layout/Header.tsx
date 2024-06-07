@@ -7,30 +7,36 @@ const Header = () => {
   return (
     <nav className='fixed left-0 top-0 z-20 mx-auto flex h-[88px] w-full items-center border-b-4 border-black bg-white px-5'>
       <div className='mx-auto flex w-[1300px] max-w-full items-center justify-between'>
-        <a className='text-4xl font-heading hover:text-mainAccent' href='/'>
+        <a className='text-6xl font-heading hover:text-mainAccent' href='/'>
           NICOO
         </a>
         <div className='hidden md:flex items-center gap-10'>
-          <a className='text-xl font-base hover:text-mainAccent' href='#about'>
+          <a
+            className='text-xl font-body font-base hover:text-mainAccent'
+            href='#about'
+          >
             À propos
           </a>
-          <a className='text-xl font-base hover:text-mainAccent' href='#skills'>
+          <a
+            className='text-xl font-body font-base hover:text-mainAccent'
+            href='#skills'
+          >
             Skills
           </a>
           <a
-            className='text-xl font-base hover:text-mainAccent'
+            className='text-xl font-body font-base hover:text-mainAccent'
             href='#projects'
           >
             Projets
           </a>
           <a
-            className='text-xl font-base hover:text-mainAccent'
+            className='text-xl font-body font-base hover:text-mainAccent'
             href='#experience'
           >
             Expérience
           </a>
           <a
-            className='text-xl font-base hover:text-mainAccent'
+            className='text-xl font-body font-base hover:text-mainAccent'
             href='#contact'
           >
             Contact
@@ -51,7 +57,7 @@ const Header = () => {
               onClick={() => setIsMenuActive(false)}
             >
               <div
-                className='z-10 h-full w-[250px] border-2 border-black bg-main font-base transition-transform duration-300'
+                className='z-10 h-full w-[250px] border-2 border-black bg-main font-body font-base transition-transform duration-300'
                 onClick={(e) => e.stopPropagation()}
               >
                 <a

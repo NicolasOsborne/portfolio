@@ -40,8 +40,8 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
         />
       </figure>
       <figcaption className='text-left my-2 border-y-2 border-black'>
-        <h3 className='text-lg font-semibold mx-2'>{projectTitle}</h3>
-        <p className='my-2 mx-2'>{projectDescription}</p>
+        <h3 className='text-lg font-body font-base mx-2'>{projectTitle}</h3>
+        <p className='my-2 mx-2 font-body'>{projectDescription}</p>
       </figcaption>
       <div className='flex flex-row justify-between items-center pr-4 pb-4 pt-2'>
         <div className='flex flex-wrap gap-2 mx-2'>

@@ -1,3 +1,47 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.osborne {
+  position: absolute;
+  transform: translateY(0px);
+  animation: slideDown 0.5s ease-in-out forwards;
+  animation-delay: 1s;
+}
+
+.word {
+  position: absolute;
+  display: flex;
+  opacity: 0;
+}
+
+.las {
+  left: 320px;
+  top: 565px;
+}
+
+.sborne {
+  left: 95px;
+  top: 0px;
+}
+
+.letter {
+  transform-origin: center center 25px;
+}
+
+.in {
+  transition: 0.38s ease;
+}
+
+.behind {
+  transform: rotateX(-90deg);
+}
+
+@keyframes slideDown {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(100px);
+  }
+}

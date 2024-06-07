@@ -39,7 +39,6 @@ const Projects = () => {
           projectTitle='Vétipôle'
           projectDescription='Site internet de la clinique vétérinaire Vétipôle'
           projectLanguages={[FaWordpress]}
-          projectGithubURL=''
           projectWebsiteURL='https://www.vetipole.vet/'
         />
         <ProjectCard
@@ -47,7 +46,6 @@ const Projects = () => {
           projectTitle='Ethereal Decibel Company'
           projectDescription="Site internet de l'association Ethereal Decibel Company"
           projectLanguages={[FaWordpress]}
-          projectGithubURL=''
           projectWebsiteURL='https://etherealdecibel.com/'
         />
         <ProjectCard
@@ -55,7 +53,6 @@ const Projects = () => {
           projectTitle='Extellient'
           projectDescription="Refonte du site internet de l'agence grenobloise Extellient. Intégration et référencement SEO"
           projectLanguages={[FaWordpress]}
-          projectGithubURL=''
           projectWebsiteURL='https://www.extellient.com/'
         />
         <ProjectCard
@@ -63,7 +60,6 @@ const Projects = () => {
           projectTitle='Dock 14'
           projectDescription='Mise en place du référencement et SEO pour le Dock 14 - Laser Game'
           projectLanguages={[FaWordpress]}
-          projectGithubURL=''
           projectWebsiteURL='https://dock14.fr/'
         />
         <ProjectCard

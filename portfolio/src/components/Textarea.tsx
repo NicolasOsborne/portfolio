@@ -22,7 +22,7 @@ export default function Textarea({
   return (
     <textarea
       className={cn(
-        'h-[150px] rounded-base border-2 border-black p-[10px] font-base ring-offset-main focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-slate-950 focus-visible:ring-offset-2 outline-none transition-all',
+        'h-[150px] rounded-base border-2 border-black p-[10px] font-body ring-offset-main focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-slate-950 focus-visible:ring-offset-2 outline-none transition-all',
         className
       )}
       name={name}

@@ -1,12 +1,16 @@
 import { Github, Linkedin } from 'lucide-react'
+import HeroAnimation from '../components/HeroAnimation'
 
 const Hero = () => {
   return (
-    <section className='relative flex min-h-[100vh] gap-10 items-center justify-center bg-bg px-5 text-center font-bold'>
-      <div className='text-4xl'>
-        NICOLAS<br></br>OSBORNE
+    <section className='relative flex min-h-[100vh] gap-[100px] items-center justify-between bg-bg px-5 text-center'>
+      <div className='text-[40px] sm:text-[100px] font-hero'>
+        {/* <h1 className='font-hero animate-slideDown'>
+          NICOLAS<br></br>OSBORNE
+        </h1> */}
+        <HeroAnimation />
       </div>
-      <div className='flex gap-10'>
+      <div className='hidden sm:flex gap-10'>
         <a
           target='_blank'
           href='https://www.linkedin.com/in/nho-osborne/'
