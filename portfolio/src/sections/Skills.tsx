@@ -20,6 +20,7 @@ import {
 } from 'react-icons/si'
 import { FaGitAlt, FaWordpress } from 'react-icons/fa'
 import { VscVscodeInsiders } from 'react-icons/vsc'
+import SoftSkill from '../components/SoftSkill'
 
 const Skills = () => {
   return (
@@ -102,6 +103,15 @@ const Skills = () => {
         </div>
         <div className='pt-10'>
           <h3 className='text-center text-3xl font-heading'>Soft Skills</h3>
+          <div className='flex flex-row flex-wrap justify-center gap-10 py-12'>
+            <SoftSkill text='Autonomie' />
+            <SoftSkill text='Adaptabilité' />
+            <SoftSkill text='Créativité' />
+            <SoftSkill text='Empathie' />
+            <SoftSkill text='Initiative' />
+            <SoftSkill text="Esprit d'équipe" />
+            <SoftSkill text='Curiosité' />
+          </div>
         </div>
       </div>
     </section>

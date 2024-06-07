@@ -5,9 +5,6 @@ const Hero = () => {
   return (
     <section className='relative flex min-h-[100vh] gap-[100px] items-center justify-between bg-bg px-5 text-center'>
       <div className='text-[40px] sm:text-[100px] font-hero'>
-        {/* <h1 className='font-hero animate-slideDown'>
-          NICOLAS<br></br>OSBORNE
-        </h1> */}
         <HeroAnimation />
       </div>
       <div className='hidden sm:flex gap-10'>

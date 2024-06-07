@@ -58,7 +58,7 @@ const Projects = () => {
         <ProjectCard
           projectCover={Dock}
           projectTitle='Dock 14'
-          projectDescription='Mise en place du référencement et SEO pour le Dock 14 - Laser Game'
+          projectDescription='Mise en place du référencement et SEO pour le site du Dock 14, Laser Game à Echirolles'
           projectLanguages={[FaWordpress]}
           projectWebsiteURL='https://dock14.fr/'
         />

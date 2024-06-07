@@ -8,10 +8,12 @@ const About = () => {
     >
       <div className='border-r-4 border-black p-10 flex flex-col gap-10'>
         <h2 className='text-4xl font-heading text-center'>À Propos</h2>
-        <p className='font-body'>
-          Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
-          ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-          lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+        <p className='font-body text-xl'>
+          Hello ! Moi c'est Nicolas, développeur Front-End et intégrateur web,
+          qui transforme toutes tes idées et tes visions en sites webs
+          interactifs et attractifs ! Avec mon obsession pour le pixel perfect
+          et ma passion pour les interfaces intuitives et accessibles, je suis
+          prêt à rendre le web plus génial, un site après l'autre !
         </p>
       </div>
       <div className='flex items-center justify-center p-10'>
