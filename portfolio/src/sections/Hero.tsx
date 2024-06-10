@@ -1,11 +1,13 @@
 import { Github, Linkedin } from 'lucide-react'
 import HeroAnimation from '../components/HeroAnimation'
+import HeroLogo from '../components/HeroLogo'
 
 const Hero = () => {
   return (
     <section className='relative flex min-h-[100vh] gap-[100px] items-center justify-between bg-bg px-5 text-center'>
-      <div className='text-[40px] sm:text-[100px] font-hero'>
-        <HeroAnimation />
+      <div className='text-[3vh] sm:text-[8vh] font-hero'>
+        {/* <HeroAnimation /> */}
+        <HeroLogo />
       </div>
       <div className='hidden sm:flex gap-10'>
         <a

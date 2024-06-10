@@ -10,6 +10,7 @@ export default {
         bg: '#daf5f0',
         main: '#c4a1ff',
         mainAccent: '#9e66ff',
+        black: '#29222A',
       },
       borderRadius: {
         base: '5px',

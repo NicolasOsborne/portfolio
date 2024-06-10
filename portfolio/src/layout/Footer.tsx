@@ -1,12 +1,11 @@
 import { Github, Linkedin } from 'lucide-react'
+import Logo from '../components/Logo'
 
 const Footer = () => {
   return (
     <footer className='mx-auto flex h-[88px] w-full items-center border-b-4 border-black bg-white px-5'>
       <div className='mx-auto flex w-[1300px] max-w-full items-center justify-between'>
-        <a className='text-4xl font-heading hover:text-mainAccent' href='/'>
-          NICOO
-        </a>
+        <Logo />
       </div>
       <div className='flex gap-10'>
         <a

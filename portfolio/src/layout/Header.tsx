@@ -1,16 +1,16 @@
 import { RxHamburgerMenu } from 'react-icons/rx'
 
 import { useState } from 'react'
+import Logo from '../components/Logo'
 
 const Header = () => {
   const [isMenuActive, setIsMenuActive] = useState(false)
   return (
     <nav className='fixed left-0 top-0 z-20 mx-auto flex h-[88px] w-full items-center border-b-4 border-black bg-white px-5'>
       <div className='mx-auto flex w-[1300px] max-w-full items-center justify-between'>
-        <a className='text-6xl font-heading hover:text-mainAccent' href='/'>
-          NICOO
-        </a>
-        <div className='hidden md:flex items-center gap-10'>
+        <Logo />
+
+        <div className='hidden lg:flex items-center gap-10'>
           <a
             className='text-lg font-heading font-base hover:text-mainAccent'
             href='#about'
@@ -42,7 +42,7 @@ const Header = () => {
             Contact
           </a>
         </div>
-        <div className='md:hidden'>
+        <div className='lg:hidden'>
           <button
             className='flex items-center justify-center border-2 border-black p-2 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-all hover:translate-x-[3px] hover:translate-y-[3px] hover:shadow-none'
             onClick={() => {

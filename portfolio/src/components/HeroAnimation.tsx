@@ -53,7 +53,7 @@ const HeroAnimation = () => {
         <span className='word las text-mainAccent'>LAS</span>
       </span>
       <span className='rotating-text osborne animate-slideDown'>
-        <span className='o'>O</span>
+        <span className='o font-extrabold'>O</span>
         <span className='word sborne text-mainAccent'>SBORNE</span>
       </span>
     </>

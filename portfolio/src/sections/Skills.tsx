@@ -29,7 +29,7 @@ const Skills = () => {
       id='skills'
     >
       <div className='border-b-4 border-black'>
-        <h2 className='text-center text-4xl font-heading'>Langages</h2>
+        <h2 className='text-center text-4xl font-heading'>Skills</h2>
         <div className='flex flex-row flex-wrap justify-center gap-10 py-12'>
           <SkillIcon logo={DiHtml5} name='HTML' className='bg-red-400' />
           <SkillIcon logo={DiCss3} name='CSS' className='bg-orange-400' />
