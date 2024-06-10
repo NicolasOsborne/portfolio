@@ -12,7 +12,7 @@ const Experience = () => {
       id='experience'
     >
       <h2 className='mb-5 text-4xl font-heading'>Expérience</h2>
-      <div className='flex flex-row gap-10'>
+      <div className='flex flex-row flex-wrap gap-10'>
         <ExperienceItem
           imageUrl={Openclassrooms}
           text='OpenClassrooms'

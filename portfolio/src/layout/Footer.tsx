@@ -12,14 +12,14 @@ const Footer = () => {
         <a
           target='_blank'
           href='https://www.linkedin.com/in/nho-osborne/'
-          className='flex items-center justify-center border-2 bg-mainAccent border-black p-2 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-all hover:translate-x-[3px] hover:translate-y-[3px] hover:shadow-none'
+          className='flex items-center justify-center rounded-base border-2 bg-mainAccent border-black p-2 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-all hover:translate-x-[3px] hover:translate-y-[3px] hover:shadow-none'
         >
           <Linkedin />
         </a>
         <a
           target='_blank'
           href='https://github.com/NicolasOsborne'
-          className='flex items-center justify-center border-2 bg-mainAccent border-black p-2 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-all hover:translate-x-[3px] hover:translate-y-[3px] hover:shadow-none'
+          className='flex items-center justify-center rounded-base border-2 bg-mainAccent border-black p-2 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-all hover:translate-x-[3px] hover:translate-y-[3px] hover:shadow-none'
         >
           <Github />
         </a>

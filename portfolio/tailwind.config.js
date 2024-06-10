@@ -12,7 +12,7 @@ export default {
         mainAccent: '#9e66ff',
       },
       borderRadius: {
-        base: '0px',
+        base: '5px',
       },
       boxShadow: {
         base: '4px 4px 0px 0px rgba(0,0,0,1)',
@@ -22,8 +22,8 @@ export default {
         boxShadowY: '4px',
       },
       fontFamily: {
-        hero: ['Monoton', 'sans-serif'],
-        heading: ['Ubuntu', 'sans-serif'],
+        hero: ['Unbounded', 'sans-serif'],
+        heading: ['Unbounded', 'sans-serif'],
         body: ['Space Grotesk', 'sans-serif'],
       },
       fontWeight: {

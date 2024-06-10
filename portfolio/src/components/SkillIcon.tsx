@@ -17,7 +17,7 @@ const SkillIcon = ({
     <div className='flex flex-col gap-2 items-center'>
       <div
         className={cn(
-          'flex items-center justify-center w-[52px] border-2 border-black p-2 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]',
+          'flex items-center justify-center w-[52px] rounded-base border-2 border-black p-2 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]',
           className
         )}
       >

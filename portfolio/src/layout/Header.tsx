@@ -12,31 +12,31 @@ const Header = () => {
         </a>
         <div className='hidden md:flex items-center gap-10'>
           <a
-            className='text-xl font-body font-base hover:text-mainAccent'
+            className='text-lg font-heading font-base hover:text-mainAccent'
             href='#about'
           >
             À propos
           </a>
           <a
-            className='text-xl font-body font-base hover:text-mainAccent'
+            className='text-lg font-heading font-base hover:text-mainAccent'
             href='#skills'
           >
             Skills
           </a>
           <a
-            className='text-xl font-body font-base hover:text-mainAccent'
+            className='text-lg font-heading font-base hover:text-mainAccent'
             href='#projects'
           >
             Projets
           </a>
           <a
-            className='text-xl font-body font-base hover:text-mainAccent'
+            className='text-lg font-heading font-base hover:text-mainAccent'
             href='#experience'
           >
             Expérience
           </a>
           <a
-            className='text-xl font-body font-base hover:text-mainAccent'
+            className='text-lg font-heading font-base hover:text-mainAccent'
             href='#contact'
           >
             Contact
@@ -57,7 +57,7 @@ const Header = () => {
               onClick={() => setIsMenuActive(false)}
             >
               <div
-                className='z-10 h-full w-[250px] border-2 border-black bg-main font-body font-base transition-transform duration-300'
+                className='z-10 h-full w-[250px] border-2 border-black bg-main font-heading font-base transition-transform duration-300'
                 onClick={(e) => e.stopPropagation()}
               >
                 <a
