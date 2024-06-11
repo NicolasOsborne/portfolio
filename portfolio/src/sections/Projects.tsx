@@ -29,7 +29,7 @@ import Dock from '../assets/images/projects/Dock.jpg'
 const Projects = () => {
   return (
     <section
-      className='border-b-4 border-black py-10 scroll-mt-header'
+      className='border-b-4 border-black py-[200px] scroll-mt-header'
       id='projects'
     >
       <h2 className='text-center mb-5 text-4xl font-heading'>Projets</h2>

@@ -1,5 +1,5 @@
 import { Github, Linkedin } from 'lucide-react'
-import HeroAnimation from '../components/HeroAnimation'
+// import HeroAnimation from '../components/HeroAnimation'
 import HeroLogo from '../components/HeroLogo'
 
 const Hero = () => {

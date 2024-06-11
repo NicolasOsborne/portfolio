@@ -34,7 +34,7 @@ export default {
       animation: {
         marquee: 'marquee 30s linear infinite',
         marquee2: 'marquee2 30s linear infinite',
-        slideDown: 'slideDown 0.5s ease-in-out forwards',
+        // slideDown: 'slideDown 0.5s ease-in-out forwards',
       },
       keyframes: {
         marquee: {
@@ -45,10 +45,10 @@ export default {
           '0%': { transform: 'translateX(100%)' },
           '100%': { transform: 'translateX(0%)' },
         },
-        slideDown: {
-          '0%': { transform: 'translateY(0px)' },
-          '100%': { transform: 'translateY(50px)' },
-        },
+        // slideDown: {
+        //   '0%': { transform: 'translateY(0px)' },
+        //   '100%': { transform: 'translateY(50px)' },
+        // },
       },
     },
   },

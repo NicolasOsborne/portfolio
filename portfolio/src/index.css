@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-.osborne {
+/* .osborne {
   position: absolute;
   transform: translateY(0px);
   animation: slideDown 0.5s ease-in-out forwards;
@@ -44,4 +44,4 @@
   100% {
     transform: translateY(100px);
   }
-}
+} */

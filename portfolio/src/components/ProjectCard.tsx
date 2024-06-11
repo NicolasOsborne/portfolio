@@ -18,18 +18,6 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   projectGithubURL,
   projectWebsiteURL,
 }) => {
-  const handleGithubClick = () => {
-    if (projectGithubURL) {
-      window.open(projectGithubURL, '_blank')
-    }
-  }
-
-  const handleWebsiteClick = () => {
-    if (projectWebsiteURL) {
-      window.open(projectWebsiteURL, '_blank')
-    }
-  }
-
   return (
     <div className='flex flex-col w-[500px] rounded-base border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]'>
       <figure className='w-full'>
@@ -51,10 +39,14 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
         </div>
         <div className='flex flex-row gap-4'>
           {projectGithubURL && (
-            <Button text='Voir le code' onClick={handleGithubClick} />
+            <a href={projectGithubURL} target='_blank'>
+              <Button text='Voir le code' />
+            </a>
           )}
           {projectWebsiteURL && (
-            <Button text='Voir le site' onClick={handleWebsiteClick} />
+            <a href={projectWebsiteURL} target='_blank'>
+              <Button text='Voir le site' />
+            </a>
           )}
         </div>
       </div>

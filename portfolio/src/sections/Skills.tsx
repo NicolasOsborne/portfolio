@@ -28,7 +28,7 @@ const Skills = () => {
       className='border-b-4 border-black scroll-mt-header pt-10'
       id='skills'
     >
-      <div className='border-b-4 border-black'>
+      <div className='border-b-4 border-black py-[100px]'>
         <h2 className='text-center text-4xl font-heading'>Skills</h2>
         <div className='flex flex-row flex-wrap justify-center gap-10 py-12'>
           <SkillIcon logo={DiHtml5} name='HTML' className='bg-red-400' />
@@ -71,7 +71,7 @@ const Skills = () => {
         </div>
       </div>
       <div className='grid grid-cols-2'>
-        <div className='border-r-4 border-black pt-10'>
+        <div className='border-r-4 border-black py-[100px]'>
           <h3 className='text-center text-3xl font-heading'>Outils</h3>
           <div className='flex flex-row flex-wrap justify-center gap-10 py-12'>
             <SkillIcon logo={FiFigma} name='Figma' className='bg-fuchsia-400' />
@@ -101,7 +101,7 @@ const Skills = () => {
             <SkillIcon logo={SiVercel} name='Vercel' className='bg-gray-400' />
           </div>
         </div>
-        <div className='pt-10'>
+        <div className='py-[100px]'>
           <h3 className='text-center text-3xl font-heading'>Soft Skills</h3>
           <div className='flex flex-row flex-wrap justify-center gap-10 py-12'>
             <SoftSkill text='Autonomie' />

@@ -8,7 +8,7 @@ import Uga from '../assets/images/logos/uga.jpg'
 const Experience = () => {
   return (
     <section
-      className='border-b-4 border-black py-10 scroll-mt-header flex flex-col items-center'
+      className='border-b-4 border-black py-[200px] scroll-mt-header flex flex-col items-center'
       id='experience'
     >
       <h2 className='mb-5 text-4xl font-heading'>Expérience</h2>

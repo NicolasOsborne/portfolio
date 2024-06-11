@@ -1,6 +1,6 @@
 import { RxHamburgerMenu } from 'react-icons/rx'
-
 import { useState } from 'react'
+
 import Logo from '../components/Logo'
 
 const Header = () => {

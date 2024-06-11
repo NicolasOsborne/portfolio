@@ -6,7 +6,7 @@ import Button from '../components/Button'
 
 const PastJobs = () => {
   return (
-    <section className='border-b-4 border-black py-10'>
+    <section className='border-b-4 border-black py-[200px]'>
       <h2 className='text-center mb-5 text-4xl font-heading'>
         Dans ma vie, j'ai aussi été
       </h2>
@@ -33,7 +33,7 @@ const PastJobs = () => {
         <SkillIcon logo={FaChild} name='Animateur' className='bg-purple-400' />
       </div>
       <div className='flex justify-center'>
-        <Button text='Télécharger mon CV' onClick={() => {}} />
+        <Button text='Télécharger mon CV' />
       </div>
     </section>
   )
