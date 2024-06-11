@@ -1,27 +1,54 @@
 import Profile from '../assets/images/profile_pic.jpg'
+import Button from '../components/Button'
 
 const About = () => {
   return (
     <section
-      className='grid grid-cols-2 border-b-4 border-black scroll-mt-header'
+      className='flex flex-col md:grid grid-cols-2 border-b-4 border-black scroll-mt-header'
       id='about'
     >
-      <div className='border-r-4 border-black py-[100px] px-10 flex flex-col gap-10'>
-        <h2 className='text-4xl font-heading text-center'>À Propos</h2>
-        <p className='font-body text-xl'>
-          Hello ! Moi c'est Nicolas, Développeur Front-End et Intégrateur Web
-          basé à Grenoble, qui transforme toutes tes idées et tes visions en
-          sites webs interactifs et attractifs ! Avec mon obsession pour le
-          pixel perfect et ma passion pour les interfaces intuitives et
-          accessibles, je suis prêt à rendre le web plus génial, un site après
-          l'autre !
+      <div className='border-b-4 md:border-r-4 md:border-b-0 border-black py-[100px] px-10 flex flex-col gap-10'>
+        <h2 className='text-4xl font-heading text-center'>
+          Nicoo, c'est qui ?
+        </h2>
+        <p className='font-body text-xl leading-loose'>
+          <span className='text-mainAccent font-bold'>Nico</span>, c'est moi,{' '}
+          <span className='text-mainAccent font-bold'>
+            Développeur Front-End
+          </span>{' '}
+          et <span className='text-mainAccent font-bold'>Intégrateur Web</span>{' '}
+          à <span className='text-mainAccent font-bold'>Grenoble</span>.
+          <br />
+          Mon métier ? Donner vie à vos designs en les transformant en sites web
+          dynamiques ! <br />
+          <span className='text-mainAccent font-bold'>Autodidacte</span> en
+          code, je me suis par la suite professionnalisé dans ce domaine en
+          rejoignant la filière Intégrateur Web d'OpenClassrooms.
+          <br />
+          Amoureux du{' '}
+          <span className='text-mainAccent font-bold'>pixel perfect</span>, je
+          possède un grand sens du détail et j'apprécie particulièrement la
+          collaboration avec les designers.
+          <br />
+          <span className='text-mainAccent font-bold'>
+            Je suis à la recherche d'une entreprise
+          </span>{' '}
+          qui valorise l'innovation, la qualité et le travail d'équipe. Si ces
+          valeurs vous parlent, nous sommes faits pour nous entendre ! <br />
+          <span className='text-mainAccent font-bold'>
+            Je suis disponible immédiatement
+          </span>
+          , n'hésitez pas à me contacter !
         </p>
       </div>
-      <div className='flex items-center justify-center p-10'>
+      <div className='flex flex-col gap-20 items-center justify-center p-10'>
         <img
           src={Profile}
           className='rounded-base border-2 border-black p-2 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]'
         ></img>
+        <div>
+          <Button text='Télécharger mon CV' />
+        </div>
       </div>
     </section>
   )

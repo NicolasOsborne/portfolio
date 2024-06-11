@@ -15,36 +15,36 @@ const Header = () => {
             className='text-lg font-heading font-base hover:text-mainAccent'
             href='#about'
           >
-            À propos
+            Qui ?
           </a>
           <a
             className='text-lg font-heading font-base hover:text-mainAccent'
             href='#skills'
           >
-            Skills
+            Comment ?
           </a>
           <a
             className='text-lg font-heading font-base hover:text-mainAccent'
             href='#projects'
           >
-            Projets
+            Quoi ?
           </a>
           <a
             className='text-lg font-heading font-base hover:text-mainAccent'
             href='#experience'
           >
-            Expérience
+            Où ?
           </a>
           <a
             className='text-lg font-heading font-base hover:text-mainAccent'
             href='#contact'
           >
-            Contact
+            Pourquoi pas ?
           </a>
         </div>
         <div className='lg:hidden'>
           <button
-            className='flex items-center justify-center border-2 border-black p-2 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-all hover:translate-x-[3px] hover:translate-y-[3px] hover:shadow-none'
+            className='flex items-center justify-center rounded-base border-2 border-black p-2 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-all hover:translate-x-[3px] hover:translate-y-[3px] hover:shadow-none'
             onClick={() => {
               setIsMenuActive(true)
             }}
@@ -64,31 +64,31 @@ const Header = () => {
                   className='block w-full border-b-2 border-black bg-main px-5 py-4 hover:bg-mainAccent'
                   href='#about'
                 >
-                  À propos
+                  Qui ?
                 </a>
                 <a
                   className='block w-full border-b-2 border-black bg-main px-5 py-4 hover:bg-mainAccent'
                   href='#skills'
                 >
-                  Skills
+                  Comment ?
                 </a>
                 <a
                   className='block w-full border-b-2 border-black bg-main px-5 py-4 hover:bg-mainAccent'
                   href='#projects'
                 >
-                  Projets
+                  Quoi ?
                 </a>
                 <a
                   className='block w-full border-b-2 border-black bg-main px-5 py-4 hover:bg-mainAccent'
                   href='#experience'
                 >
-                  Expérience
+                  Où ?
                 </a>
                 <a
                   className='block w-full border-b-2 border-black bg-main px-5 py-4 hover:bg-mainAccent'
                   href='#contact'
                 >
-                  Contact
+                  Pourquoi pas ?
                 </a>
               </div>
             </div>

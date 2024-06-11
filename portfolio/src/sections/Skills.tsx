@@ -20,7 +20,8 @@ import {
 } from 'react-icons/si'
 import { FaGitAlt, FaWordpress } from 'react-icons/fa'
 import { VscVscodeInsiders } from 'react-icons/vsc'
-import SoftSkill from '../components/SoftSkill'
+import Expertise from '../components/Expertise'
+import { PiCheese, PiHamburger } from 'react-icons/pi'
 
 const Skills = () => {
   return (
@@ -29,8 +30,13 @@ const Skills = () => {
       id='skills'
     >
       <div className='border-b-4 border-black py-[100px]'>
-        <h2 className='text-center text-4xl font-heading'>Skills</h2>
-        <div className='flex flex-row flex-wrap justify-center gap-10 py-12'>
+        <h2 className='text-center text-4xl font-heading'>
+          Les différentes langues que je pratique
+        </h2>
+        <h3 className='text-center text-2xl font-heading mt-10'>
+          Quand je parle avec les ordinateurs :
+        </h3>
+        <div className='flex flex-row flex-wrap justify-center gap-10 py-12 px-2'>
           <SkillIcon logo={DiHtml5} name='HTML' className='bg-red-400' />
           <SkillIcon logo={DiCss3} name='CSS' className='bg-orange-400' />
           <SkillIcon logo={DiSass} name='SASS' className='bg-pink-400' />
@@ -55,7 +61,7 @@ const Skills = () => {
             name='NodeJS'
             className='bg-green-400'
           />
-          <SkillIcon logo={SiVite} name='Vite' className='bg-fuchsia-400' />
+
           <SkillIcon
             logo={SiTailwindcss}
             name='Tailwind'
@@ -66,14 +72,29 @@ const Skills = () => {
             name='MongoDB'
             className='bg-green-600'
           />
-          <SkillIcon logo={SiJest} name='Jest' className='bg-red-400' />
-          <SkillIcon logo={SiSwagger} name='Swagger' className='bg-lime-400' />
+        </div>
+        <h3 className='text-center text-2xl font-heading mt-5'>
+          Quand je parle avec vous :
+        </h3>
+        <div className='flex flex-row flex-wrap justify-center gap-10 p-12 px-2'>
+          <SkillIcon
+            logo={PiHamburger}
+            name='Anglais'
+            description='Ma langue maternelle'
+            className='bg-white'
+          />
+          <SkillIcon
+            logo={PiCheese}
+            name='Français'
+            description='Mon pays natal'
+            className='bg-white'
+          />
         </div>
       </div>
-      <div className='grid grid-cols-2'>
-        <div className='border-r-4 border-black py-[100px]'>
-          <h3 className='text-center text-3xl font-heading'>Outils</h3>
-          <div className='flex flex-row flex-wrap justify-center gap-10 py-12'>
+      <div className='flex flex-col md:grid grid-cols-2'>
+        <div className='border-b-4 md:border-r-4 md:border-b-0 border-black py-[100px]'>
+          <h3 className='text-center text-3xl font-heading'>Mes outils</h3>
+          <div className='flex flex-row flex-wrap justify-center gap-10 py-12 px-2'>
             <SkillIcon logo={FiFigma} name='Figma' className='bg-fuchsia-400' />
             <SkillIcon
               logo={VscVscodeInsiders}
@@ -98,19 +119,30 @@ const Skills = () => {
             />
             <SkillIcon logo={SiPostman} name='Postman' className='bg-red-600' />
             <SkillIcon logo={SiNotion} name='Notion' className='bg-white-400' />
+            <SkillIcon logo={SiVite} name='Vite' className='bg-purple-400' />
             <SkillIcon logo={SiVercel} name='Vercel' className='bg-gray-400' />
+            <SkillIcon logo={SiJest} name='Jest' className='bg-red-400' />
+            <SkillIcon
+              logo={SiSwagger}
+              name='Swagger'
+              className='bg-lime-400'
+            />
           </div>
         </div>
         <div className='py-[100px]'>
-          <h3 className='text-center text-3xl font-heading'>Soft Skills</h3>
-          <div className='flex flex-row flex-wrap justify-center gap-10 py-12'>
-            <SoftSkill text='Autonomie' />
-            <SoftSkill text='Adaptabilité' />
-            <SoftSkill text='Créativité' />
-            <SoftSkill text='Empathie' />
-            <SoftSkill text='Initiative' />
-            <SoftSkill text="Esprit d'équipe" />
-            <SoftSkill text='Curiosité' />
+          <h3 className='text-center text-3xl font-heading'>Mes compétences</h3>
+          <div className='flex flex-row flex-wrap justify-center gap-10 py-12 px-2'>
+            <Expertise text='Développement Front-End' className='bg-main' />
+            <Expertise text='Intégration Web' className='bg-fuchsia-400' />
+            <Expertise text='Référencement' className='bg-main' />
+            <Expertise text='Méthode Agile' className='bg-fuchsia-400' />
+            <Expertise text='Hébergement' className='bg-main' />
+            <Expertise text='UX/UI Design' className='bg-fuchsia-400' />
+            <Expertise text='Wireframes & Maquettes' className='bg-main' />
+            <Expertise text='Auto-didacte' className='bg-fuchsia-400' />
+            <Expertise text='Créatif' className='bg-main' />
+            <Expertise text='Curieux' className='bg-fuchsia-400' />
+            <Expertise text="Esprit d'équipe" className='bg-main' />
           </div>
         </div>
       </div>

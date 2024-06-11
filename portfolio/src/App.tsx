@@ -1,7 +1,6 @@
 import About from './sections/About'
 import Header from './layout/Header'
 import Hero from './sections/Hero'
-import Marquee from './components/Marquee'
 import Skills from './sections/Skills'
 import Projects from './sections/Projects'
 import Experience from './sections/Experience'
@@ -14,12 +13,11 @@ function App() {
     <>
       <Header />
       <Hero />
-      <Marquee />
       <About />
       <Skills />
+      <PastJobs />
       <Projects />
       <Experience />
-      <PastJobs />
       <Contact />
       <Footer />
     </>

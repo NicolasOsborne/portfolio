@@ -7,11 +7,13 @@ export default function ExperienceItem({
   imageUrl,
   text,
   description,
+  date,
 }: {
   className?: ClassValue
   imageUrl: string
   text: string
   description: string
+  date: string
 }) {
   return (
     <div className='flex flex-col gap-2 items-center'>
@@ -26,6 +28,7 @@ export default function ExperienceItem({
       ></div>
       <p className='text-center text-md font-body'>{text}</p>
       <p className='text-center text-sm font-body'>{description}</p>
+      <p className='text-center text-sm font-body'>{date}</p>
     </div>
   )
 }

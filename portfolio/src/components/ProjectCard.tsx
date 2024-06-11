@@ -19,7 +19,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   projectWebsiteURL,
 }) => {
   return (
-    <div className='flex flex-col w-[500px] rounded-base border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]'>
+    <div className='flex flex-col w-5/6 sm:w-[450px] rounded-base border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]'>
       <figure className='w-full'>
         <img
           src={projectCover}
@@ -27,7 +27,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
           className='w-full h-full object-cover'
         />
       </figure>
-      <figcaption className='text-left my-2 border-y-2 border-black'>
+      <figcaption className='text-left my-2 border-y-2 border-gray-200'>
         <h3 className='text-lg font-body font-base mx-2'>{projectTitle}</h3>
         <p className='my-2 mx-2 font-body'>{projectDescription}</p>
       </figcaption>

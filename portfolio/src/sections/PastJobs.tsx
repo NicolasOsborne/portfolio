@@ -2,15 +2,14 @@ import { GiBarStool, GiHops } from 'react-icons/gi'
 import SkillIcon from '../components/SkillIcon'
 import { RiBeerLine, RiRestaurantLine } from 'react-icons/ri'
 import { FaChild, FaCocktail, FaSkiing, FaSwimmer } from 'react-icons/fa'
-import Button from '../components/Button'
 
 const PastJobs = () => {
   return (
-    <section className='border-b-4 border-black py-[200px]'>
-      <h2 className='text-center mb-5 text-4xl font-heading'>
-        Dans ma vie, j'ai aussi été
-      </h2>
-      <div className='flex flex-row flex-wrap justify-center gap-10 py-12'>
+    <section className='border-b-4 border-black py-[100px]'>
+      <h3 className='text-center mb-5 text-3xl font-heading'>
+        Mais avant ça, j'ai eu d'autres vies
+      </h3>
+      <div className='flex flex-row flex-wrap justify-center gap-10 pt-12 px-2'>
         <SkillIcon logo={GiHops} name='Brasseur' className='bg-red-400' />
         <SkillIcon
           logo={GiBarStool}
@@ -31,9 +30,6 @@ const PastJobs = () => {
           className='bg-indigo-400'
         />
         <SkillIcon logo={FaChild} name='Animateur' className='bg-purple-400' />
-      </div>
-      <div className='flex justify-center'>
-        <Button text='Télécharger mon CV' />
       </div>
     </section>
   )

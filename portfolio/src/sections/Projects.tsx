@@ -32,8 +32,13 @@ const Projects = () => {
       className='border-b-4 border-black py-[200px] scroll-mt-header'
       id='projects'
     >
-      <h2 className='text-center mb-5 text-4xl font-heading'>Projets</h2>
-      <div className='w-full flex flex-wrap justify-center gap-5 mt-10'>
+      <h2 className='text-center mb-20 text-4xl font-heading'>
+        Et en pratique, ça donne quoi ?
+      </h2>
+      <h3 className='text-center text-2xl font-heading mt-5'>
+        Du site Wordpress...
+      </h3>
+      <div className='w-full flex flex-wrap justify-center gap-10 my-20'>
         <ProjectCard
           projectCover={Vetipole}
           projectTitle='Vétipôle'
@@ -62,6 +67,11 @@ const Projects = () => {
           projectLanguages={[FaWordpress]}
           projectWebsiteURL='https://dock14.fr/'
         />
+      </div>
+      <h3 className='text-center text-2xl font-heading mt-40'>
+        ...au site développé sur mesure
+      </h3>
+      <div className='w-full flex flex-wrap justify-center gap-10 mt-20'>
         <ProjectCard
           projectCover={Portfolio}
           projectTitle='Porfolio'

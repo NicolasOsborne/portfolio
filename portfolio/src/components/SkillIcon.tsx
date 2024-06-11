@@ -5,12 +5,14 @@ import { IconType } from 'react-icons'
 interface SkillIconProps {
   logo: IconType
   name: string
+  description?: string
   className?: ClassValue
 }
 
 const SkillIcon = ({
   logo: LogoComponent,
   name,
+  description,
   className,
 }: SkillIconProps) => {
   return (
@@ -24,6 +26,7 @@ const SkillIcon = ({
         <LogoComponent size={30} />
       </div>
       <p className='text-center text-sm font-body font-base'>{name}</p>
+      <p className='text-center text-sm font-body font-base'>{description}</p>
     </div>
   )
 }
