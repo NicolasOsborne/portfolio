@@ -1,4 +1,5 @@
 import { Github, Linkedin } from 'lucide-react'
+import Button from './Button'
 
 interface ResponsiveNavProps {
   isMenuActive: boolean
@@ -17,39 +18,40 @@ const ResponsiveNav = ({
       onClick={() => setIsMenuActive(false)}
     >
       <div
-        className='z-10 h-full w-[250px] border-2 border-black bg-main font-heading font-base transition-transform duration-300 flex flex-col'
+        className='z-10 h-full w-[250px] border-2 border-black bg-main font-heading transition-transform duration-300 flex flex-col'
         onClick={(e) => e.stopPropagation()}
       >
-        <a
-          className='cursor-pointer block w-full border-b-2 border-black bg-main px-5 py-4 hover:bg-mainAccent'
-          onClick={() => handleScrollToSection('about')}
-        >
-          Qui ?
-        </a>
-        <a
-          className='cursor-pointer block w-full border-b-2 border-black bg-main px-5 py-4 hover:bg-mainAccent'
-          onClick={() => handleScrollToSection('skills')}
-        >
-          Comment ?
-        </a>
-        <a
-          className='cursor-pointer block w-full border-b-2 border-black bg-main px-5 py-4 hover:bg-mainAccent'
-          onClick={() => handleScrollToSection('projects')}
-        >
-          Quoi ?
-        </a>
-        <a
-          className='cursor-pointer block w-full border-b-2 border-black bg-main px-5 py-4 hover:bg-mainAccent'
-          onClick={() => handleScrollToSection('experience')}
-        >
-          Où ?
-        </a>
-        <a
-          className='cursor-pointer block w-full border-b-2 border-black bg-main px-5 py-4 hover:bg-mainAccent'
+        <div>
+          <a
+            className='cursor-pointer block w-full border-b-2 border-black bg-main px-5 py-4 hover:bg-mainAccent'
+            onClick={() => handleScrollToSection('about')}
+          >
+            À Propos
+          </a>
+          <a
+            className='cursor-pointer block w-full border-b-2 border-black bg-main px-5 py-4 hover:bg-mainAccent'
+            onClick={() => handleScrollToSection('skills')}
+          >
+            Compétences
+          </a>
+          <a
+            className='cursor-pointer block w-full border-b-2 border-black bg-main px-5 py-4 hover:bg-mainAccent'
+            onClick={() => handleScrollToSection('projects')}
+          >
+            Projets
+          </a>
+          <a
+            className='cursor-pointer block w-full border-b-2 border-black bg-main px-5 py-4 hover:bg-mainAccent'
+            onClick={() => handleScrollToSection('experience')}
+          >
+            Expériences
+          </a>
+        </div>
+        <Button
+          text='Contact'
+          className='mx-auto mt-10 w-max text-lg font-heading bg-fuchsia-400'
           onClick={() => handleScrollToSection('contact')}
-        >
-          Pourquoi pas ?
-        </a>
+        />
         <div className='flex flex-row gap-10 justify-center mt-auto mb-10'>
           <a
             target='_blank'

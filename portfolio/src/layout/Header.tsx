@@ -3,6 +3,7 @@ import { useState } from 'react'
 
 import Logo from '../components/Logo'
 import ResponsiveNav from '../components/ResponsiveNav'
+import Button from '../components/Button'
 
 const Header = () => {
   const [isMenuActive, setIsMenuActive] = useState(false)
@@ -25,32 +26,31 @@ const Header = () => {
             className='cursor-pointer text-lg font-heading font-base hover:text-mainAccent'
             onClick={() => handleScrollToSection('about')}
           >
-            Qui ?
+            À Propos
           </a>
           <a
             className='cursor-pointer text-lg font-heading font-base hover:text-mainAccent'
             onClick={() => handleScrollToSection('skills')}
           >
-            Comment ?
+            Compétences
           </a>
           <a
             className='cursor-pointer text-lg font-heading font-base hover:text-mainAccent'
             onClick={() => handleScrollToSection('projects')}
           >
-            Quoi ?
+            Projets
           </a>
           <a
             className='cursor-pointer text-lg font-heading font-base hover:text-mainAccent'
             onClick={() => handleScrollToSection('experience')}
           >
-            Où ?
+            Expériences
           </a>
-          <a
-            className='cursor-pointer text-lg font-heading font-base hover:text-mainAccent'
+          <Button
+            text='Contact'
+            className='text-lg font-heading'
             onClick={() => handleScrollToSection('contact')}
-          >
-            Pourquoi pas ?
-          </a>
+          />
         </div>
         <div className='lg:hidden'>
           <button

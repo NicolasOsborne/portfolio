@@ -8,9 +8,11 @@ const Contact = () => {
       id='contact'
       style={{ backgroundImage: `url(${WaveBackground})` }}
     >
-      <h2 className='text-center mb-20 text-4xl font-heading'>
-        Et après tout, pourquoi pas ?
-      </h2>
+      <h2 className='text-center text-4xl font-heading'>Contactez moi !</h2>
+      <h3 className='text-center text-2xl font-heading my-20 mx-10 sm:mx-20'>
+        Mon profil vous intéresse, vous intrigue, ou vous souhaitez en savoir
+        plus ? N'hésitez plus !
+      </h3>
       <div className='w-full flex justify-center'>
         <ContactForm />
       </div>
