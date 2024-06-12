@@ -17,7 +17,7 @@ const ResponsiveNav = ({
       onClick={() => setIsMenuActive(false)}
     >
       <div
-        className='z-10 h-full w-[250px] border-2 border-black bg-main font-heading font-base transition-transform duration-300'
+        className='z-10 h-full w-[250px] border-2 border-black bg-main font-heading font-base transition-transform duration-300 flex flex-col'
         onClick={(e) => e.stopPropagation()}
       >
         <a
@@ -50,7 +50,7 @@ const ResponsiveNav = ({
         >
           Pourquoi pas ?
         </a>
-        <div className='flex flex-row gap-10 justify-center mt-40'>
+        <div className='flex flex-row gap-10 justify-center mt-auto mb-10'>
           <a
             target='_blank'
             href='https://www.linkedin.com/in/nho-osborne/'
