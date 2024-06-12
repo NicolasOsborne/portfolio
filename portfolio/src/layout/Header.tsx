@@ -2,6 +2,7 @@ import { RxHamburgerMenu } from 'react-icons/rx'
 import { useState } from 'react'
 
 import Logo from '../components/Logo'
+import ResponsiveNav from '../components/ResponsiveNav'
 
 const Header = () => {
   const [isMenuActive, setIsMenuActive] = useState(false)
@@ -52,46 +53,10 @@ const Header = () => {
             <RxHamburgerMenu />
           </button>
           {isMenuActive && (
-            <div
-              className='fixed left-0 top-0 z-50 flex h-[100dvh] w-screen items-start justify-start bg-gray-500/50 transition-all duration-300'
-              onClick={() => setIsMenuActive(false)}
-            >
-              <div
-                className='z-10 h-full w-[250px] border-2 border-black bg-main font-heading font-base transition-transform duration-300'
-                onClick={(e) => e.stopPropagation()}
-              >
-                <a
-                  className='block w-full border-b-2 border-black bg-main px-5 py-4 hover:bg-mainAccent'
-                  href='#about'
-                >
-                  Qui ?
-                </a>
-                <a
-                  className='block w-full border-b-2 border-black bg-main px-5 py-4 hover:bg-mainAccent'
-                  href='#skills'
-                >
-                  Comment ?
-                </a>
-                <a
-                  className='block w-full border-b-2 border-black bg-main px-5 py-4 hover:bg-mainAccent'
-                  href='#projects'
-                >
-                  Quoi ?
-                </a>
-                <a
-                  className='block w-full border-b-2 border-black bg-main px-5 py-4 hover:bg-mainAccent'
-                  href='#experience'
-                >
-                  Où ?
-                </a>
-                <a
-                  className='block w-full border-b-2 border-black bg-main px-5 py-4 hover:bg-mainAccent'
-                  href='#contact'
-                >
-                  Pourquoi pas ?
-                </a>
-              </div>
-            </div>
+            <ResponsiveNav
+              isMenuActive={isMenuActive}
+              setIsMenuActive={setIsMenuActive}
+            />
           )}
         </div>
       </div>

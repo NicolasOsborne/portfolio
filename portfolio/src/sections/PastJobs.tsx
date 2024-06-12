@@ -1,4 +1,4 @@
-import { GiBarStool, GiHops } from 'react-icons/gi'
+import { GiBarStool, GiGlobe, GiHops } from 'react-icons/gi'
 import SkillIcon from '../components/SkillIcon'
 import { RiBeerLine, RiRestaurantLine } from 'react-icons/ri'
 import { FaChild, FaCocktail, FaSkiing, FaSwimmer } from 'react-icons/fa'
@@ -18,6 +18,7 @@ const PastJobs = () => {
         />
         <SkillIcon logo={RiBeerLine} name='Barman' className='bg-yellow-400' />
         <SkillIcon logo={FaCocktail} name='Mixologue' className='bg-lime-400' />
+        <SkillIcon logo={GiGlobe} name='Géomaticien' className='bg-green-400' />
         <SkillIcon logo={FaSkiing} name='Perchiste' className='bg-teal-400' />
         <SkillIcon
           logo={FaSwimmer}

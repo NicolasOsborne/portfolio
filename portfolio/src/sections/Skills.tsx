@@ -134,7 +134,7 @@ const Skills = () => {
           <div className='flex flex-row flex-wrap justify-center gap-10 py-12 px-2'>
             <Expertise text='Développement Front-End' className='bg-main' />
             <Expertise text='Intégration Web' className='bg-fuchsia-400' />
-            <Expertise text='Référencement' className='bg-main' />
+            <Expertise text='Référencement & SEO' className='bg-main' />
             <Expertise text='Méthode Agile' className='bg-fuchsia-400' />
             <Expertise text='Hébergement' className='bg-main' />
             <Expertise text='UX/UI Design' className='bg-fuchsia-400' />
