@@ -3,11 +3,13 @@ import { Github, Linkedin } from 'lucide-react'
 interface ResponsiveNavProps {
   isMenuActive: boolean
   setIsMenuActive: (value: boolean) => void
+  handleScrollToSection: any
 }
 
 const ResponsiveNav = ({
   isMenuActive,
   setIsMenuActive,
+  handleScrollToSection,
 }: ResponsiveNavProps) => {
   return (
     <div
@@ -19,32 +21,32 @@ const ResponsiveNav = ({
         onClick={(e) => e.stopPropagation()}
       >
         <a
-          className='block w-full border-b-2 border-black bg-main px-5 py-4 hover:bg-mainAccent'
-          href='#about'
+          className='cursor-pointer block w-full border-b-2 border-black bg-main px-5 py-4 hover:bg-mainAccent'
+          onClick={() => handleScrollToSection('about')}
         >
           Qui ?
         </a>
         <a
-          className='block w-full border-b-2 border-black bg-main px-5 py-4 hover:bg-mainAccent'
-          href='#skills'
+          className='cursor-pointer block w-full border-b-2 border-black bg-main px-5 py-4 hover:bg-mainAccent'
+          onClick={() => handleScrollToSection('skills')}
         >
           Comment ?
         </a>
         <a
-          className='block w-full border-b-2 border-black bg-main px-5 py-4 hover:bg-mainAccent'
-          href='#projects'
+          className='cursor-pointer block w-full border-b-2 border-black bg-main px-5 py-4 hover:bg-mainAccent'
+          onClick={() => handleScrollToSection('projects')}
         >
           Quoi ?
         </a>
         <a
-          className='block w-full border-b-2 border-black bg-main px-5 py-4 hover:bg-mainAccent'
-          href='#experience'
+          className='cursor-pointer block w-full border-b-2 border-black bg-main px-5 py-4 hover:bg-mainAccent'
+          onClick={() => handleScrollToSection('experience')}
         >
           Où ?
         </a>
         <a
-          className='block w-full border-b-2 border-black bg-main px-5 py-4 hover:bg-mainAccent'
-          href='#contact'
+          className='cursor-pointer block w-full border-b-2 border-black bg-main px-5 py-4 hover:bg-mainAccent'
+          onClick={() => handleScrollToSection('contact')}
         >
           Pourquoi pas ?
         </a>

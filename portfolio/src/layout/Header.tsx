@@ -6,6 +6,15 @@ import ResponsiveNav from '../components/ResponsiveNav'
 
 const Header = () => {
   const [isMenuActive, setIsMenuActive] = useState(false)
+
+  const handleScrollToSection = (sectionId: string) => {
+    const section = document.getElementById(sectionId)
+    if (section) {
+      section.scrollIntoView({
+        behavior: 'smooth',
+      })
+    }
+  }
   return (
     <nav className='fixed left-0 top-0 z-20 mx-auto flex h-[88px] w-full items-center border-b-4 border-black bg-white px-5'>
       <div className='mx-auto flex w-[1300px] max-w-full items-center justify-between'>
@@ -13,32 +22,32 @@ const Header = () => {
 
         <div className='hidden lg:flex items-center gap-10'>
           <a
-            className='text-lg font-heading font-base hover:text-mainAccent'
-            href='#about'
+            className='cursor-pointer text-lg font-heading font-base hover:text-mainAccent'
+            onClick={() => handleScrollToSection('about')}
           >
             Qui ?
           </a>
           <a
-            className='text-lg font-heading font-base hover:text-mainAccent'
-            href='#skills'
+            className='cursor-pointer text-lg font-heading font-base hover:text-mainAccent'
+            onClick={() => handleScrollToSection('skills')}
           >
             Comment ?
           </a>
           <a
-            className='text-lg font-heading font-base hover:text-mainAccent'
-            href='#projects'
+            className='cursor-pointer text-lg font-heading font-base hover:text-mainAccent'
+            onClick={() => handleScrollToSection('projects')}
           >
             Quoi ?
           </a>
           <a
-            className='text-lg font-heading font-base hover:text-mainAccent'
-            href='#experience'
+            className='cursor-pointer text-lg font-heading font-base hover:text-mainAccent'
+            onClick={() => handleScrollToSection('experience')}
           >
             Où ?
           </a>
           <a
-            className='text-lg font-heading font-base hover:text-mainAccent'
-            href='#contact'
+            className='cursor-pointer text-lg font-heading font-base hover:text-mainAccent'
+            onClick={() => handleScrollToSection('contact')}
           >
             Pourquoi pas ?
           </a>
@@ -56,6 +65,7 @@ const Header = () => {
             <ResponsiveNav
               isMenuActive={isMenuActive}
               setIsMenuActive={setIsMenuActive}
+              handleScrollToSection={handleScrollToSection}
             />
           )}
         </div>
