@@ -26,6 +26,7 @@ const Experience = () => {
         />
         <ExperienceCard
           className='bg-main'
+          classNameImg='bg-bg'
           imageUrl={Extellient}
           title='Extellient'
           type='Stage'
@@ -43,6 +44,7 @@ const Experience = () => {
         />
         <ExperienceCard
           className='bg-main'
+          classNameImg='bg-bg'
           imageUrl={Codecademy}
           title='Codecademy & Sololearn'
           type='Auto-formation'
@@ -52,6 +54,7 @@ const Experience = () => {
         />
         <ExperienceCard
           className='bg-bg'
+          classNameImg='bg-main'
           imageUrl={Uga}
           title='Institut de Géographie Alpine'
           type='Master en Géographie Environnementale, Géomatique et SIG'

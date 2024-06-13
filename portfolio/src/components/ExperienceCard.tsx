@@ -4,6 +4,7 @@ import { cn } from '../lib/utils'
 
 export default function ExperienceCard({
   className,
+  classNameImg,
   imageUrl,
   title,
   type,
@@ -12,6 +13,7 @@ export default function ExperienceCard({
   dateStart,
 }: {
   className?: ClassValue
+  classNameImg?: ClassValue
   imageUrl: string
   title: string
   type: string
@@ -32,10 +34,13 @@ export default function ExperienceCard({
             style={{
               backgroundImage: `url(${imageUrl})`,
             }}
-            className='h-16 w-16 rounded-full border-2 border-black bg-cover bg-center'
+            className={cn(
+              'h-16 w-16 rounded-full border-2 border-black bg-cover bg-center',
+              classNameImg
+            )}
           ></div>
           <div>
-            <p className='text-lg font-heading'>{title}</p>
+            <h4 className='text-lg font-heading'>{title}</h4>
             <p className='text-lg font-body'>{type}</p>
           </div>
         </div>

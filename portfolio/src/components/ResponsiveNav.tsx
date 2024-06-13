@@ -4,7 +4,7 @@ import Button from './Button'
 interface ResponsiveNavProps {
   isMenuActive: boolean
   setIsMenuActive: (value: boolean) => void
-  handleScrollToSection: any
+  handleScrollToSection: (sectionId: string) => void
 }
 
 const ResponsiveNav = ({

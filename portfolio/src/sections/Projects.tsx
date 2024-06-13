@@ -38,7 +38,7 @@ const Projects = () => {
       <h3 className='text-center text-2xl font-heading mt-5'>
         Du site Wordpress...
       </h3>
-      <div className='w-full flex flex-wrap justify-center gap-10 my-20'>
+      <div className='w-full flex flex-wrap justify-center items-center gap-10 my-20'>
         <ProjectCard
           projectCover={Vetipole}
           projectTitle='Vétipôle'

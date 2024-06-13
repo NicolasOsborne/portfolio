@@ -137,12 +137,15 @@ const Skills = () => {
             <Expertise text='Référencement & SEO' className='bg-main' />
             <Expertise text='Méthode Agile' className='bg-fuchsia-400' />
             <Expertise text='Hébergement' className='bg-main' />
+            <Expertise text='Optimisation' className='bg-fuchsia-400' />
+            <Expertise text='Maintenance' className='bg-main' />
             <Expertise text='UX/UI Design' className='bg-fuchsia-400' />
             <Expertise text='Wireframes & Maquettes' className='bg-main' />
-            <Expertise text='Auto-didacte' className='bg-fuchsia-400' />
-            <Expertise text='Créatif' className='bg-main' />
-            <Expertise text='Curieux' className='bg-fuchsia-400' />
-            <Expertise text="Esprit d'équipe" className='bg-main' />
+            <Expertise text='Responsive Design' className='bg-fuchsia-400' />
+            <Expertise text='Auto-didacte' className='bg-main' />
+            <Expertise text='Créatif' className='bg-fuchsia-400' />
+            <Expertise text='Curieux' className='bg-main' />
+            <Expertise text="Esprit d'équipe" className='bg-fuchsia-400' />
           </div>
         </div>
       </div>
