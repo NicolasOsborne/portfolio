@@ -7,6 +7,8 @@ interface ProjectCardProps {
   projectCover: string
   projectTitle: string
   projectDescription: string
+  projectContext: React.ReactNode
+  projectProcess: React.ReactNode
   projectLanguages: IconType[]
   projectGithubURL?: string | null
   projectWebsiteURL?: string | null
@@ -16,6 +18,8 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   projectCover,
   projectTitle,
   projectDescription,
+  projectContext,
+  projectProcess,
   projectLanguages,
   projectGithubURL,
   projectWebsiteURL,
@@ -33,7 +37,8 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
         active={isModalActive}
         setActive={setIsModalActive}
         projectTitle={projectTitle}
-        projectDescription={projectDescription}
+        projectContext={projectContext}
+        projectProcess={projectProcess}
         projectCover={projectCover}
         projectLanguages={projectLanguages}
         projectGithubURL={projectGithubURL}

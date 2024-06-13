@@ -1,8 +1,10 @@
 import ProjectCard from '../components/ProjectCard'
-import { FaBootstrap, FaReact, FaWordpress } from 'react-icons/fa'
+import { FaBootstrap, FaReact, FaWordpress, FaYoast } from 'react-icons/fa'
 import { DiCss3, DiHtml5, DiSass } from 'react-icons/di'
 import { RiJavascriptFill, RiNodejsFill } from 'react-icons/ri'
 import {
+  SiGoogleanalytics,
+  SiGooglesearchconsole,
   SiJest,
   SiLighthouse,
   SiReactrouter,
@@ -25,6 +27,7 @@ import Vetipole from '../assets/images/projects/Vetipole.jpg'
 import Ethereal from '../assets/images/projects/Ethereal.jpg'
 import Extellient from '../assets/images/projects/Extellient.jpg'
 import Dock from '../assets/images/projects/Dock.jpg'
+import { FiFigma } from 'react-icons/fi'
 
 const Projects = () => {
   return (
@@ -43,29 +46,94 @@ const Projects = () => {
           projectCover={Vetipole}
           projectTitle='Vétipôle'
           projectDescription='Site internet de la clinique vétérinaire Vétipôle'
-          projectLanguages={[FaWordpress]}
+          projectLanguages={[
+            FaWordpress,
+            FaYoast,
+            SiGoogleanalytics,
+            SiGooglesearchconsole,
+          ]}
           projectWebsiteURL='https://www.vetipole.vet/'
+          projectContext={
+            <p className='text-md font-body'>
+              En mars 2023, une toute nouvelle clinique vétérinaire voit le jour
+              à Saint-Jeoire-Prieuré, en Savoie. À cette occasion, j'ai été
+              missionné pour travailler en collaboration avec{' '}
+              <a
+                href='https://claireorvain.fr/'
+                target='_blank'
+                className='text-mainAccent font-bold'
+              >
+                Claire Orvain
+              </a>{' '}
+              sur la création du site internet de la clinique de A à Z, de la
+              conception artistique, à l'intégration en utilisant WordPress, à
+              la mise en place du référencement et SEO.
+            </p>
+          }
+          projectProcess={
+            <div className='text-md font-body'>
+              <ul className='list-inside list-image-bulletpoint'>
+                <li>Intégration des pages avec WordPress.</li>
+                <li>Optimisation des performances du site.</li>
+                <li>Optimisation de l'affichage responsive.</li>
+                <li>Traduction de pages en anglais et en allemand.</li>
+                <li>Mise en place du référencement et SEO du site.</li>
+                <li>Optimisation des méta-données des pages.</li>
+                <li>Indexation des pages pour les moteurs de recherche.</li>
+              </ul>
+            </div>
+          }
         />
         <ProjectCard
           projectCover={Ethereal}
           projectTitle='Ethereal Decibel Company'
           projectDescription="Site internet de l'association Ethereal Decibel Company"
-          projectLanguages={[FaWordpress]}
+          projectLanguages={[FaWordpress, FaYoast, FiFigma]}
           projectWebsiteURL='https://etherealdecibel.com/'
+          projectContext={<p className='text-md font-body'></p>}
+          projectProcess={
+            <div className='text-md font-body'>
+              <p>This is a process description.</p>
+              <ul>
+                <li>Step 1</li>
+                <li>Step 2</li>
+              </ul>
+            </div>
+          }
         />
         <ProjectCard
           projectCover={Extellient}
           projectTitle='Extellient'
           projectDescription="Refonte du site internet de l'agence grenobloise Extellient. Intégration et référencement SEO"
-          projectLanguages={[FaWordpress]}
+          projectLanguages={[FaWordpress, FaYoast, FiFigma]}
           projectWebsiteURL='https://www.extellient.com/'
+          projectContext={<p className='text-md font-body'></p>}
+          projectProcess={
+            <div className='text-md font-body'>
+              <p>This is a process description.</p>
+              <ul>
+                <li>Step 1</li>
+                <li>Step 2</li>
+              </ul>
+            </div>
+          }
         />
         <ProjectCard
           projectCover={Dock}
           projectTitle='Dock 14'
           projectDescription='Mise en place du référencement et SEO pour le site du Dock 14, Laser Game à Echirolles'
-          projectLanguages={[FaWordpress]}
+          projectLanguages={[FaWordpress, FaYoast, SiGooglesearchconsole]}
           projectWebsiteURL='https://dock14.fr/'
+          projectContext={<p className='text-md font-body'></p>}
+          projectProcess={
+            <div className='text-md font-body'>
+              <p>This is a process description.</p>
+              <ul>
+                <li>Step 1</li>
+                <li>Step 2</li>
+              </ul>
+            </div>
+          }
         />
       </div>
       <h3 className='text-center text-2xl font-heading mt-40'>
@@ -74,11 +142,21 @@ const Projects = () => {
       <div className='w-full flex flex-wrap justify-center gap-10 mt-20'>
         <ProjectCard
           projectCover={Portfolio}
-          projectTitle='Porfolio'
+          projectTitle='Portfolio'
           projectDescription='Portfolio personnel'
-          projectLanguages={[FaReact, BiLogoTypescript, SiTailwindcss]}
+          projectLanguages={[FaReact, BiLogoTypescript, SiTailwindcss, FiFigma]}
           projectGithubURL='https://github.com/NicolasOsborne/portfolio'
           projectWebsiteURL=''
+          projectContext={<p className='text-md font-body'></p>}
+          projectProcess={
+            <div className='text-md font-body'>
+              <p>This is a process description.</p>
+              <ul>
+                <li>Step 1</li>
+                <li>Step 2</li>
+              </ul>
+            </div>
+          }
         />
         <ProjectCard
           projectCover={ArgentBank}
@@ -95,6 +173,16 @@ const Projects = () => {
           ]}
           projectGithubURL='https://github.com/NicolasOsborne/oc-projet-11'
           projectWebsiteURL=''
+          projectContext={<p className='text-md font-body'></p>}
+          projectProcess={
+            <div className='text-md font-body'>
+              <p>This is a process description.</p>
+              <ul>
+                <li>Step 1</li>
+                <li>Step 2</li>
+              </ul>
+            </div>
+          }
         />
         <ProjectCard
           projectCover={Events}
@@ -103,6 +191,16 @@ const Projects = () => {
           projectLanguages={[FaReact, RiJavascriptFill, DiSass, SiJest]}
           projectGithubURL='https://github.com/NicolasOsborne/oc-projet-10'
           projectWebsiteURL='https://oc-projet-10-724events.vercel.app/'
+          projectContext={<p className='text-md font-body'></p>}
+          projectProcess={
+            <div className='text-md font-body'>
+              <p>This is a process description.</p>
+              <ul>
+                <li>Step 1</li>
+                <li>Step 2</li>
+              </ul>
+            </div>
+          }
         />
         <ProjectCard
           projectCover={NinaCarducci}
@@ -117,6 +215,16 @@ const Projects = () => {
           ]}
           projectGithubURL='https://github.com/NicolasOsborne/oc-projet-9'
           projectWebsiteURL='https://nicolasosborne.github.io/oc-projet-9/'
+          projectContext={<p className='text-md font-body'></p>}
+          projectProcess={
+            <div className='text-md font-body'>
+              <p>This is a process description.</p>
+              <ul>
+                <li>Step 1</li>
+                <li>Step 2</li>
+              </ul>
+            </div>
+          }
         />
         <ProjectCard
           projectCover={Kasa}
@@ -131,6 +239,16 @@ const Projects = () => {
           ]}
           projectGithubURL='https://github.com/NicolasOsborne/oc-projet-8'
           projectWebsiteURL='https://oc-projet-8-kasa.vercel.app/'
+          projectContext={<p className='text-md font-body'></p>}
+          projectProcess={
+            <div className='text-md font-body'>
+              <p>This is a process description.</p>
+              <ul>
+                <li>Step 1</li>
+                <li>Step 2</li>
+              </ul>
+            </div>
+          }
         />
         <ProjectCard
           projectCover={SophieBluel}
@@ -139,6 +257,16 @@ const Projects = () => {
           projectLanguages={[RiJavascriptFill, RiNodejsFill, SiSwagger]}
           projectGithubURL='https://github.com/NicolasOsborne/oc-projet-6/'
           projectWebsiteURL=''
+          projectContext={<p className='text-md font-body'></p>}
+          projectProcess={
+            <div className='text-md font-body'>
+              <p>This is a process description.</p>
+              <ul>
+                <li>Step 1</li>
+                <li>Step 2</li>
+              </ul>
+            </div>
+          }
         />
         <ProjectCard
           projectCover={PrintIt}
@@ -147,6 +275,16 @@ const Projects = () => {
           projectLanguages={[RiJavascriptFill, DiCss3, DiHtml5]}
           projectGithubURL='https://github.com/NicolasOsborne/oc-projet-5'
           projectWebsiteURL='https://nicolasosborne.github.io/oc-projet-5/'
+          projectContext={<p className='text-md font-body'></p>}
+          projectProcess={
+            <div className='text-md font-body'>
+              <p>This is a process description.</p>
+              <ul>
+                <li>Step 1</li>
+                <li>Step 2</li>
+              </ul>
+            </div>
+          }
         />
         <ProjectCard
           projectCover={Ohmyfood}
@@ -155,6 +293,16 @@ const Projects = () => {
           projectLanguages={[DiCss3, DiHtml5, DiSass]}
           projectGithubURL='https://github.com/NicolasOsborne/oc-projet-4'
           projectWebsiteURL='https://nicolasosborne.github.io/oc-projet-4/'
+          projectContext={<p className='text-md font-body'></p>}
+          projectProcess={
+            <div className='text-md font-body'>
+              <p>This is a process description.</p>
+              <ul>
+                <li>Step 1</li>
+                <li>Step 2</li>
+              </ul>
+            </div>
+          }
         />
         <ProjectCard
           projectCover={Booki}
@@ -163,6 +311,16 @@ const Projects = () => {
           projectLanguages={[DiCss3, DiHtml5]}
           projectGithubURL='https://github.com/NicolasOsborne/oc-projet-3'
           projectWebsiteURL='https://nicolasosborne.github.io/oc-projet-3/'
+          projectContext={<p className='text-md font-body'></p>}
+          projectProcess={
+            <div className='text-md font-body'>
+              <p>This is a process description.</p>
+              <ul>
+                <li>Step 1</li>
+                <li>Step 2</li>
+              </ul>
+            </div>
+          }
         />
       </div>
     </section>

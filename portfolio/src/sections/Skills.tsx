@@ -1,12 +1,7 @@
 import SkillIcon from '../components/SkillIcon'
 import { DiCss3, DiHtml5, DiSass } from 'react-icons/di'
 import { FiFigma } from 'react-icons/fi'
-import {
-  RiGithubFill,
-  RiJavascriptFill,
-  RiNodejsFill,
-  RiReactjsFill,
-} from 'react-icons/ri'
+import { RiGithubFill, RiJavascriptFill, RiNodejsFill } from 'react-icons/ri'
 import { BiLogoMongodb, BiLogoRedux, BiLogoTypescript } from 'react-icons/bi'
 import {
   SiJest,
@@ -18,7 +13,7 @@ import {
   SiVercel,
   SiVite,
 } from 'react-icons/si'
-import { FaGitAlt, FaWordpress } from 'react-icons/fa'
+import { FaGitAlt, FaReact, FaWordpress } from 'react-icons/fa'
 import { VscVscodeInsiders } from 'react-icons/vsc'
 import Expertise from '../components/Expertise'
 import { PiCheese, PiHamburger } from 'react-icons/pi'
@@ -50,7 +45,7 @@ const Skills = () => {
             name='TypeScript'
             className='bg-blue-400'
           />
-          <SkillIcon logo={RiReactjsFill} name='React' className='bg-sky-400' />
+          <SkillIcon logo={FaReact} name='React' className='bg-sky-400' />
           <SkillIcon
             logo={BiLogoRedux}
             name='Redux'

@@ -31,6 +31,9 @@ export default {
         base: '500',
         heading: '500',
       },
+      listStyleImage: {
+        bulletpoint: 'url("./bulletpoint.svg")',
+      },
       animation: {
         marquee: 'marquee 30s linear infinite',
         marquee2: 'marquee2 30s linear infinite',
