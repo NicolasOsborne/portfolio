@@ -93,7 +93,7 @@ const Skills = () => {
             <SkillIcon logo={FiFigma} name='Figma' className='bg-fuchsia-400' />
             <SkillIcon
               logo={VscVscodeInsiders}
-              name='VS Code'
+              name='VSCode'
               className='bg-cyan-400'
             />
             <SkillIcon

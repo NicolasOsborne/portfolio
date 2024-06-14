@@ -4,7 +4,13 @@ import Button from './Button'
 import SkillIcon from './SkillIcon'
 
 import React, { useEffect, useState } from 'react'
-import { FaBootstrap, FaReact, FaWordpress, FaYoast } from 'react-icons/fa'
+import {
+  FaBootstrap,
+  FaChrome,
+  FaReact,
+  FaWordpress,
+  FaYoast,
+} from 'react-icons/fa'
 import {
   SiGoogleanalytics,
   SiGooglesearchconsole,
@@ -70,7 +76,8 @@ export default function ProjectModal({
     >
       <div
         onClick={(e) => e.stopPropagation()}
-        className='relative flex w-[80%] group-data-[visible=true]:opacity-100 group-data-[visible=true]:visible group-data-[visible=false]:opacity-0 group-data-[visible=false]:invisible rounded-base border-2 border-black bg-bg p-10 pt-12 shadow-base transition-all duration-300'
+        className='relative flex w-[90%] md:w-[80%] group-data-[visible=true]:opacity-100 group-data-[visible=true]:visible group-data-[visible=false]:opacity-0 group-data-[visible=false]:invisible rounded-base border-2 border-black bg-bg p-6 sm:p-10 pt-12 shadow-base transition-all duration-300 cursor-default'
+        style={{ overflowY: 'auto', maxHeight: '90vh' }}
       >
         <button onClick={closeModal}>
           <X className='absolute right-3 top-3 h-6 w-6' />
@@ -85,31 +92,19 @@ export default function ProjectModal({
               alt={projectTitle}
               className='md:hidden rounded-base border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]'
             ></img>
-            <div className='flex flex-col'>
-              <div className='rounded-base border-2 border-black p-2 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] bg-white'>
-                <p className='text-lg font-heading mb-2'>Contexte :</p>
-                {projectContext}
-              </div>
-            </div>
+
             <div className='rounded-base border-2 border-black p-2 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] bg-white'>
-              <p className='text-lg font-heading mb-2'>Réalisation :</p>
-              {projectProcess}
+              <p className='text-lg font-heading mb-2'>Contexte :</p>
+              {projectContext}
             </div>
-          </div>
-          <div className='flex flex-col w-full md:w-[50%] gap-4'>
-            <img
-              src={projectCover}
-              alt={projectTitle}
-              className='hidden md:block rounded-base border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] bg-'
-            ></img>
             <div className='rounded-base border-2 border-black p-6 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] bg-white'>
-              <div className='flex flex-wrap gap-4 justify-center'>
+              <div className='flex flex-wrap gap-8 justify-center'>
                 {projectLanguages.map((LanguageIcon, index) => {
                   let color: string
                   let language: string
                   if (LanguageIcon === FaWordpress) {
                     color = 'bg-blue-400'
-                    language = 'Wordpress'
+                    language = 'WordPress'
                   } else if (LanguageIcon === SiGoogleanalytics) {
                     color = 'bg-orange-400'
                     language = 'Google Analytics'
@@ -170,6 +165,9 @@ export default function ProjectModal({
                   } else if (LanguageIcon === SiVite) {
                     color = 'bg-purple-600'
                     language = 'Vite'
+                  } else if (LanguageIcon === FaChrome) {
+                    color = 'bg-blue-400'
+                    language = 'DevTools'
                   } else {
                     color = 'bg-mainAccent'
                     language = ''
@@ -186,7 +184,19 @@ export default function ProjectModal({
                 })}
               </div>
             </div>
-            <div className='flex flex-row gap-4 justify-end mt-auto'>
+          </div>
+          <div className='flex flex-col w-full md:w-[50%] gap-4'>
+            <img
+              src={projectCover}
+              alt={projectTitle}
+              className='hidden md:block rounded-base border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] bg-'
+            ></img>
+            <div className='rounded-base border-2 border-black p-2 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] bg-white'>
+              <p className='text-lg font-heading mb-2'>Réalisation :</p>
+              {projectProcess}
+            </div>
+
+            <div className='flex flex-row gap-4 justify-end mt-auto mb-8 md:mb-0'>
               {projectGithubURL && (
                 <a href={projectGithubURL} target='_blank'>
                   <Button text='Voir le code' />

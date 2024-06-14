@@ -27,7 +27,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   const [isModalActive, setIsModalActive] = useState(false)
 
   return (
-    <a
+    <div
       className='cursor-pointer flex flex-col w-5/6 sm:w-[450px] '
       onClick={() => {
         setIsModalActive(true)
@@ -77,7 +77,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
           </div>
         </div>
       </div>
-    </a>
+    </div>
   )
 }
 

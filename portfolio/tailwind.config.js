@@ -32,7 +32,7 @@ export default {
         heading: '500',
       },
       listStyleImage: {
-        bulletpoint: 'url("./bulletpoint.svg")',
+        bulletpoint: 'url("./bulletpoint_2.svg")',
       },
       animation: {
         marquee: 'marquee 30s linear infinite',

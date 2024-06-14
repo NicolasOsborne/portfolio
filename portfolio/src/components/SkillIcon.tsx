@@ -25,7 +25,9 @@ const SkillIcon = ({
       >
         <LogoComponent size={30} />
       </div>
-      <p className='text-center text-sm font-body font-base mt-2'>{name}</p>
+      <p className='text-center text-sm font-body font-base mt-2 whitespace-pre-wrap'>
+        {name?.split(' ').join('\n')}
+      </p>
       <p className='text-center text-sm font-body font-base'>{description}</p>
     </div>
   )
