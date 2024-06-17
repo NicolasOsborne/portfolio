@@ -49,7 +49,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
         <figure className='w-full'>
           <img
             src={projectCover}
-            alt={projectTitle}
+            alt={`Screenshot from ${projectTitle} website project`}
             className='w-full h-full object-cover'
           />
         </figure>

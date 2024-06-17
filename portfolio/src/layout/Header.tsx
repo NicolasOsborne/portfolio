@@ -55,6 +55,7 @@ const Header = () => {
         <div className='lg:hidden'>
           <button
             className='flex items-center justify-center rounded-base border-2 border-black p-2 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-all hover:translate-x-[3px] hover:translate-y-[3px] hover:shadow-none'
+            aria-label='Menu'
             onClick={() => {
               setIsMenuActive(true)
             }}

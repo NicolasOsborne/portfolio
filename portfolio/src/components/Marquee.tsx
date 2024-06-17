@@ -10,7 +10,11 @@ const MarqueeItem: React.FC<MarqueeItemProps> = ({ text }) => {
       <span className='text-4xl inline-block align-middle mx-12 first:ml-40'>
         {text}
       </span>
-      <img src={Star} className='w-8 h-8 inline-block align-middle mx-12' />
+      <img
+        src={Star}
+        alt='Star separator'
+        className='w-8 h-8 inline-block align-middle mx-12'
+      />
     </>
   )
 }

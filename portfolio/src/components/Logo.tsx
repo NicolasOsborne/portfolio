@@ -15,9 +15,13 @@ const Logo = () => {
 
   return (
     <div>
+      <h1 className='sr-only'>
+        Nicoo - Nicolas Osborne - Développeur Web & Intégrateur Web à Grenoble
+      </h1>
       <a href='/'>
         <img
           src={isHovered ? NicooHover : Nicoo}
+          alt='Nicoo - Nicolas Osborne - Développeur Web & Intégrateur Web à Grenoble'
           onMouseOver={handleMouseOver}
           onMouseOut={handleMouseOut}
         />

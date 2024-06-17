@@ -35,7 +35,7 @@ export default function ExperienceCard({
             className='h-16 w-16 rounded-full border-2 border-black bg-cover bg-center bg-white'
           ></div>
           <div>
-            <h4 className='text-lg font-heading'>{title}</h4>
+            <h3 className='text-lg font-heading'>{title}</h3>
             <p className='text-lg font-body'>{type}</p>
           </div>
         </div>

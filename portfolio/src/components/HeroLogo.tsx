@@ -27,6 +27,7 @@ const HeroLogo = () => {
     <div>
       <img
         src={isHovered ? NicolasOsborneHover : NicolasOsborne}
+        alt='Nicolas Osborne - Développeur Front-End et Intégrateur Web à Grenoble'
         onMouseOver={handleMouseOver}
         onMouseOut={handleMouseOut}
         className='h-[100px] sm:h-[300px]'
