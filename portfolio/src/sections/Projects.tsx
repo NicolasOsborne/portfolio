@@ -222,7 +222,7 @@ const Projects = () => {
         />
       </div>
       <h3 className='text-center text-2xl font-heading mt-40'>
-        ...au site développé sur mesure
+        ...au site développé de toutes pièces
       </h3>
       <div className='w-full flex flex-wrap justify-center gap-10 mt-20'>
         <ProjectCard

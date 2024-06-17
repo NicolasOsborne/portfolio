@@ -17,6 +17,8 @@ import { FaGitAlt, FaReact, FaWordpress } from 'react-icons/fa'
 import { VscVscodeInsiders } from 'react-icons/vsc'
 import Expertise from '../components/Expertise'
 import { PiCheese, PiHamburger } from 'react-icons/pi'
+import USA from '../assets/images/logos/usa.svg'
+import France from '../assets/images/logos/france.svg'
 
 const Skills = () => {
   return (
@@ -77,12 +79,17 @@ const Skills = () => {
             name='Anglais'
             description='Ma langue maternelle'
             className='bg-white'
+            style={{ backgroundImage: `url(${USA})`, backgroundSize: 'cover' }}
           />
           <SkillIcon
             logo={PiCheese}
             name='Français'
             description='Mon pays natal'
             className='bg-white'
+            style={{
+              backgroundImage: `url(${France})`,
+              backgroundSize: 'cover',
+            }}
           />
         </div>
       </div>

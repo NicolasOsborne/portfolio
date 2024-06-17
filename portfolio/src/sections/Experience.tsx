@@ -22,14 +22,26 @@ const Experience = () => {
           type='Formation Développeur Front-End et Intégrateur Web'
           description={
             <p className='text-md font-body'>
-              Formation professionnalisante et certifiante d'une durée de 9
-              mois, incluant des cours théoriques et des projets pratiques pour
-              maîtriser les langages de développement Front-End, l'intégration
-              de designs graphiques sur tous types de navigateurs et tailles
-              d'écrans, la création d'applications web complètes, dynamiques et
-              responsives, la communication entre des interfaces Front-End et le
-              Back-End, l'optimisation des performances et la maintenance de
-              sites web, la gestion intégrale de projets web.
+              Formation certifiante de 9 mois, combinant cours théoriques et
+              projets pratiques, pour maîtriser le{' '}
+              <span className='font-bold'>développement Front-End</span>, l'
+              <span className='font-bold'>
+                intégration de designs graphiques et responsives
+              </span>{' '}
+              pour tous types de navigateurs et d'écrans, la{' '}
+              <span className='font-bold'>
+                création d'applications web complètes et dynamiques
+              </span>
+              , la{' '}
+              <span className='font-bold'>
+                communication entre Front-End et Back-End
+              </span>
+              , l'
+              <span className='font-bold'>
+                optimisation et la maintenance
+              </span>{' '}
+              de sites web, ainsi que la{' '}
+              <span className='font-bold'>gestion de projets web</span>.
             </p>
           }
           dateEnd='Juin 2024'
@@ -42,15 +54,24 @@ const Experience = () => {
           type='Stage'
           description={
             <p className='text-md font-body'>
-              Stage au cours duquel ma mission était de réaliser la refonte
-              complète du site internet de l'agence grenobloise Extellient. Je
-              travaillais en étroite collaboration avec la designer et la
-              chargée de communication de l'agence, participant à l'ensemble du
-              processus créatif, à la réalisation de wireframes et de maquettes
-              ainsi que la rédaction des contenus textuels. J'ai ensuite créé et
-              intégré les différentes pages du site en utilisant Wordpress et le
-              thème Salient. J'ai également mis en place le référencement et le
-              SEO du site.
+              Stage ayant pour mission de réaliser la{' '}
+              <span className='font-bold'>
+                refonte complète du site internet
+              </span>{' '}
+              de l'agence grenobloise{' '}
+              <span className='font-bold'>Extellient</span>. Je travaillais en
+              étroite collaboration avec la designer et la chargée de
+              communication de l'agence, en participant à l'ensemble du{' '}
+              <span className='font-bold'>processus créatif</span>, à la
+              réalisation de{' '}
+              <span className='font-bold'>wireframes et de maquettes</span>, à
+              la rédaction des{' '}
+              <span className='font-bold'>contenus textuels</span>, à la{' '}
+              <span className='font-bold'>création</span> et à l'
+              <span className='font-bold'>intégration</span> des pages du site
+              avec <span className='font-bold'>WordPress</span> et le thème
+              Salient, ainsi qu'à la mise en place du{' '}
+              <span className='font-bold'>SEO</span>.
             </p>
           }
           dateEnd='Août 2023'
@@ -63,13 +84,19 @@ const Experience = () => {
           type='Stage'
           description={
             <p className='text-md font-body'>
-              Stage d'immersion professionnelle visant à confirmer mon envie de
-              reconversion dans le domaine du Développement Web. Cette
-              expérience m'a permis de découvrir le métier et le quotidien d'un
-              développeur web, de la gestion des contacts clients à la
-              conception, la gestion et à la maintenance de sites web. J'ai
-              également pu mettre en pratique les langages de développement
-              HTML, CSS, JavaScript et PHP.
+              Stage d'immersion professionnelle visant à confirmer mon objectif
+              de{' '}
+              <span className='font-bold'>
+                reconversion dans le domaine du Développement Web
+              </span>
+              . Cette expérience m'a permis de découvrir le métier et le
+              quotidien d'un développeur, de la gestion des contacts clients à
+              la conception, la gestion et à la maintenance de sites. J'ai
+              également pu mettre en pratique les langages{' '}
+              <span className='font-bold'>HTML</span>,{' '}
+              <span className='font-bold'>CSS</span>,{' '}
+              <span className='font-bold'>JavaScript</span> et{' '}
+              <span className='font-bold'>PHP</span>.
             </p>
           }
           dateEnd='Janv. 2023'
@@ -81,18 +108,25 @@ const Experience = () => {
           type='Auto-formation'
           description={
             <p className='text-md font-body'>
-              Ayant fait mes premiers pas dans l'univers du web en participant
-              régulièrement à la création de sites pour des associations et des
-              entreprises locales avec WordPress, j'ai envie d'en apprendre plus
-              et je décide donc de me former de manière autodidacte aux langages
-              de développement. En exploitant l'infinité de ressources, de
-              cours, de tutoriels et de projets disponibles sur des plateformes
-              telles que Codecademy, Sololearn, OpenClassrooms ou encore
-              Grafikart, j'ai appris à maîtriser les langages web et de
-              programmation HTML, CSS, JavaScript, PHP et Java. Plongé dans cet
-              océan de nouvelles connaissances, je me suis senti comme un
+              Ayant débuté dans l'univers du web en participant régulièrement à
+              la <span className='font-bold'>création de sites</span> pour des
+              associations et des entreprises locales avec{' '}
+              <span className='font-bold'>WordPress</span>, et désireux d'en
+              apprendre plus, je me suis formé en{' '}
+              <span className='font-bold'>autodidacte</span> aux langages{' '}
+              <span className='font-bold'>HTML</span>,{' '}
+              <span className='font-bold'>CSS</span>,{' '}
+              <span className='font-bold'>JavaScript</span>,{' '}
+              <span className='font-bold'>PHP</span> et{' '}
+              <span className='font-bold'>Java</span> via des plateformes comme{' '}
+              <span className='font-bold'>Codecademy</span>,{' '}
+              <span className='font-bold'>Sololearn</span>,
+              <span className='font-bold'>OpenClassrooms</span> et{' '}
+              <span className='font-bold'>Grafikart</span>. Plongé dans cet
+              océan infini de nouvelles connaissances, je me suis senti comme un
               poisson dans l'eau, et j'ai adoré chaque instant ! C'était le
-              début d'une nouvelle vocation.
+              début d'une
+              <span className='font-bold'> nouvelle vocation</span>.
             </p>
           }
           dateEnd='Sept. 2023'
@@ -105,25 +139,41 @@ const Experience = () => {
           type='Master en Géographie Environnementale, Géomatique et SIG'
           description={
             <p className='text-md font-body'>
-              Avant de me lancer dans l'univers du web, j'ai obtenu un Master en
-              Géographie, Aménagement du Territoire et Géomatique en 2016, après
-              des études à Grenoble et Berlin. Pendant ma Licence, je me suis
-              focalisé sur le développement durable, l'agriculture urbaine et la
-              dimension sociale de l'aménagement territorial. Pour mon Master,
-              je me suis spécialisé dans la géographie environnementale,
-              étudiant les risques naturels, les hydrosystèmes, la biodiversité,
-              la climatologie et la glaciologie. J'ai acquis des compétences en
-              outils d'analyse spatiale, télédétection, photogrammétrie, SQL,
-              QGIS, ArcGIS, Python et analyse de données avec R. Au cours de mon
-              Master, j'ai effectué deux stages : Dans une Réserve Naturelle
-              Régionale, où j'ai créé une base de données géoréférencées des
-              relevés naturalistes. Dans une Communauté de Communes, où j'ai
-              développé une base de données des lieux de production et d'achat
-              de produits locaux et une carte interactive en ligne.
+              Avant de me tourner vers l'univers du web, j'ai obtenu un{' '}
+              <span className='font-bold'>
+                Master en Géographie, Aménagement du Territoire et Géomatique
+              </span>{' '}
+              en 2016, après des études à{' '}
+              <span className='font-bold'>Grenoble</span> et{' '}
+              <span className='font-bold'>Berlin</span>. Pendant ma
+              <span className='font-bold'>Licence</span>, je me suis concentré
+              sur le <span className='font-bold'>développement durable</span> et
+              l'<span className='font-bold'>agriculture urbaine</span>. En{' '}
+              <span className='font-bold'>Master</span>, j'ai étudié les{' '}
+              <span className='font-bold'>risques naturels</span>, les{' '}
+              <span className='font-bold'>hydrosystèmes</span>, la{' '}
+              <span className='font-bold'>biodiversité</span> et acquis des
+              compétences en <span className='font-bold'>télédétection</span>,{' '}
+              <span className='font-bold'>SQL</span>,{' '}
+              <span className='font-bold'>QGIS</span>,{' '}
+              <span className='font-bold'>ArcGIS</span>,{' '}
+              <span className='font-bold'>Python</span> et{' '}
+              <span className='font-bold'>R</span>.
+              <br />
+              J'ai effectué deux stages : Pour une{' '}
+              <span className='font-bold'>Réserve Naturelle Régionale</span>,
+              j'ai créé une{' '}
+              <span className='font-bold'>base de données géoréférencées</span>{' '}
+              des relevés naturalistes. Pour une{' '}
+              <span className='font-bold'>Communauté de Communes</span>, j'ai
+              développé une
+              <span className='font-bold'>base de données</span> ainsi qu'une{' '}
+              <span className='font-bold'>carte interactive en ligne</span>
+              recensant les lieux de production et d'achat de produits locaux.
             </p>
           }
           dateEnd='2016'
-          dateStart='2014'
+          dateStart='2011'
         />
       </div>
     </section>
