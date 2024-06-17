@@ -473,7 +473,7 @@ const Projects = () => {
         <ProjectCard
           projectCover={Kasa}
           projectTitle='Kasa'
-          projectDescription='Projet 8 - OpenClassrooms'
+          projectDescription="Développement Front-End d'une application web de location immobilière avec React"
           projectLanguages={[
             FaReact,
             SiReactrouter,
@@ -487,13 +487,35 @@ const Projects = () => {
             <p className='text-md font-body'>
               <b>Projet n°8 de la formation OpenClassrooms.</b>
               <br />
+              L'objectif de ce projet était de maîtriser la création d'une
+              interface utilisateur avec React, en assimilant la logique de
+              fonctionnement des composants, ainsi que la configuration de la
+              navigation avec React Router.
+              <br />
+              Ce projet m'a également permis de découvrir et d'utiliser Vite
+              pour l'initialisation et la compilation de l'application.
+              <br />
+              Ce projet, axé sur le Front-End, utilisait des données importées
+              depuis un fichier JSON.
+              <br />
+              L'implémentation du projet s'est faite à partir de maquettes et de
+              prototypes Figma présentant les différentes pages, composants et
+              animations à développer.
             </p>
           }
           projectProcess={
             <div className='text-md font-body'>
               <ul className='list-inside list-image-bulletpoint'>
-                <li>Step 1</li>
-                <li>Step 2</li>
+                <li>Initialisation du projet avec Vite.</li>
+                <li>Création du routage de l'application avec React Router.</li>
+                <li>
+                  Découpage de l'application en composants modulaires et
+                  réutilsables.
+                </li>
+                <li>Création des différentes pages.</li>
+                <li>Gestion du state et des événements dans les composants.</li>
+                <li>Création d'un carrousel d'images.</li>
+                <li>Création d'animations.</li>
               </ul>
             </div>
           }
@@ -501,21 +523,62 @@ const Projects = () => {
         <ProjectCard
           projectCover={SophieBluel}
           projectTitle='Sophie Bluel'
-          projectDescription='Projet 6 - OpenClassrooms'
+          projectDescription="Création d'une page web dynamique pour une architecte d'intérieur avec JavaScript et une API"
           projectLanguages={[RiJavascriptFill, RiNodejsFill, SiSwagger]}
           projectGithubURL='https://github.com/NicolasOsborne/oc-projet-6/'
           projectWebsiteURL=''
           projectContext={
             <p className='text-md font-body'>
-              <b>Projet n° de la formation OpenClassrooms.</b>
+              <b>Projet n°6 de la formation OpenClassrooms.</b>
               <br />
+              L'objectif de ce projet était de créer un portfolio pour Sophie
+              Bluel, une architecte d'intérieur.
+              <br />
+              La page web devait présenter ses réalisations, avec une
+              fonctionnalité de filtrage par catégorie.
+              <br />
+              L'architecte devait pouvoir se connecter à son compte pour accéder
+              à une version éditable de son portfolio, lui permettant d'ajouter
+              ou de supprimer des projets via une modale.
+              <br />
+              Ce projet m'a permis de comprendre l'installation d'un back-end,
+              l'utilisation d'une API REST, la gestion des appels API pour les
+              opérations CRUD, l'authentification utilisateur via un système de
+              token, et la manipulation du DOM avec JavaScript pour créer des
+              pages dynamiques.
             </p>
           }
           projectProcess={
             <div className='text-md font-body'>
               <ul className='list-inside list-image-bulletpoint'>
-                <li>Step 1</li>
-                <li>Step 2</li>
+                <li>
+                  Installation et lancement des dépendances du back-end avec
+                  NodeJS.
+                </li>
+                <li>
+                  Utilisation et compréhension de l'API REST et de la
+                  documentation Swagger.
+                </li>
+                <li>Récupération de données via des appels API.</li>
+                <li>
+                  Ajout dynamique des données dans le DOM avec JavaScript.
+                </li>
+                <li>Création d'une fonctionnalité de filtrage des données.</li>
+                <li>Création d'un formulaire de connexion.</li>
+                <li>
+                  Gestion de la connexion utilisateur via l'API et gestion des
+                  erreurs.
+                </li>
+                <li>Stockage du token d'authentification.</li>
+                <li>
+                  Création d'une modale pour l'ajout et la suppression de
+                  données.
+                </li>
+                <li>
+                  Mise à jour du DOM en fonction des opérations effectuées via
+                  l'API.
+                </li>
+                <li>Gestion de la fonctionnalité de déconnexion.</li>
               </ul>
             </div>
           }
@@ -523,21 +586,37 @@ const Projects = () => {
         <ProjectCard
           projectCover={PrintIt}
           projectTitle='Print It'
-          projectDescription='Projet 5 - OpenClassrooms'
+          projectDescription="Dynamisation du site internet statique d'une imprimerie."
           projectLanguages={[RiJavascriptFill, DiCss3, DiHtml5]}
           projectGithubURL='https://github.com/NicolasOsborne/oc-projet-5'
           projectWebsiteURL='https://nicolasosborne.github.io/oc-projet-5/'
           projectContext={
             <p className='text-md font-body'>
-              <b>Projet n° de la formation OpenClassrooms.</b>
+              <b>Projet n°5 de la formation OpenClassrooms.</b>
               <br />
+              L'objectif de ce projet était de dynamiser la page web de
+              l'imprimerie Print It.
+              <br />
+              En partant d'une version statique du site en HTML et CSS, ma tâche
+              consistait à créer un carrousel d'images dans la bannière du site
+              en utilisant JavaScript.
+              <br />
+              Ce carrousel permettait de faire défiler des images de manière
+              infinie en cliquant sur des flèches de défilement, avec des
+              indicateurs sous forme de bullet-points pour afficher la slide en
+              cours.
             </p>
           }
           projectProcess={
             <div className='text-md font-body'>
               <ul className='list-inside list-image-bulletpoint'>
-                <li>Step 1</li>
-                <li>Step 2</li>
+                <li>Ciblage des éléments du DOM avec JavaScript.</li>
+                <li>Mise en place des Event Listeners.</li>
+                <li>Modification des éléments de la page avec JavaScript.</li>
+                <li>
+                  Implémentation du défilement infini des images, texte et
+                  bullet-points.
+                </li>
               </ul>
             </div>
           }
@@ -545,21 +624,37 @@ const Projects = () => {
         <ProjectCard
           projectCover={Ohmyfood}
           projectTitle='Ohmyfood'
-          projectDescription='Projet 4 - OpenClassrooms'
+          projectDescription="Développement de l'interface d'un site mobile de restauration gastronomique à l'aide d'animations CSS"
           projectLanguages={[DiCss3, DiHtml5, DiSass]}
           projectGithubURL='https://github.com/NicolasOsborne/oc-projet-4'
           projectWebsiteURL='https://nicolasosborne.github.io/oc-projet-4/'
           projectContext={
             <p className='text-md font-body'>
-              <b>Projet n° de la formation OpenClassrooms.</b>
+              <b>Projet n°4 de la formation OpenClassrooms.</b>
               <br />
+              L'objectif de ce projet était d'implémenter l'interface
+              mobile-first du site de la start-up Ohmyfood, qui propose les
+              menus des restaurants gastronomiques à proximité. Chaque
+              restaurant possède sa propre page avec son menu.
+              <br />
+              Ma mission consistait à développer l'interface à partir des
+              maquettes et prototypes Figma et à enrichir l'expérience
+              utilisateur en ajoutant des animations CSS.
+              <br />
+              Ce projet m'a permis de maîtriser SASS, les animations CSS et le
+              développement responsive en mobile-first.
             </p>
           }
           projectProcess={
             <div className='text-md font-body'>
               <ul className='list-inside list-image-bulletpoint'>
-                <li>Step 1</li>
-                <li>Step 2</li>
+                <li>Découpage et architecture des fichiers SASS.</li>
+                <li>Création de variables et mixins.</li>
+                <li>Création d'animations (keyframes, transitions).</li>
+                <li>Création d'un loader.</li>
+                <li>Développement en mobile-first.</li>
+                <li>Gestion des media-queries pour l'affichage responsive.</li>
+                <li>Versionnage du projet avec Git et Github.</li>
               </ul>
             </div>
           }
@@ -567,21 +662,39 @@ const Projects = () => {
         <ProjectCard
           projectCover={Booki}
           projectTitle='Booki'
-          projectDescription='Projet 3 - OpenClassrooms'
+          projectDescription="Création de la page d'accueil d'une agence de voyage"
           projectLanguages={[DiCss3, DiHtml5]}
           projectGithubURL='https://github.com/NicolasOsborne/oc-projet-3'
           projectWebsiteURL='https://nicolasosborne.github.io/oc-projet-3/'
           projectContext={
             <p className='text-md font-body'>
-              <b>Projet n° de la formation OpenClassrooms.</b>
+              <b>Projet n°3 de la formation OpenClassrooms.</b>
               <br />
+              L'objectif de ce projet était d'intégrer l'interface de la page
+              d'accueil du site de l'agence de voyage Booki, en HTML et CSS, à
+              partir de la maquette Figma.
+              <br />
+              Ma mission consistait à créer une page web entièrement responsive
+              et pixel perfect, conforme aux versions desktop, tablette et
+              mobile des maquettes.
+              <br />
+              Ce projet m'a permis de maîtriser la création d'une page web à
+              partir d'une maquette, l'utilisation des media-queries et des
+              propriétés flexbox.
             </p>
           }
           projectProcess={
             <div className='text-md font-body'>
               <ul className='list-inside list-image-bulletpoint'>
-                <li>Step 1</li>
-                <li>Step 2</li>
+                <li>Import des polices de caractère (Google Fonts).</li>
+                <li>Import des bibliothèques d'icônes (Font Awesome).</li>
+                <li>Découpage de la maquette pour l'intégration.</li>
+                <li>Intégration et mise en page avec flexbox.</li>
+                <li>
+                  Mise en place de l'affichage responsive avec les
+                  media-queries.
+                </li>
+                <li>Validation du code au W3C.</li>
               </ul>
             </div>
           }
