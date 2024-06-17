@@ -1,5 +1,6 @@
 import { Github, Linkedin } from 'lucide-react'
 import Button from './Button'
+import Logo from './Logo'
 
 interface ResponsiveNavProps {
   isMenuActive: boolean
@@ -21,9 +22,12 @@ const ResponsiveNav = ({
         className='z-10 h-full w-[250px] border-2 border-black bg-main font-heading transition-transform duration-300 flex flex-col'
         onClick={(e) => e.stopPropagation()}
       >
+        <div className='px-5 py-4'>
+          <Logo />
+        </div>
         <div>
           <a
-            className='cursor-pointer block w-full border-b-2 border-black bg-main px-5 py-4 hover:bg-mainAccent'
+            className='cursor-pointer block w-full border-b-2 border-t-2 border-black bg-main px-5 py-4 hover:bg-mainAccent'
             onClick={() => handleScrollToSection('about')}
           >
             À Propos

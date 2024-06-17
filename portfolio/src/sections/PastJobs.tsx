@@ -6,7 +6,7 @@ import { FaChild, FaCocktail, FaSkiing, FaSwimmer } from 'react-icons/fa'
 const PastJobs = () => {
   return (
     <section className='border-b-4 border-black py-[100px]'>
-      <h3 className='text-center mb-5 text-3xl font-heading'>
+      <h3 className='text-center mb-5 text-3xl font-heading px-2'>
         Mais avant ça, j'ai eu d'autres vies
       </h3>
       <div className='flex flex-row flex-wrap justify-center gap-10 pt-12 px-2'>

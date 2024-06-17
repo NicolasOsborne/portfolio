@@ -41,10 +41,10 @@ const Projects = () => {
       className='border-b-4 border-black py-[200px] scroll-mt-header'
       id='projects'
     >
-      <h2 className='text-center mb-20 text-4xl font-heading'>
+      <h2 className='text-center mb-20 text-4xl font-heading px-4'>
         Et en pratique, ça donne quoi ?
       </h2>
-      <h3 className='text-center text-2xl font-heading mt-5'>
+      <h3 className='text-center text-2xl font-heading mt-5 px-4'>
         Du site Wordpress...
       </h3>
       <div className='w-full flex flex-wrap justify-center items-center gap-10 my-20'>
@@ -221,7 +221,7 @@ const Projects = () => {
           }
         />
       </div>
-      <h3 className='text-center text-2xl font-heading mt-40'>
+      <h3 className='text-center text-2xl font-heading mt-40 px-4'>
         ...au site développé de toutes pièces
       </h3>
       <div className='w-full flex flex-wrap justify-center gap-10 mt-20'>

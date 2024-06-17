@@ -27,10 +27,10 @@ const Skills = () => {
       id='skills'
     >
       <div className='border-b-4 border-black py-[100px]'>
-        <h2 className='text-center text-4xl font-heading'>
+        <h2 className='text-center text-4xl font-heading px-2'>
           Les différentes langues que je pratique
         </h2>
-        <h3 className='text-center text-2xl font-heading mt-10'>
+        <h3 className='text-center text-2xl font-heading mt-10 px-4'>
           Quand je parle avec les ordinateurs :
         </h3>
         <div className='flex flex-row flex-wrap justify-center gap-10 py-12 px-2'>
@@ -70,7 +70,7 @@ const Skills = () => {
             className='bg-green-600'
           />
         </div>
-        <h3 className='text-center text-2xl font-heading mt-5'>
+        <h3 className='text-center text-2xl font-heading mt-5 px-4'>
           Quand je parle avec vous :
         </h3>
         <div className='flex flex-row flex-wrap justify-center gap-10 p-12 px-2'>

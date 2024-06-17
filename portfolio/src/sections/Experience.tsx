@@ -11,7 +11,7 @@ const Experience = () => {
       className='border-b-4 border-black py-[200px] scroll-mt-header flex flex-col items-center'
       id='experience'
     >
-      <h2 className='text-center mb-5 text-4xl font-heading'>
+      <h2 className='text-center mb-5 text-4xl font-heading px-4'>
         Où est-ce que j'ai appris à faire ça ?
       </h2>
       <div className='flex flex-col gap-10 py-12 w-[80%]'>

@@ -1,5 +1,6 @@
 import Profile from '../assets/images/profile_pic.jpg'
 import Button from '../components/Button'
+import Background from '../assets/images/background.svg'
 
 const About = () => {
   return (
@@ -41,7 +42,10 @@ const About = () => {
           , n'hésitez pas à me contacter !
         </p>
       </div>
-      <div className='flex flex-col gap-20 items-center justify-center p-10'>
+      <div
+        className='flex flex-col gap-20 items-center justify-center p-10 bg-no-repeat bg-cover'
+        style={{ backgroundImage: `url(${Background})` }}
+      >
         <img
           src={Profile}
           alt='Nicoo - Nicolas Osborne - Développeur Web & Intégrateur Web à Grenoble'
