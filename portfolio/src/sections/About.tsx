@@ -52,7 +52,14 @@ const About = () => {
           className='rounded-base border-2 border-black p-2 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]'
         ></img>
         <div>
-          <Button text='Télécharger mon CV' className='font-heading' />
+          {/* <Button text='Télécharger mon CV' className='font-heading' /> */}
+          <a
+            href='./OSBORNE_Nicolas_CV.pdf'
+            download='OSBORNE_Nicolas_CV.pdf'
+            className='flex cursor-pointer items-center rounded-base border-2 border-black bg-main px-4 py-2 shadow-base transition-all hover:translate-x-boxShadowX hover:translate-y-boxShadowY hover:shadow-none font-heading'
+          >
+            Télécharger mon CV
+          </a>
         </div>
       </div>
     </section>
