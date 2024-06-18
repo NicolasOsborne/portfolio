@@ -1,5 +1,4 @@
 import Profile from '../assets/images/profile_pic.jpg'
-import Button from '../components/Button'
 import Background from '../assets/images/background.svg'
 
 const About = () => {
@@ -52,7 +51,6 @@ const About = () => {
           className='rounded-base border-2 border-black p-2 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]'
         ></img>
         <div>
-          {/* <Button text='Télécharger mon CV' className='font-heading' /> */}
           <a
             href='./OSBORNE_Nicolas_CV.pdf'
             download='OSBORNE_Nicolas_CV.pdf'
