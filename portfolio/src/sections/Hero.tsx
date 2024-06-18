@@ -1,5 +1,4 @@
 import { Github, Linkedin } from 'lucide-react'
-// import HeroAnimation from '../components/HeroAnimation'
 import HeroLogo from '../components/HeroLogo'
 import Marquee from '../components/Marquee'
 

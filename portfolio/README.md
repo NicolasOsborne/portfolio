@@ -1,30 +1,35 @@
-# React + TypeScript + Vite
+![Logo de Nicoo](./src/assets/images/nicoo_logo_hover.svg)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Portfolio | Nicoo - Nicolas Osborne - Développeur Front-End & Intégrateur Web
 
-Currently, two official plugins are available:
+Mon projet de portfolio personnel présentant mon parcours, mes réalisations et mes compétences en Développement et Intégration Web.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Outils utilisés :
 
-## Expanding the ESLint configuration
+- React
+- TypeScript
+- Tailwind CSS
+- Vite JS
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+# Accéder à la version en ligne du portfolio
 
-- Configure the top-level `parserOptions` property like this:
+Le projet a été déployé à l'aide de Vercel, et est consultable à l'URL suivante :
+https://oc-projet-8-kasa.vercel.app/
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+---
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+# Portfolio | Nicoo - Nicolas Osborne - Front-End Developer & Web Integrator
+
+My personnal portfolio presenting my skills, professionnal experiences and projects in Web Development and Integration.
+
+# Developed using:
+
+- React
+- TypeScript
+- Tailwind CSS
+- Vite JS
+
+# Check out the online version of my portfolio
+
+You can check out an online version of this portfolio that uses Vercel, by following this link:
+https://oc-projet-8-kasa.vercel.app/

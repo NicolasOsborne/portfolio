@@ -24,7 +24,7 @@ const About = () => {
           dynamiques ! <br />
           <span className='text-mainAccent font-bold'>Autodidacte</span> en
           code, je me suis par la suite professionnalisé dans ce domaine en
-          rejoignant la filière Intégrateur Web d'OpenClassrooms.
+          rejoignant la filière Développeur - Intégrateur Web d'OpenClassrooms.
           <br />
           Amoureux du{' '}
           <span className='text-mainAccent font-bold'>pixel perfect</span>, je
