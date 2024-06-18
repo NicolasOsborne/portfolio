@@ -30,7 +30,7 @@ const ContactForm = () => {
     }
     emailjs
       .send(serviceId, templateId, templateParams, publicKey)
-      .then((response) => {
+      .then(() => {
         setName('')
         setEmail('')
         setMessage('')
@@ -39,10 +39,7 @@ const ContactForm = () => {
         )
         setisModalActive(true)
       })
-      .catch((error) => {
-        console.error('Error sending email:', error.message)
-        console.error('Error sending email:', error.status)
-        console.error('Error sending email:', error.text)
+      .catch(() => {
         setFormModalMessage(
           "Oops... Il y a eu un problème lors de l'envoi de votre message. Veuillez réessayer."
         )

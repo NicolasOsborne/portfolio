@@ -9,7 +9,6 @@ interface ResponsiveNavProps {
 }
 
 const ResponsiveNav = ({
-  isMenuActive,
   setIsMenuActive,
   handleScrollToSection,
 }: ResponsiveNavProps) => {
