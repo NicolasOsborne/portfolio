@@ -32,6 +32,7 @@ export default function Textarea({
       onChange={(e) => {
         setValue(e.target.value)
       }}
+      required
     ></textarea>
   )
 }

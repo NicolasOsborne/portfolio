@@ -122,7 +122,7 @@ const Skills = () => {
             <SkillIcon logo={SiPostman} name='Postman' className='bg-red-600' />
             <SkillIcon logo={SiNotion} name='Notion' className='bg-white-400' />
             <SkillIcon logo={SiVite} name='Vite' className='bg-purple-400' />
-            <SkillIcon logo={SiVercel} name='Vercel' className='bg-gray-400' />
+            <SkillIcon logo={SiVercel} name='Vercel' className='bg-white-400' />
             <SkillIcon logo={SiJest} name='Jest' className='bg-red-400' />
             <SkillIcon
               logo={SiSwagger}

@@ -9,6 +9,7 @@ type InputProps = {
   placeholder: string
   id: string
   name: string
+  type: 'email' | 'text'
 }
 
 export default function Input({
@@ -18,6 +19,7 @@ export default function Input({
   placeholder,
   id,
   name,
+  type,
 }: InputProps) {
   return (
     <input
@@ -25,7 +27,6 @@ export default function Input({
         'rounded-base border-2 border-black p-[10px] font-body ring-offset-main focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-slate-950 focus-visible:ring-offset-2 outline-none transition-all',
         className
       )}
-      type='text'
       name={name}
       id={id}
       placeholder={placeholder}
@@ -34,6 +35,8 @@ export default function Input({
         setValue(e.target.value)
       }}
       aria-label={placeholder}
+      type={type}
+      required
     />
   )
 }
