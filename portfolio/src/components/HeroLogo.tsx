@@ -21,6 +21,7 @@ const HeroLogo = () => {
         onMouseOver={handleMouseOver}
         onMouseOut={handleMouseOut}
         className='h-[100px] sm:h-[300px]'
+        loading='eager'
       />
     </div>
   )

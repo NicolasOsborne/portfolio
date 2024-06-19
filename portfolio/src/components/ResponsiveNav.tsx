@@ -27,25 +27,41 @@ const ResponsiveNav = ({
         <div>
           <a
             className='cursor-pointer block w-full border-b-2 border-t-2 border-black bg-main px-5 py-4 hover:bg-mainAccent'
-            onClick={() => handleScrollToSection('about')}
+            onClick={(e) => {
+              e.preventDefault()
+              handleScrollToSection('about')
+            }}
+            href='#about'
           >
             À Propos
           </a>
           <a
             className='cursor-pointer block w-full border-b-2 border-black bg-main px-5 py-4 hover:bg-mainAccent'
-            onClick={() => handleScrollToSection('skills')}
+            onClick={(e) => {
+              e.preventDefault()
+              handleScrollToSection('skills')
+            }}
+            href='#skills'
           >
             Compétences
           </a>
           <a
             className='cursor-pointer block w-full border-b-2 border-black bg-main px-5 py-4 hover:bg-mainAccent'
-            onClick={() => handleScrollToSection('projects')}
+            onClick={(e) => {
+              e.preventDefault()
+              handleScrollToSection('projects')
+            }}
+            href='#projects'
           >
             Projets
           </a>
           <a
             className='cursor-pointer block w-full border-b-2 border-black bg-main px-5 py-4 hover:bg-mainAccent'
-            onClick={() => handleScrollToSection('experience')}
+            onClick={(e) => {
+              e.preventDefault()
+              handleScrollToSection('experience')
+            }}
+            href='#experience'
           >
             Expériences
           </a>

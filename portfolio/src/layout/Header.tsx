@@ -24,25 +24,41 @@ const Header = () => {
         <div className='hidden lg:flex items-center gap-10'>
           <a
             className='cursor-pointer text-lg font-heading font-base hover:text-mainAccent'
-            onClick={() => handleScrollToSection('about')}
+            onClick={(e) => {
+              e.preventDefault()
+              handleScrollToSection('about')
+            }}
+            href='#about'
           >
             À Propos
           </a>
           <a
             className='cursor-pointer text-lg font-heading font-base hover:text-mainAccent'
-            onClick={() => handleScrollToSection('skills')}
+            onClick={(e) => {
+              e.preventDefault()
+              handleScrollToSection('skills')
+            }}
+            href='#skills'
           >
             Compétences
           </a>
           <a
             className='cursor-pointer text-lg font-heading font-base hover:text-mainAccent'
-            onClick={() => handleScrollToSection('projects')}
+            onClick={(e) => {
+              e.preventDefault()
+              handleScrollToSection('projects')
+            }}
+            href='#projects'
           >
             Projets
           </a>
           <a
             className='cursor-pointer text-lg font-heading font-base hover:text-mainAccent'
-            onClick={() => handleScrollToSection('experience')}
+            onClick={(e) => {
+              e.preventDefault()
+              handleScrollToSection('experience')
+            }}
+            href='#experience'
           >
             Expériences
           </a>

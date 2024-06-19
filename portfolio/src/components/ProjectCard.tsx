@@ -45,7 +45,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
         projectWebsiteURL={projectWebsiteURL}
       />
 
-      <div className='flex flex-col rounded-base border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]'>
+      <div className='flex flex-col rounded-base border-2 border-black shadow-base transition-all hover:translate-x-boxShadowX hover:translate-y-boxShadowY hover:shadow-none'>
         <figure className='w-full'>
           <img
             src={projectCover}

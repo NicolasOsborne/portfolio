@@ -19,21 +19,21 @@ import {
   SiVite,
 } from 'react-icons/si'
 import { BiLogoMongodb, BiLogoRedux, BiLogoTypescript } from 'react-icons/bi'
-
-import Kasa from '../assets/images/projects/Kasa.jpg'
-import ArgentBank from '../assets/images/projects/ArgentBank.jpg'
-import Events from '../assets/images/projects/724Events.jpg'
-import NinaCarducci from '../assets/images/projects/NinaCarducci.jpg'
-import SophieBluel from '../assets/images/projects/SophieBluel.jpg'
-import PrintIt from '../assets/images/projects/PrintIt.jpg'
-import Ohmyfood from '../assets/images/projects/Ohmyfood.jpg'
-import Booki from '../assets/images/projects/Booki.jpg'
-import Portfolio from '../assets/images/projects/Portfolio.jpg'
-import Vetipole from '../assets/images/projects/Vetipole.jpg'
-import Ethereal from '../assets/images/projects/Ethereal.jpg'
-import Extellient from '../assets/images/projects/Extellient.jpg'
-import Dock from '../assets/images/projects/Dock.jpg'
 import { FiFigma } from 'react-icons/fi'
+
+import Kasa from '../assets/images/projects/Kasa.webp'
+import ArgentBank from '../assets/images/projects/ArgentBank.webp'
+import Events from '../assets/images/projects/724Events.webp'
+import NinaCarducci from '../assets/images/projects/NinaCarducci.webp'
+import SophieBluel from '../assets/images/projects/SophieBluel.webp'
+import PrintIt from '../assets/images/projects/PrintIt.webp'
+import Ohmyfood from '../assets/images/projects/Ohmyfood.webp'
+import Booki from '../assets/images/projects/Booki.webp'
+import Portfolio from '../assets/images/projects/Portfolio.webp'
+import Vetipole from '../assets/images/projects/Vetipole.webp'
+import Ethereal from '../assets/images/projects/Ethereal.webp'
+import Extellient from '../assets/images/projects/Extellient.webp'
+import Dock from '../assets/images/projects/Dock.webp'
 
 const Projects = () => {
   return (
@@ -285,7 +285,7 @@ const Projects = () => {
         <ProjectCard
           projectCover={ArgentBank}
           projectTitle='Argent Bank'
-          projectDescription="Développement Front-End d'une application bancaire avec React et Redux communiquant avec le Back-End via une API REST"
+          projectDescription="Développement Front-End d'une application bancaire avec React et Redux reliée au Back-End via une API"
           projectLanguages={[
             FaReact,
             BiLogoRedux,

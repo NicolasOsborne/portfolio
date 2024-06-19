@@ -1,7 +1,20 @@
-import Profile from '../assets/images/profile_pic.jpg'
+import Profile from '../assets/images/profile_pic.webp'
+import ProfileHover from '../assets/images/profile_pic_overlay.webp'
 import Background from '../assets/images/background.svg'
 
+import { useState } from 'react'
+
 const About = () => {
+  const [isHovered, setIsHovered] = useState(false)
+
+  const handleMouseOver = () => {
+    setIsHovered(true)
+  }
+
+  const handleMouseOut = () => {
+    setIsHovered(false)
+  }
+
   return (
     <section
       className='flex flex-col md:grid grid-cols-2 border-b-4 border-black scroll-mt-header'
@@ -46,9 +59,11 @@ const About = () => {
         style={{ backgroundImage: `url(${Background})` }}
       >
         <img
-          src={Profile}
+          src={isHovered ? ProfileHover : Profile}
           alt='Nicoo - Nicolas Osborne - Développeur Web & Intégrateur Web à Grenoble'
           className='rounded-base border-2 border-black p-2 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]'
+          onMouseOver={handleMouseOver}
+          onMouseOut={handleMouseOut}
         ></img>
         <div>
           <a
