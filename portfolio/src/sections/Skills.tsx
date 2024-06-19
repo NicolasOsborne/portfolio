@@ -16,7 +16,6 @@ import {
 import { FaGitAlt, FaReact, FaWordpress } from 'react-icons/fa'
 import { VscVscodeInsiders } from 'react-icons/vsc'
 import Expertise from '../components/Expertise'
-import { PiCheese, PiHamburger } from 'react-icons/pi'
 import USA from '../assets/images/logos/usa.svg'
 import France from '../assets/images/logos/france.svg'
 
