@@ -4,7 +4,7 @@ import WaveBackground from '../assets/images/background_waves.svg'
 const Contact = () => {
   return (
     <section
-      className='w-full flex flex-col justify-center border-b-4 border-black py-[200px] scroll-mt-header bg-no-repeat bg-cover'
+      className='w-full flex flex-col justify-center border-b-4 border-black py-[100px] md:py-[200px] scroll-mt-header bg-no-repeat bg-cover'
       id='contact'
       style={{ backgroundImage: `url(${WaveBackground})` }}
     >

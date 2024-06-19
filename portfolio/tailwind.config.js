@@ -10,6 +10,7 @@ export default {
         bg: '#daf5f0',
         main: '#c4a1ff',
         mainAccent: '#9e66ff',
+        secondary: '#e879f9',
         black: '#29222A',
       },
       borderRadius: {
@@ -32,7 +33,7 @@ export default {
         heading: '500',
       },
       listStyleImage: {
-        bulletpoint: 'url("./src/assets/images/bulletpoint.svg")',
+        bulletpoint: 'url("./assets/images/bulletpoint.svg")',
       },
       animation: {
         marquee: 'marquee 30s linear infinite',

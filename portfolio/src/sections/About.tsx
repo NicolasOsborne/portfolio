@@ -7,7 +7,7 @@ const About = () => {
       className='flex flex-col md:grid grid-cols-2 border-b-4 border-black scroll-mt-header'
       id='about'
     >
-      <div className='border-b-4 md:border-r-4 md:border-b-0 border-black py-[100px] px-10 flex flex-col gap-10'>
+      <div className='border-b-4 md:border-r-4 md:border-b-0 border-black py-[100px] px-5 sm:px-10 flex flex-col gap-10'>
         <h2 className='text-4xl font-heading text-center'>
           Nicoo, c'est qui ?
         </h2>

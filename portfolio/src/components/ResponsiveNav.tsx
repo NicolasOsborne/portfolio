@@ -52,21 +52,21 @@ const ResponsiveNav = ({
         </div>
         <Button
           text='Contact'
-          className='mx-auto mt-10 w-max text-lg font-heading bg-fuchsia-400'
+          className='mx-auto mt-10 w-max text-lg font-heading bg-secondary'
           onClick={() => handleScrollToSection('contact')}
         />
         <div className='flex flex-row gap-10 justify-center mt-auto mb-10'>
           <a
             target='_blank'
             href='https://www.linkedin.com/in/nho-osborne/'
-            className='flex items-center justify-center rounded-base border-2 bg-fuchsia-400 border-black p-2 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-all hover:translate-x-[3px] hover:translate-y-[3px] hover:shadow-none'
+            className='flex items-center justify-center rounded-base border-2 bg-secondary border-black p-2 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-all hover:translate-x-[3px] hover:translate-y-[3px] hover:shadow-none'
           >
             <Linkedin />
           </a>
           <a
             target='_blank'
             href='https://github.com/NicolasOsborne'
-            className='flex items-center justify-center rounded-base border-2 bg-fuchsia-400 border-black p-2 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-all hover:translate-x-[3px] hover:translate-y-[3px] hover:shadow-none'
+            className='flex items-center justify-center rounded-base border-2 bg-secondary border-black p-2 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-all hover:translate-x-[3px] hover:translate-y-[3px] hover:shadow-none'
           >
             <Github />
           </a>

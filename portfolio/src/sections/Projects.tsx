@@ -38,7 +38,7 @@ import { FiFigma } from 'react-icons/fi'
 const Projects = () => {
   return (
     <section
-      className='border-b-4 border-black py-[200px] scroll-mt-header'
+      className='border-b-4 border-black py-[100px] md:py-[200px] scroll-mt-header'
       id='projects'
     >
       <h2 className='text-center mb-20 text-4xl font-heading px-4'>
@@ -231,7 +231,7 @@ const Projects = () => {
           projectDescription='Projet de création et mise en ligne de mon portfolio personnel'
           projectLanguages={[FaReact, BiLogoTypescript, SiTailwindcss, FiFigma]}
           projectGithubURL='https://github.com/NicolasOsborne/portfolio'
-          projectWebsiteURL=''
+          projectWebsiteURL='https://nicoo-portfolio.vercel.app/'
           projectContext={
             <p className='text-md font-body'>
               À l'issue de ma formation avec OpenClassrooms, il était temps de

@@ -22,10 +22,7 @@ import France from '../assets/images/logos/france.svg'
 
 const Skills = () => {
   return (
-    <section
-      className='border-b-4 border-black scroll-mt-header pt-10'
-      id='skills'
-    >
+    <section className='border-b-4 border-black scroll-mt-header' id='skills'>
       <div className='border-b-4 border-black py-[100px]'>
         <h2 className='text-center text-4xl font-heading px-2'>
           Les différentes langues que je pratique
@@ -73,24 +70,54 @@ const Skills = () => {
         <h3 className='text-center text-2xl font-heading mt-5 px-4'>
           Quand je parle avec vous :
         </h3>
-        <div className='flex flex-row flex-wrap justify-center gap-10 p-12 px-2'>
-          <SkillIcon
+        <div className='flex flex-row flex-wrap justify-center gap-10 pt-12 px-2'>
+          <div className='flex flex-col items-center'>
+            <div
+              className='flex items-center justify-center w-[52px] h-[52px] rounded-base border-2 border-black p-2 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]'
+              style={{
+                backgroundImage: `url(${USA})`,
+                backgroundSize: 'cover',
+                backgroundPosition: 'center',
+              }}
+            ></div>
+            <p className='text-center text-sm font-body font-base mt-2'>
+              Anglais
+            </p>
+            <p className='text-center text-sm font-body font-base'>
+              Ma langue maternelle
+            </p>
+          </div>
+          <div className='flex flex-col items-center'>
+            <div
+              className='flex items-center justify-center w-[52px] h-[52px] rounded-base border-2 border-black p-2 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]'
+              style={{
+                backgroundImage: `url(${France})`,
+                backgroundSize: 'cover',
+                backgroundPosition: 'center',
+              }}
+            ></div>
+            <p className='text-center text-sm font-body font-base mt-2'>
+              Français
+            </p>
+            <p className='text-center text-sm font-body font-base'>
+              Mon autre langue maternelle
+            </p>
+          </div>
+          {/* <SkillIcon
             logo={PiHamburger}
             name='Anglais'
             description='Ma langue maternelle'
-            className='bg-white'
             style={{ backgroundImage: `url(${USA})`, backgroundSize: 'cover' }}
           />
           <SkillIcon
             logo={PiCheese}
             name='Français'
-            description='Mon pays natal'
-            className='bg-white'
+            description='Mon autre langue maternelle'
             style={{
               backgroundImage: `url(${France})`,
               backgroundSize: 'cover',
             }}
-          />
+          /> */}
         </div>
       </div>
       <div className='flex flex-col md:grid grid-cols-2'>
@@ -135,19 +162,19 @@ const Skills = () => {
           <h3 className='text-center text-3xl font-heading'>Mes compétences</h3>
           <div className='flex flex-row flex-wrap justify-center gap-10 py-12 px-2'>
             <Expertise text='Développement Front-End' className='bg-main' />
-            <Expertise text='Intégration Web' className='bg-fuchsia-400' />
-            <Expertise text='Référencement & SEO' className='bg-main' />
-            <Expertise text='Méthode Agile' className='bg-fuchsia-400' />
-            <Expertise text='Hébergement' className='bg-main' />
-            <Expertise text='Optimisation' className='bg-fuchsia-400' />
+            <Expertise text='Intégration Web' className='bg-secondary' />
+            <Expertise text='Référencement & SEO' className='bg-bg' />
+            <Expertise text='Méthode Agile' className='bg-main' />
+            <Expertise text='Hébergement' className='bg-secondary' />
+            <Expertise text='Optimisation' className='bg-bg' />
             <Expertise text='Maintenance' className='bg-main' />
-            <Expertise text='UX/UI Design' className='bg-fuchsia-400' />
-            <Expertise text='Wireframes & Maquettes' className='bg-main' />
-            <Expertise text='Responsive Design' className='bg-fuchsia-400' />
-            <Expertise text='Auto-didacte' className='bg-main' />
-            <Expertise text='Créatif' className='bg-fuchsia-400' />
+            <Expertise text='UX/UI Design' className='bg-secondary' />
+            <Expertise text='Wireframes & Maquettes' className='bg-bg' />
+            <Expertise text='Responsive Design' className='bg-main' />
+            <Expertise text='Auto-didacte' className='bg-secondary' />
+            <Expertise text='Créatif' className='bg-bg' />
             <Expertise text='Curieux' className='bg-main' />
-            <Expertise text="Esprit d'équipe" className='bg-fuchsia-400' />
+            <Expertise text="Esprit d'équipe" className='bg-secondary' />
           </div>
         </div>
       </div>
