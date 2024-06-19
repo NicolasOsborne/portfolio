@@ -1,8 +1,8 @@
 import ExperienceCard from '../components/ExperienceCard'
 import Openclassrooms from '../assets/images/logos/openclassrooms.svg'
 import Extellient from '../assets/images/logos/extellient.svg'
-import NathnetLogo from '../assets/images/logos/nathnet-logo.svg'
-import CodecademyLogo from '../assets/images/logos/codecademy-logo.svg'
+import NathnetLogo from '../assets/images/logos/nathnet.png'
+import CodecademyLogo from '../assets/images/logos/codecademy.png'
 import Uga from '../assets/images/logos/uga.svg'
 
 const Experience = () => {

@@ -16,8 +16,8 @@ import {
 import { FaGitAlt, FaReact, FaWordpress } from 'react-icons/fa'
 import { VscVscodeInsiders } from 'react-icons/vsc'
 import Expertise from '../components/Expertise'
-import UsaBackground from '../assets/images/logos/usa-background.svg'
-import FranceBackground from '../assets/images/logos/france-background.svg'
+import UsaBackground from '../assets/images/logos/usa.png'
+import FranceBackground from '../assets/images/logos/france.png'
 
 const Skills = () => {
   return (
