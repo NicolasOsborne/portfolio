@@ -16,8 +16,8 @@ import {
 import { FaGitAlt, FaReact, FaWordpress } from 'react-icons/fa'
 import { VscVscodeInsiders } from 'react-icons/vsc'
 import Expertise from '../components/Expertise'
-import USA from '../assets/images/logos/usa.svg'
-import France from '../assets/images/logos/france.svg'
+import UsaBackground from '../assets/images/logos/usa-background.svg'
+import FranceBackground from '../assets/images/logos/france-background.svg'
 
 const Skills = () => {
   return (
@@ -74,7 +74,7 @@ const Skills = () => {
             <div
               className='flex items-center justify-center w-[52px] h-[52px] rounded-base border-2 border-black p-2 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]'
               style={{
-                backgroundImage: `url(${USA})`,
+                backgroundImage: `url(${UsaBackground})`,
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
               }}
@@ -90,7 +90,7 @@ const Skills = () => {
             <div
               className='flex items-center justify-center w-[52px] h-[52px] rounded-base border-2 border-black p-2 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]'
               style={{
-                backgroundImage: `url(${France})`,
+                backgroundImage: `url(${FranceBackground})`,
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
               }}
@@ -102,21 +102,6 @@ const Skills = () => {
               Mon autre langue maternelle
             </p>
           </div>
-          {/* <SkillIcon
-            logo={PiHamburger}
-            name='Anglais'
-            description='Ma langue maternelle'
-            style={{ backgroundImage: `url(${USA})`, backgroundSize: 'cover' }}
-          />
-          <SkillIcon
-            logo={PiCheese}
-            name='Français'
-            description='Mon autre langue maternelle'
-            style={{
-              backgroundImage: `url(${France})`,
-              backgroundSize: 'cover',
-            }}
-          /> */}
         </div>
       </div>
       <div className='flex flex-col md:grid grid-cols-2'>

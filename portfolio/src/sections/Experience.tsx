@@ -1,8 +1,8 @@
 import ExperienceCard from '../components/ExperienceCard'
 import Openclassrooms from '../assets/images/logos/openclassrooms.svg'
 import Extellient from '../assets/images/logos/extellient.svg'
-import Nathnet from '../assets/images/logos/nathnet.svg'
-import Codecademy from '../assets/images/logos/codecademy.svg'
+import NathnetLogo from '../assets/images/logos/nathnet-logo.svg'
+import CodecademyLogo from '../assets/images/logos/codecademy-logo.svg'
 import Uga from '../assets/images/logos/uga.svg'
 
 const Experience = () => {
@@ -79,7 +79,7 @@ const Experience = () => {
         />
         <ExperienceCard
           className='bg-bg'
-          imageUrl={Nathnet}
+          imageUrl={NathnetLogo}
           title='Nathnet'
           type='Stage'
           description={
@@ -103,7 +103,7 @@ const Experience = () => {
         />
         <ExperienceCard
           className='bg-main'
-          imageUrl={Codecademy}
+          imageUrl={CodecademyLogo}
           title='Codecademy & Sololearn'
           type='Auto-formation'
           description={
