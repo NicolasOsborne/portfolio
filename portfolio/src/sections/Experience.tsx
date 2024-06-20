@@ -120,7 +120,7 @@ const Experience = () => {
               <span className='font-bold'>PHP</span> et{' '}
               <span className='font-bold'>Java</span> via des plateformes comme{' '}
               <span className='font-bold'>Codecademy</span>,{' '}
-              <span className='font-bold'>Sololearn</span>,
+              <span className='font-bold'>Sololearn</span>,{' '}
               <span className='font-bold'>OpenClassrooms</span> et{' '}
               <span className='font-bold'>Grafikart</span>. Plongé dans cet
               océan infini de nouvelles connaissances, je me suis senti comme un
@@ -145,7 +145,7 @@ const Experience = () => {
               </span>{' '}
               en 2016, après des études à{' '}
               <span className='font-bold'>Grenoble</span> et{' '}
-              <span className='font-bold'>Berlin</span>. Pendant ma
+              <span className='font-bold'>Berlin</span>. Pendant ma{' '}
               <span className='font-bold'>Licence</span>, je me suis concentré
               sur le <span className='font-bold'>développement durable</span> et
               l'<span className='font-bold'>agriculture urbaine</span>. En{' '}
@@ -166,9 +166,9 @@ const Experience = () => {
               <span className='font-bold'>base de données géoréférencées</span>{' '}
               des relevés naturalistes. Pour une{' '}
               <span className='font-bold'>Communauté de Communes</span>, j'ai
-              développé une
-              <span className='font-bold'>base de données</span> ainsi qu'une{' '}
-              <span className='font-bold'>carte interactive en ligne</span>
+              développé une <span className='font-bold'> base de données</span>{' '}
+              ainsi qu'une{' '}
+              <span className='font-bold'>carte interactive en ligne</span>{' '}
               recensant les lieux de production et d'achat de produits locaux.
             </p>
           }

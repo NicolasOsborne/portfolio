@@ -45,7 +45,7 @@ const Projects = () => {
         Et en pratique, ça donne quoi ?
       </h2>
       <h3 className='text-center text-2xl font-heading mt-5 px-4'>
-        Du site Wordpress...
+        Du site WordPress...
       </h3>
       <div className='w-full flex flex-wrap justify-center items-center gap-10 my-20'>
         <ProjectCard
