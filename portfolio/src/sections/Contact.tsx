@@ -13,7 +13,7 @@ const Contact = () => {
         Mon profil vous intéresse, vous intrigue, ou vous souhaitez en savoir
         plus ? N'hésitez plus !
       </h3>
-      <div className='w-full flex justify-center'>
+      <div className='w-full flex justify-center 2xl:px-[20%]'>
         <ContactForm />
       </div>
     </section>

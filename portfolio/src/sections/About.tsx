@@ -20,7 +20,7 @@ const About = () => {
       className='flex flex-col md:grid grid-cols-2 border-b-4 border-black scroll-mt-header'
       id='about'
     >
-      <div className='border-b-4 md:border-r-4 md:border-b-0 border-black py-[100px] px-5 sm:px-10 flex flex-col gap-10'>
+      <div className='border-b-4 md:border-r-4 md:border-b-0 border-black py-[100px] px-5 sm:px-10 flex flex-col gap-10 2xl:px-[20%]'>
         <h2 className='text-4xl font-heading text-center'>
           Nicoo, c'est qui ?
         </h2>
@@ -55,7 +55,7 @@ const About = () => {
         </p>
       </div>
       <div
-        className='flex flex-col gap-20 items-center justify-center p-10 bg-no-repeat bg-cover'
+        className='flex flex-col gap-20 items-center justify-center p-10 bg-no-repeat bg-cover 2xl:px-[20%]'
         style={{ backgroundImage: `url(${Background})` }}
       >
         <img

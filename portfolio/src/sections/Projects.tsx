@@ -38,7 +38,7 @@ import Dock from '../assets/images/projects/Dock.webp'
 const Projects = () => {
   return (
     <section
-      className='border-b-4 border-black py-[100px] md:py-[200px] scroll-mt-header'
+      className='border-b-4 border-black py-[100px] md:py-[200px] scroll-mt-header px-1 sm:px-4 2xl:px-[10%]'
       id='projects'
     >
       <h2 className='text-center mb-20 text-4xl font-heading px-4'>

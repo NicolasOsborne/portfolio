@@ -5,7 +5,7 @@ import Marquee from '../components/Marquee'
 const Hero = () => {
   return (
     <>
-      <section className='relative flex min-h-[80vh] gap-[100px] items-center justify-between bg-bg px-5 text-center'>
+      <section className='relative flex min-h-[80vh] gap-[100px] items-center justify-between bg-bg px-5 text-center 2xl:px-[10%]'>
         <div className='text-[3vh] sm:text-[8vh] font-hero'>
           <HeroLogo />
         </div>

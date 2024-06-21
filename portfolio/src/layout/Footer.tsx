@@ -3,7 +3,7 @@ import Logo from '../components/Logo'
 
 const Footer = () => {
   return (
-    <footer className='mx-auto flex h-[88px] w-full items-center border-b-4 border-black bg-white px-5'>
+    <footer className='mx-auto flex h-[88px] w-full items-center border-b-4 border-black bg-white px-5 2xl:px-[10%]'>
       <div className='mx-auto flex w-[100%] max-w-full items-center justify-between'>
         <Logo className='max-w-[75%] sm:max-w-[100%]' />
       </div>

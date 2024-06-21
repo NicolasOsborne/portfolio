@@ -105,7 +105,7 @@ const Skills = () => {
         </div>
       </div>
       <div className='flex flex-col md:grid grid-cols-2'>
-        <div className='border-b-4 md:border-r-4 md:border-b-0 border-black py-[100px]'>
+        <div className='border-b-4 md:border-r-4 md:border-b-0 border-black py-[100px] 2xl:px-[20%]'>
           <h3 className='text-center text-3xl font-heading'>Mes outils</h3>
           <div className='flex flex-row flex-wrap justify-center gap-10 py-12 px-2'>
             <SkillIcon logo={FiFigma} name='Figma' className='bg-fuchsia-400' />
@@ -142,7 +142,7 @@ const Skills = () => {
             />
           </div>
         </div>
-        <div className='py-[100px]'>
+        <div className='py-[100px] 2xl:px-[20%]'>
           <h3 className='text-center text-3xl font-heading'>Mes compétences</h3>
           <div className='flex flex-row flex-wrap justify-center gap-10 py-12 px-2'>
             <Expertise text='Développement Front-End' className='bg-main' />

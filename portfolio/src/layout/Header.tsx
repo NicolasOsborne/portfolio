@@ -17,7 +17,7 @@ const Header = () => {
     }
   }
   return (
-    <nav className='fixed left-0 top-0 z-20 mx-auto flex h-[88px] w-full items-center border-b-4 border-black bg-white px-5'>
+    <nav className='fixed left-0 top-0 z-20 mx-auto flex h-[88px] w-full items-center border-b-4 border-black bg-white px-5 2xl:px-[10%]'>
       <div className='mx-auto flex w-[100%] max-w-full items-center justify-between'>
         <Logo />
 
