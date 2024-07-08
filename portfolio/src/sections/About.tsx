@@ -39,19 +39,22 @@ const About = () => {
           rejoignant la filière Développeur - Intégrateur Web d'OpenClassrooms.
           <br />
           Amoureux du{' '}
-          <span className='text-mainAccent font-bold'>pixel perfect</span>, je
-          possède un grand sens du détail et j'apprécie particulièrement la
-          collaboration avec les designers.
+          <span className='text-mainAccent font-bold'>pixel perfect</span>,
+          créatif et possèdant un grand sens du détail, j'apprécie
+          particulièrement collaborer étroitement avec les designers.
           <br />
+          Je suis actuellement{' '}
           <span className='text-mainAccent font-bold'>
-            Je suis à la recherche d'une entreprise
+            à la recherche d'une entreprise
           </span>{' '}
-          qui valorise l'innovation, la qualité et le travail d'équipe. Si ces
-          valeurs vous parlent, nous sommes faits pour nous entendre ! <br />
+          qui valorise l'innovation, la créativité, la qualité et le travail en
+          équipe. <br /> Si tout cela vous parle, c'est que nous sommes faits
+          pour nous entendre ! <br />
+          Je suis{' '}
           <span className='text-mainAccent font-bold'>
-            Je suis disponible immédiatement
+            disponible immédiatement
           </span>
-          , n'hésitez pas à me contacter !
+          , alors n'hésitez pas à me contacter !
         </p>
       </div>
       <div
