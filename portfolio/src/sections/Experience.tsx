@@ -3,6 +3,7 @@ import Openclassrooms from '../assets/images/logos/openclassrooms.svg'
 import Extellient from '../assets/images/logos/extellient.svg'
 import NathnetLogo from '../assets/images/logos/nathnet.png'
 import CodecademyLogo from '../assets/images/logos/codecademy.png'
+import Wordpress from '../assets/images/logos/wordpress.svg'
 import Uga from '../assets/images/logos/uga.svg'
 
 const Experience = () => {
@@ -103,14 +104,35 @@ const Experience = () => {
         />
         <ExperienceCard
           className='bg-main'
+          imageUrl={Wordpress}
+          title='Intégration WordPress & Webdesign'
+          type='Bénévolat'
+          description={
+            <p className='text-md font-body'>
+              Depuis 2022, j'ai appris à maîtriser le CMS{' '}
+              <span className='font-bold'>WordPress</span>, et j'ai mis cette
+              maîtrise au service d'
+              <span className='font-bold'>associations</span> et d'
+              <span className='font-bold'>entreprises locales</span> pour la{' '}
+              <span className='font-bold'>création</span>,{' '}
+              <span className='font-bold'>l'intégration</span>,{' '}
+              <span className='font-bold'>la maintenance</span>,{' '}
+              <span className='font-bold'>l'hébergement</span> et le{' '}
+              <span className='font-bold'>référencement</span> de leurs sites
+              web.
+            </p>
+          }
+          dateEnd='2024'
+          dateStart='2022'
+        />
+        <ExperienceCard
+          className='bg-bg'
           imageUrl={CodecademyLogo}
-          title='Codecademy & Sololearn'
+          title='Codecademy / Sololearn / Grafikart'
           type='Auto-formation'
           description={
             <p className='text-md font-body'>
-              Ayant débuté dans l'univers du web en participant régulièrement à
-              la <span className='font-bold'>création de sites</span> pour des
-              associations et des entreprises locales avec{' '}
+              Ayant débuté dans l'univers du web en créant des sites{' '}
               <span className='font-bold'>WordPress</span>, et désireux d'en
               apprendre plus, je me suis formé en{' '}
               <span className='font-bold'>autodidacte</span> aux langages{' '}
@@ -132,8 +154,9 @@ const Experience = () => {
           dateEnd='Sept. 2023'
           dateStart='Sept. 2022'
         />
+
         <ExperienceCard
-          className='bg-bg'
+          className='bg-main'
           imageUrl={Uga}
           title='Institut de Géographie Alpine'
           type='Master en Géographie Environnementale, Géomatique et SIG'

@@ -40,7 +40,7 @@ const About = () => {
           <br />
           Amoureux du{' '}
           <span className='text-mainAccent font-bold'>pixel perfect</span>,
-          créatif et possèdant un grand sens du détail, j'apprécie
+          créatif et possédant un grand sens du détail, j'apprécie
           particulièrement collaborer étroitement avec les designers.
           <br />
           Je suis actuellement{' '}
