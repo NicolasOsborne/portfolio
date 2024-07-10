@@ -110,11 +110,11 @@ const Experience = () => {
           description={
             <p className='text-md font-body'>
               Depuis 2022, j'ai appris à maîtriser le CMS{' '}
-              <span className='font-bold'>WordPress</span>, et j'ai mis cette
-              maîtrise au service d'
+              <span className='font-bold'>WordPress</span>, et je mets
+              régulièrement cette maîtrise au service d'
               <span className='font-bold'>associations</span> et d'
-              <span className='font-bold'>entreprises locales</span> pour la{' '}
-              <span className='font-bold'>création</span>,{' '}
+              <span className='font-bold'>entreprises locales</span> pour les
+              accompagner dans la <span className='font-bold'>création</span>,{' '}
               <span className='font-bold'>l'intégration</span>,{' '}
               <span className='font-bold'>la maintenance</span>,{' '}
               <span className='font-bold'>l'hébergement</span> et le{' '}
