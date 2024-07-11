@@ -128,7 +128,7 @@ const Experience = () => {
         <ExperienceCard
           className='bg-bg'
           imageUrl={CodecademyLogo}
-          title='Codecademy / Sololearn / Grafikart'
+          title='Codecademy / OpenClassrooms / Sololearn / Grafikart'
           type='Auto-formation'
           description={
             <p className='text-md font-body'>

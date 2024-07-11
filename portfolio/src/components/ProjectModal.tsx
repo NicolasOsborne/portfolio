@@ -197,14 +197,14 @@ export default function ProjectModal({
             </div>
 
             <div className='flex flex-row gap-4 justify-end mt-auto mb-8 md:mb-0'>
-              {projectGithubURL && (
-                <a href={projectGithubURL} target='_blank'>
-                  <Button text='Voir le code' />
-                </a>
-              )}
               {projectWebsiteURL && (
                 <a href={projectWebsiteURL} target='_blank'>
                   <Button text='Voir le site' />
+                </a>
+              )}
+              {projectGithubURL && (
+                <a href={projectGithubURL} target='_blank'>
+                  <Button text='Voir le code' />
                 </a>
               )}
             </div>

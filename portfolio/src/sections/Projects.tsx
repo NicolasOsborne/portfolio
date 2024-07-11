@@ -105,6 +105,12 @@ const Projects = () => {
               multiplication des événements et d'une notoriété sans cesse
               grandissante.
               <br />
+              L'association organise chaque été l'un des plus grands festivals
+              de musique psychédélique en France et avait besoin d'une vitrine
+              optimisée pour permettre aux festivaliers d'accéder à l'achat de
+              billets, aux informations sur le festival, et à la programmation,
+              avec une mise à jour du contenu à chaque nouvelle édition.
+              <br />
               Collaborant avec{' '}
               <a
                 href='https://claireorvain.fr/'
@@ -114,12 +120,7 @@ const Projects = () => {
                 Claire Orvain
               </a>
               , nous avons imaginé ensemble le design, la structure,
-              l'arborescence et l'ensemble des pages du site. L'association
-              organise chaque été l'un des plus grands festivals de musique
-              psychédélique en France et avait besoin d'une vitrine optimisée
-              pour permettre aux festivaliers d'accéder à l'achat de billets,
-              aux informations sur le festival, et à la programmation, avec une
-              mise à jour du contenu à chaque nouvelle édition.
+              l'arborescence et l'ensemble des pages du site.
             </p>
           }
           projectProcess={
@@ -165,8 +166,8 @@ const Projects = () => {
               <br />
               Dans ce cadre, Extellient m'a missionné en tant que stagiaire pour
               participer à cette refonte. J'ai travaillé en étroite
-              collaboration avec la designer et la chargée de communication pour
-              mener à bien cette mission.
+              collaboration avec l'UX/UI Designer et la Chargée de communication
+              pour mener à bien cette mission.
             </p>
           }
           projectProcess={
@@ -197,6 +198,7 @@ const Projects = () => {
               dédié, j'ai été missionné pour mettre en œuvre et gérer le
               référencement naturel, ainsi que pour optimiser les pages du site
               afin d'améliorer leur indexation par les moteurs de recherche.
+              <br />
               L'objectif était d'augmenter la visibilité du site du Dock 14 dans
               les résultats de recherche et de le positionner favorablement dans
               l'univers concurrentiel et compétitif des Laser Games de

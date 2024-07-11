@@ -28,7 +28,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
 
   return (
     <div
-      className='cursor-pointer flex flex-col w-5/6 sm:w-[450px] '
+      className='cursor-pointer flex flex-col w-5/6 sm:w-[450px]'
       onClick={() => {
         setIsModalActive(true)
       }}
