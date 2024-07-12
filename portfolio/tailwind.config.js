@@ -1,17 +1,25 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+  darkMode: 'selector',
   theme: {
     scrollMargin: {
       header: '88px',
     },
     extend: {
       colors: {
+        // Light mode colors
         bg: '#daf5f0',
         main: '#c4a1ff',
         mainAccent: '#9e66ff',
         secondary: '#e879f9',
         black: '#29222A',
+
+        // Dark mode colors
+        dark: {
+          bg: '#29222A',
+          black: '#000000',
+        },
       },
       borderRadius: {
         base: '5px',

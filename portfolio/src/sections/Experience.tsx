@@ -9,10 +9,10 @@ import Uga from '../assets/images/logos/uga.svg'
 const Experience = () => {
   return (
     <section
-      className='border-b-4 border-black py-[100px] md:py-[200px] scroll-mt-header flex flex-col items-center 2xl:px-[10%]'
+      className='border-b-4 border-black dark:border-dark-black py-[100px] md:py-[200px] scroll-mt-header flex flex-col items-center 2xl:px-[10%] dark:bg-dark-bg'
       id='experience'
     >
-      <h2 className='text-center mb-5 text-4xl font-heading px-4'>
+      <h2 className='text-center mb-5 text-4xl font-heading px-4 dark:text-white'>
         Où est-ce que j'ai appris à faire ça ?
       </h2>
       <div className='flex flex-col gap-10 py-12 w-[80%]'>

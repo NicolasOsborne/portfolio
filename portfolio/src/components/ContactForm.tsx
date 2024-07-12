@@ -50,7 +50,7 @@ const ContactForm = () => {
   return (
     <>
       <form
-        className='bg-bg border-2 border-black rounded-base font-body shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] w-5/6 md:w-3/4 lg:w-1/2'
+        className='bg-bg border-2 border-black dark:border-dark-black dark:bg-main rounded-base font-body shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] w-5/6 md:w-3/4 lg:w-1/2'
         onSubmit={handleSubmit}
       >
         <div className='flex flex-col gap-2 px-8 py-4'>
@@ -84,7 +84,7 @@ const ContactForm = () => {
           <div className='flex justify-center my-4'>
             <button
               type='submit'
-              className='flex cursor-pointer items-center rounded-base border-2 border-black bg-main px-4 py-2 text-sm font-base shadow-base transition-all hover:translate-x-boxShadowX hover:translate-y-boxShadowY hover:shadow-none'
+              className='flex cursor-pointer items-center rounded-base border-2 border-black bg-main px-4 py-2 text-sm font-base shadow-base transition-all hover:translate-x-boxShadowX hover:translate-y-boxShadowY hover:shadow-none dark:bg-secondary'
             >
               C'est parti !
             </button>

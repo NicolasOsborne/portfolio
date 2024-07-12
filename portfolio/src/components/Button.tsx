@@ -14,7 +14,7 @@ export default function Button({ className, text, onClick }: ButtonProps) {
       role='button'
       onClick={onClick}
       className={cn(
-        'flex cursor-pointer items-center rounded-base border-2 border-black bg-main px-4 py-2 shadow-base transition-all hover:translate-x-boxShadowX hover:translate-y-boxShadowY hover:shadow-none',
+        'flex cursor-pointer items-center rounded-base border-2 border-black bg-main dark:border-dark-black dark:bg-secondary px-4 py-2 shadow-base transition-all hover:translate-x-boxShadowX hover:translate-y-boxShadowY hover:shadow-none',
         className
       )}
     >

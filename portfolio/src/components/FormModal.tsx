@@ -43,14 +43,14 @@ export default function FormModal({
     >
       <div
         onClick={(e) => e.stopPropagation()}
-        className='relative flex w-[80%] lg:w-[50%] group-data-[visible=true]:opacity-100 group-data-[visible=true]:visible group-data-[visible=false]:opacity-0 group-data-[visible=false]:invisible flex-col items-center justify-center rounded-base border-2 border-black bg-main p-10 pt-12 font-base shadow-base transition-all duration-300'
+        className='relative flex w-[80%] lg:w-[50%] group-data-[visible=true]:opacity-100 group-data-[visible=true]:visible group-data-[visible=false]:opacity-0 group-data-[visible=false]:invisible flex-col items-center justify-center rounded-base border-2 border-black dark:border-dark-black bg-main p-10 pt-12 font-base shadow-base transition-all duration-300'
       >
         <button onClick={closeModal}>
           <X className='absolute right-3 top-3 h-6 w-6' />
         </button>
         <p className='font-body text-center'>{formModalMessage}</p>
         <button
-          className='mt-5 cursor-pointer rounded-base border-2 border-black bg-bg px-4 py-1.5 font-base shadow-base transition-all hover:translate-x-boxShadowX hover:translate-y-boxShadowY hover:shadow-none'
+          className='mt-5 cursor-pointer rounded-base border-2 border-black bg-bg dark:border-dark-black dark:bg-secondary px-4 py-1.5 font-base shadow-base transition-all hover:translate-x-boxShadowX hover:translate-y-boxShadowY hover:shadow-none'
           onClick={closeModal}
         >
           Fermer

@@ -45,7 +45,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
         projectWebsiteURL={projectWebsiteURL}
       />
 
-      <div className='flex flex-col rounded-base border-2 border-black shadow-base transition-all hover:translate-x-boxShadowX hover:translate-y-boxShadowY hover:shadow-none'>
+      <div className='flex flex-col rounded-base border-2 border-black dark:border-dark-black dark:bg-dark-bg shadow-base transition-all hover:translate-x-boxShadowX hover:translate-y-boxShadowY hover:shadow-none'>
         <figure className='w-full'>
           <img
             src={projectCover}
@@ -53,9 +53,13 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
             className='w-full h-full object-cover'
           />
         </figure>
-        <figcaption className='text-left my-2 border-y-2 border-gray-200'>
-          <h3 className='text-lg font-body font-base mx-2'>{projectTitle}</h3>
-          <p className='my-2 mx-2 font-body'>{projectDescription}</p>
+        <figcaption className='text-left my-2 border-y-2 border-gray-200 dark:border-dark-black'>
+          <h3 className='text-lg font-body font-base mx-2 dark:text-white'>
+            {projectTitle}
+          </h3>
+          <p className='my-2 mx-2 font-body dark:text-white'>
+            {projectDescription}
+          </p>
         </figcaption>
         <div className='flex flex-col sm:flex-row sm:justify-between sm:items-center pr-4 pb-4 pt-2'>
           <div className='flex flex-row gap-2 mx-2'>

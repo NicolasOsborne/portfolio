@@ -21,12 +21,15 @@ import FranceBackground from '../assets/images/logos/france.png'
 
 const Skills = () => {
   return (
-    <section className='border-b-4 border-black scroll-mt-header' id='skills'>
-      <div className='border-b-4 border-black py-[100px]'>
-        <h2 className='text-center text-4xl font-heading px-2'>
+    <section
+      className='border-b-4 border-black scroll-mt-header dark:bg-dark-bg dark:border-dark-black'
+      id='skills'
+    >
+      <div className='border-b-4 border-black dark:border-dark-black py-[100px]'>
+        <h2 className='text-center text-4xl font-heading px-2 dark:text-white'>
           Les différentes langues que je pratique
         </h2>
-        <h3 className='text-center text-2xl font-heading mt-10 px-4'>
+        <h3 className='text-center text-2xl font-heading mt-10 px-4 dark:text-white'>
           Quand je parle avec les ordinateurs :
         </h3>
         <div className='flex flex-row flex-wrap justify-center gap-10 py-12 px-2'>
@@ -66,7 +69,7 @@ const Skills = () => {
             className='bg-green-600'
           />
         </div>
-        <h3 className='text-center text-2xl font-heading mt-5 px-4'>
+        <h3 className='text-center text-2xl font-heading mt-5 px-4 dark:text-white'>
           Quand je parle avec vous :
         </h3>
         <div className='flex flex-row flex-wrap justify-center gap-10 pt-12 px-2'>
@@ -79,10 +82,10 @@ const Skills = () => {
                 backgroundPosition: 'center',
               }}
             ></div>
-            <p className='text-center text-sm font-body font-base mt-2'>
+            <p className='text-center text-sm font-body font-base mt-2 dark:text-white'>
               Anglais
             </p>
-            <p className='text-center text-sm font-body font-base'>
+            <p className='text-center text-sm font-body font-base dark:text-white'>
               Ma langue maternelle
             </p>
           </div>
@@ -95,18 +98,20 @@ const Skills = () => {
                 backgroundPosition: 'center',
               }}
             ></div>
-            <p className='text-center text-sm font-body font-base mt-2'>
+            <p className='text-center text-sm font-body font-base mt-2 dark:text-white'>
               Français
             </p>
-            <p className='text-center text-sm font-body font-base'>
+            <p className='text-center text-sm font-body font-base dark:text-white'>
               Mon autre langue maternelle
             </p>
           </div>
         </div>
       </div>
       <div className='flex flex-col md:grid grid-cols-2'>
-        <div className='border-b-4 md:border-r-4 md:border-b-0 border-black py-[100px] 2xl:px-[20%]'>
-          <h3 className='text-center text-3xl font-heading'>Mes outils</h3>
+        <div className='border-b-4 md:border-r-4 md:border-b-0 border-black dark:border-dark-black py-[100px] 2xl:px-[20%]'>
+          <h3 className='text-center text-3xl font-heading dark:text-white'>
+            Mes outils
+          </h3>
           <div className='flex flex-row flex-wrap justify-center gap-10 py-12 px-2'>
             <SkillIcon logo={FiFigma} name='Figma' className='bg-fuchsia-400' />
             <SkillIcon
@@ -143,7 +148,9 @@ const Skills = () => {
           </div>
         </div>
         <div className='py-[100px] 2xl:px-[20%]'>
-          <h3 className='text-center text-3xl font-heading'>Mes compétences</h3>
+          <h3 className='text-center text-3xl font-heading dark:text-white'>
+            Mes compétences
+          </h3>
           <div className='flex flex-row flex-wrap justify-center gap-10 py-12 px-2'>
             <Expertise text='Développement Front-End' className='bg-main' />
             <Expertise text='Intégration Web' className='bg-secondary' />

@@ -1,5 +1,6 @@
 import { RxHamburgerMenu } from 'react-icons/rx'
-import { useState } from 'react'
+import { MdOutlineLightMode, MdOutlineDarkMode } from 'react-icons/md'
+import { useEffect, useState } from 'react'
 
 import Logo from '../components/Logo'
 import ResponsiveNav from '../components/ResponsiveNav'
@@ -16,12 +17,23 @@ const Header = () => {
       })
     }
   }
+
+  const [isDarkMode, setIsDarkMode] = useState(false)
+
+  useEffect(() => {
+    if (isDarkMode) {
+      document.documentElement.classList.add('dark')
+    } else {
+      document.documentElement.classList.remove('dark')
+    }
+  }, [isDarkMode])
+
   return (
-    <nav className='fixed left-0 top-0 z-20 mx-auto flex h-[88px] w-full items-center border-b-4 border-black bg-white px-5 2xl:px-[10%]'>
+    <nav className='fixed left-0 top-0 z-20 mx-auto flex h-[88px] w-full items-center border-b-4 border-black bg-white dark:bg-main px-5 2xl:px-[10%]'>
       <div className='mx-auto flex w-[100%] max-w-full items-center justify-between'>
         <Logo />
 
-        <div className='hidden lg:flex items-center gap-10'>
+        <div className='hidden xl:flex items-center gap-10'>
           <a
             className='cursor-pointer text-lg font-heading font-base hover:text-mainAccent'
             onClick={(e) => {
@@ -67,10 +79,23 @@ const Header = () => {
             className='text-lg font-heading'
             onClick={() => handleScrollToSection('contact')}
           />
-        </div>
-        <div className='lg:hidden'>
           <button
-            className='flex items-center justify-center rounded-base border-2 border-black p-2 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-all hover:translate-x-[3px] hover:translate-y-[3px] hover:shadow-none'
+            className='flex items-center justify-center rounded-base border-2 border-black p-2 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-all hover:translate-x-[3px] hover:translate-y-[3px] hover:shadow-none dark:border-dark-black dark:bg-secondary'
+            aria-label='Toggle Dark/Light mode'
+            onClick={() => {
+              setIsDarkMode((prevIsDarkMode) => !prevIsDarkMode)
+            }}
+          >
+            {isDarkMode ? (
+              <MdOutlineLightMode size={30} />
+            ) : (
+              <MdOutlineDarkMode size={30} />
+            )}
+          </button>
+        </div>
+        <div className='xl:hidden'>
+          <button
+            className='flex items-center justify-center rounded-base border-2 border-black dark:border-dark-black dark:bg-secondary p-2 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-all hover:translate-x-[3px] hover:translate-y-[3px] hover:shadow-none'
             aria-label='Menu'
             onClick={() => {
               setIsMenuActive(true)

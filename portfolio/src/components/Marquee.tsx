@@ -24,7 +24,7 @@ export default function Marquee() {
   const duplicatedMarqueeTexts = [...marqueeTexts, ...marqueeTexts]
 
   return (
-    <div className='relative flex w-full overflow-x-hidden border-b-4 border-t-4 border-black bg-main font-body font-base'>
+    <div className='relative flex w-full overflow-x-hidden border-b-4 border-t-4 border-black dark:border-dark-black bg-main font-body font-base'>
       <div className='animate-marquee whitespace-nowrap py-12'>
         {duplicatedMarqueeTexts.map((text, index) => (
           <MarqueeItem key={index} text={text} />

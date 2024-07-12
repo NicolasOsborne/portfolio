@@ -76,7 +76,7 @@ export default function ProjectModal({
     >
       <div
         onClick={(e) => e.stopPropagation()}
-        className='relative flex w-[90%] md:w-[80%] group-data-[visible=true]:opacity-100 group-data-[visible=true]:visible group-data-[visible=false]:opacity-0 group-data-[visible=false]:invisible rounded-base border-2 border-black bg-bg p-6 sm:p-10 pt-12 shadow-base transition-all duration-300 cursor-default'
+        className='relative flex w-[90%] md:w-[80%] group-data-[visible=true]:opacity-100 group-data-[visible=true]:visible group-data-[visible=false]:opacity-0 group-data-[visible=false]:invisible rounded-base border-2 border-black dark:border-dark-black bg-bg dark:bg-dark-bg p-6 sm:p-10 pt-12 shadow-base transition-all duration-300 cursor-default'
         style={{ overflowY: 'auto', maxHeight: '90vh' }}
       >
         <button onClick={closeModal}>
@@ -84,7 +84,7 @@ export default function ProjectModal({
         </button>
         <div className='flex flex-col md:flex-row w-full gap-4 md:justify-between'>
           <div className='flex flex-col w-full md:w-[50%] gap-4'>
-            <h4 className='text-2xl font-heading rounded-base border-2 border-black p-2 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] bg-white'>
+            <h4 className='text-2xl font-heading rounded-base border-2 border-black p-2 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] bg-white dark:bg-dark-bg dark:text-white dark:border-dark-black'>
               {projectTitle}
             </h4>
             <img
@@ -93,11 +93,11 @@ export default function ProjectModal({
               className='md:hidden rounded-base border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]'
             ></img>
 
-            <div className='rounded-base border-2 border-black p-2 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] bg-white'>
+            <div className='rounded-base border-2 border-black p-2 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] bg-white dark:bg-dark-bg dark:text-white dark:border-dark-black'>
               <p className='text-lg font-heading mb-2'>Contexte :</p>
               {projectContext}
             </div>
-            <div className='rounded-base border-2 border-black p-6 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] bg-white'>
+            <div className='rounded-base border-2 border-black p-6 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] bg-white dark:bg-dark-bg dark:border-dark-black'>
               <div className='flex flex-wrap gap-8 justify-center'>
                 {projectLanguages.map((LanguageIcon, index) => {
                   let color: string
@@ -189,9 +189,9 @@ export default function ProjectModal({
             <img
               src={projectCover}
               alt={projectTitle}
-              className='hidden md:block rounded-base border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] bg-'
+              className='hidden md:block rounded-base border-2 border-black dark:border-dark-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] bg-'
             ></img>
-            <div className='rounded-base border-2 border-black p-2 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] bg-white'>
+            <div className='rounded-base border-2 border-black p-2 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] bg-white dark:bg-dark-bg dark:text-white dark:border-dark-black'>
               <p className='text-lg font-heading mb-2'>Réalisation :</p>
               {projectProcess}
             </div>

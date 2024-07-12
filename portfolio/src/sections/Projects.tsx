@@ -38,13 +38,13 @@ import Dock from '../assets/images/projects/Dock.webp'
 const Projects = () => {
   return (
     <section
-      className='border-b-4 border-black py-[100px] md:py-[200px] scroll-mt-header px-1 sm:px-4 2xl:px-[10%]'
+      className='border-b-4 border-black dark:border-dark-black dark:bg-dark-bg py-[100px] md:py-[200px] scroll-mt-header px-1 sm:px-4 2xl:px-[10%]'
       id='projects'
     >
-      <h2 className='text-center mb-20 text-4xl font-heading px-4'>
+      <h2 className='text-center mb-20 text-4xl font-heading px-4 dark:text-white'>
         Et en pratique, ça donne quoi ?
       </h2>
-      <h3 className='text-center text-2xl font-heading mt-5 px-4'>
+      <h3 className='text-center text-2xl font-heading mt-5 px-4 dark:text-white'>
         Du site WordPress...
       </h3>
       <div className='w-full flex flex-wrap justify-center items-center gap-10 my-20'>
@@ -223,7 +223,7 @@ const Projects = () => {
           }
         />
       </div>
-      <h3 className='text-center text-2xl font-heading mt-40 px-4'>
+      <h3 className='text-center text-2xl font-heading mt-40 px-4 dark:text-white'>
         ...au site développé de toutes pièces
       </h3>
       <div className='w-full flex flex-wrap justify-center gap-10 mt-20'>

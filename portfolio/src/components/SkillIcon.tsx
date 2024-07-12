@@ -29,10 +29,10 @@ const SkillIcon = ({
       >
         <LogoComponent size={30} />
       </div>
-      <p className='text-center text-sm font-body font-base mt-2 whitespace-pre-wrap'>
+      <p className='text-center text-sm font-body font-base mt-2 whitespace-pre-wrap dark:text-white'>
         {name?.split(' ').join('\n')}
       </p>
-      <p className='text-center text-sm font-body font-base whitespace-pre-wrap'>
+      <p className='text-center text-sm font-body font-base whitespace-pre-wrap dark:text-white'>
         {description}
       </p>
     </div>
