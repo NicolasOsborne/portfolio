@@ -80,7 +80,7 @@ export default function ProjectModal({
         style={{ overflowY: 'auto', maxHeight: '90vh' }}
       >
         <button onClick={closeModal}>
-          <X className='absolute right-3 top-3 h-6 w-6' />
+          <X className='absolute right-3 top-3 h-6 w-6 dark:text-white' />
         </button>
         <div className='flex flex-col md:flex-row w-full gap-4 md:justify-between'>
           <div className='flex flex-col w-full md:w-[50%] gap-4'>

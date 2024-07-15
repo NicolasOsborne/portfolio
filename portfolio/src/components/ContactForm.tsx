@@ -54,7 +54,9 @@ const ContactForm = () => {
         onSubmit={handleSubmit}
       >
         <div className='flex flex-col gap-2 px-8 py-4'>
-          <label htmlFor='name'>Nom</label>
+          <label htmlFor='name' className='font-semibold'>
+            Nom
+          </label>
           <Input
             value={name}
             setValue={setName}
@@ -63,7 +65,9 @@ const ContactForm = () => {
             name='name'
             type='text'
           />
-          <label htmlFor='email'>Email</label>
+          <label htmlFor='email' className='font-semibold'>
+            Email
+          </label>
           <Input
             value={email}
             setValue={setEmail}
@@ -72,7 +76,9 @@ const ContactForm = () => {
             name='email'
             type='email'
           />
-          <label htmlFor='message'>Message</label>
+          <label htmlFor='message' className='font-semibold'>
+            Message
+          </label>
 
           <Textarea
             value={message}

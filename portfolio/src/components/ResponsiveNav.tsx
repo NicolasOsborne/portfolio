@@ -2,28 +2,21 @@ import { Github, Linkedin } from 'lucide-react'
 import { MdOutlineLightMode, MdOutlineDarkMode } from 'react-icons/md'
 import Button from './Button'
 import Logo from './Logo'
-import { useEffect, useState } from 'react'
 
 interface ResponsiveNavProps {
   isMenuActive: boolean
   setIsMenuActive: (value: boolean) => void
   handleScrollToSection: (sectionId: string) => void
+  isDarkMode: boolean
+  setIsDarkMode: (value: boolean) => void
 }
 
 const ResponsiveNav = ({
   setIsMenuActive,
   handleScrollToSection,
+  isDarkMode,
+  setIsDarkMode,
 }: ResponsiveNavProps) => {
-  const [isDarkMode, setIsDarkMode] = useState(false)
-
-  useEffect(() => {
-    if (isDarkMode) {
-      document.documentElement.classList.add('dark')
-    } else {
-      document.documentElement.classList.remove('dark')
-    }
-  }, [isDarkMode])
-
   return (
     <div
       className='fixed left-0 top-0 z-50 flex h-[100dvh] w-screen items-start justify-start bg-gray-500/50 transition-all duration-300'
@@ -83,34 +76,36 @@ const ResponsiveNav = ({
           className='mx-auto mt-10 w-max text-lg font-heading bg-secondary'
           onClick={() => handleScrollToSection('contact')}
         />
-        <button
-          className='flex items-center justify-center rounded-base border-2 border-black p-2 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-all hover:translate-x-[3px] hover:translate-y-[3px] hover:shadow-none dark:border-dark-black dark:bg-secondary mx-auto mt-10 w-max text-lg font-heading bg-secondary'
-          aria-label='Toggle Dark/Light mode'
-          onClick={() => {
-            setIsDarkMode((prevIsDarkMode) => !prevIsDarkMode)
-          }}
-        >
-          {isDarkMode ? (
-            <MdOutlineLightMode size={30} />
-          ) : (
-            <MdOutlineDarkMode size={30} />
-          )}
-        </button>
-        <div className='flex flex-row gap-10 justify-center mt-auto mb-10'>
-          <a
-            target='_blank'
-            href='https://www.linkedin.com/in/nho-osborne/'
-            className='flex items-center justify-center rounded-base border-2 bg-secondary border-black p-2 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-all hover:translate-x-[3px] hover:translate-y-[3px] hover:shadow-none'
-          >
-            <Linkedin />
-          </a>
-          <a
-            target='_blank'
-            href='https://github.com/NicolasOsborne'
-            className='flex items-center justify-center rounded-base border-2 bg-secondary border-black p-2 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-all hover:translate-x-[3px] hover:translate-y-[3px] hover:shadow-none'
-          >
-            <Github />
-          </a>
+        <div className='flex flex-col gap-10 justify-center mt-auto mb-10'>
+          <div className='mx-auto'>
+            <button
+              className='flex items-center justify-center rounded-base border-2 border-black p-2 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-all hover:translate-x-[3px] hover:translate-y-[3px] hover:shadow-none dark:border-dark-black text-lg font-heading bg-secondary'
+              aria-label='Toggle Dark/Light mode'
+              onClick={() => setIsDarkMode(!isDarkMode)}
+            >
+              {isDarkMode ? (
+                <MdOutlineLightMode size={24} />
+              ) : (
+                <MdOutlineDarkMode size={24} />
+              )}
+            </button>
+          </div>
+          <div className='flex flex-row gap-10 justify-center'>
+            <a
+              target='_blank'
+              href='https://www.linkedin.com/in/nho-osborne/'
+              className='flex items-center justify-center rounded-base border-2 bg-secondary border-black p-2 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-all hover:translate-x-[3px] hover:translate-y-[3px] hover:shadow-none'
+            >
+              <Linkedin />
+            </a>
+            <a
+              target='_blank'
+              href='https://github.com/NicolasOsborne'
+              className='flex items-center justify-center rounded-base border-2 bg-secondary border-black p-2 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-all hover:translate-x-[3px] hover:translate-y-[3px] hover:shadow-none'
+            >
+              <Github />
+            </a>
+          </div>
         </div>
       </div>
     </div>
