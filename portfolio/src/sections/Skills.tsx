@@ -48,6 +48,11 @@ const Skills = () => {
           />
           <SkillIcon logo={FaReact} name='React' className='bg-sky-400' />
           <SkillIcon
+            logo={SiTailwindcss}
+            name='Tailwind'
+            className='bg-cyan-400'
+          />
+          <SkillIcon
             logo={BiLogoRedux}
             name='Redux'
             className='bg-purple-400'
@@ -56,12 +61,6 @@ const Skills = () => {
             logo={RiNodejsFill}
             name='NodeJS'
             className='bg-green-400'
-          />
-
-          <SkillIcon
-            logo={SiTailwindcss}
-            name='Tailwind'
-            className='bg-cyan-400'
           />
           <SkillIcon
             logo={BiLogoMongodb}
@@ -114,11 +113,7 @@ const Skills = () => {
           </h3>
           <div className='flex flex-row flex-wrap justify-center gap-10 py-12 px-2'>
             <SkillIcon logo={FiFigma} name='Figma' className='bg-fuchsia-400' />
-            <SkillIcon
-              logo={VscVscodeInsiders}
-              name='VSCode'
-              className='bg-cyan-400'
-            />
+
             <SkillIcon
               logo={RiGithubFill}
               name='Github'
@@ -135,11 +130,20 @@ const Skills = () => {
               name='Prestashop'
               className='bg-red-400'
             />
-            <SkillIcon logo={SiPostman} name='Postman' className='bg-red-600' />
+            <SkillIcon
+              logo={VscVscodeInsiders}
+              name='VSCode'
+              className='bg-cyan-400'
+            />
             <SkillIcon logo={SiNotion} name='Notion' className='bg-white' />
+            <SkillIcon
+              logo={SiPostman}
+              name='Postman'
+              className='bg-indigo-400'
+            />
             <SkillIcon logo={SiVite} name='Vite' className='bg-purple-400' />
-            <SkillIcon logo={SiVercel} name='Vercel' className='bg-white' />
             <SkillIcon logo={SiJest} name='Jest' className='bg-red-400' />
+            <SkillIcon logo={SiVercel} name='Vercel' className='bg-teal-400' />
             <SkillIcon
               logo={SiSwagger}
               name='Swagger'

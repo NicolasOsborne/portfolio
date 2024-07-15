@@ -24,7 +24,7 @@ const Header = ({ isDarkMode, setIsDarkMode }: HeaderProps) => {
   }
 
   return (
-    <nav className='fixed left-0 top-0 z-20 mx-auto flex h-[88px] w-full items-center border-b-4 border-black bg-white dark:bg-main px-5 2xl:px-[10%]'>
+    <nav className='fixed left-0 top-0 z-20 mx-auto flex h-[88px] w-full items-center border-y-4 border-black dark:border-dark-black bg-white dark:bg-main px-5 2xl:px-[10%]'>
       <div className='mx-auto flex w-[100%] max-w-full items-center justify-between'>
         <Logo />
 
@@ -75,14 +75,14 @@ const Header = ({ isDarkMode, setIsDarkMode }: HeaderProps) => {
             onClick={() => handleScrollToSection('contact')}
           />
           <button
-            className='flex items-center justify-center rounded-base border-2 border-black p-2 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-all hover:translate-x-[3px] hover:translate-y-[3px] hover:shadow-none dark:border-dark-black dark:bg-secondary'
+            className='flex items-center justify-center rounded-base border-2 border-black p-2 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-all hover:translate-x-[3px] hover:translate-y-[3px] hover:shadow-none dark:border-dark-black bg-dark-bg dark:bg-white'
             aria-label='Toggle Dark/Light mode'
             onClick={() => setIsDarkMode(!isDarkMode)}
           >
             {isDarkMode ? (
               <MdOutlineLightMode size={30} />
             ) : (
-              <MdOutlineDarkMode size={30} />
+              <MdOutlineDarkMode size={30} className='text-white' />
             )}
           </button>
         </div>

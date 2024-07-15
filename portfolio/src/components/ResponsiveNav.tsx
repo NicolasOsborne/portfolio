@@ -79,14 +79,14 @@ const ResponsiveNav = ({
         <div className='flex flex-col gap-10 justify-center mt-auto mb-10'>
           <div className='mx-auto'>
             <button
-              className='flex items-center justify-center rounded-base border-2 border-black p-2 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-all hover:translate-x-[3px] hover:translate-y-[3px] hover:shadow-none dark:border-dark-black text-lg font-heading bg-secondary'
+              className='flex items-center justify-center rounded-base border-2 border-black p-2 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-all hover:translate-x-[3px] hover:translate-y-[3px] hover:shadow-none dark:border-dark-black text-lg font-heading bg-dark-bg dark:bg-white'
               aria-label='Toggle Dark/Light mode'
               onClick={() => setIsDarkMode(!isDarkMode)}
             >
               {isDarkMode ? (
                 <MdOutlineLightMode size={24} />
               ) : (
-                <MdOutlineDarkMode size={24} />
+                <MdOutlineDarkMode size={24} className='text-white' />
               )}
             </button>
           </div>
