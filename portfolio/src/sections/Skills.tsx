@@ -1,5 +1,5 @@
 import SkillIcon from '../components/SkillIcon'
-import { DiCss3, DiHtml5, DiSass } from 'react-icons/di'
+import { DiCss3, DiHtml5, DiMysql, DiSass } from 'react-icons/di'
 import { FiFigma } from 'react-icons/fi'
 import { RiGithubFill, RiJavascriptFill, RiNodejsFill } from 'react-icons/ri'
 import { BiLogoMongodb, BiLogoRedux, BiLogoTypescript } from 'react-icons/bi'
@@ -13,7 +13,7 @@ import {
   SiVercel,
   SiVite,
 } from 'react-icons/si'
-import { FaGitAlt, FaReact, FaWordpress } from 'react-icons/fa'
+import { FaGitAlt, FaPhp, FaReact, FaWordpress } from 'react-icons/fa'
 import { VscVscodeInsiders } from 'react-icons/vsc'
 import Expertise from '../components/Expertise'
 import UsaBackground from '../assets/images/logos/usa.png'
@@ -52,6 +52,8 @@ const Skills = () => {
             name='Tailwind'
             className='bg-cyan-400'
           />
+          <SkillIcon logo={DiMysql} name='MySQL' className='bg-sky-600' />
+          <SkillIcon logo={FaPhp} name='PHP' className='bg-indigo-400' />
           <SkillIcon
             logo={BiLogoRedux}
             name='Redux'

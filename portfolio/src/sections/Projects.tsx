@@ -62,8 +62,8 @@ const Projects = () => {
           projectContext={
             <p className='text-md font-body'>
               En mars 2023, une nouvelle clinique vétérinaire a ouvert ses
-              portes à Saint-Jeoire-Prieuré, en Savoie. Pour cette occasion,
-              j'ai été chargé de collaborer avec{' '}
+              portes à Saint-Jeoire-Prieuré, en Savoie. À cette occasion, j'ai
+              eu l'opportunité de collaborer avec{' '}
               <a
                 href='https://claireorvain.fr/'
                 target='_blank'
@@ -71,9 +71,9 @@ const Projects = () => {
               >
                 Claire Orvain
               </a>{' '}
-              pour créer le site internet de la clinique, de la conception
-              artistique, à l'intégration en utilisant WordPress, à la mise en
-              place du référencement et SEO.
+              pour créer le site internet de la clinique. Mon rôle a englobé la
+              conception artistique, l'intégration en utilisant WordPress ainsi
+              que la mise en place du référencement et SEO.
             </p>
           }
           projectProcess={
@@ -99,17 +99,17 @@ const Projects = () => {
           projectContext={
             <p className='text-md font-body'>
               L'association bretonne Ethereal Decibel Company (EDC), qui
-              organise et produit depuis plus de 10 ans des événements centrés
-              autour des musiques actuelles et psychédéliques, ressentait le
-              besoin de refaire entièrement son site internet en raison de la
-              multiplication des événements et d'une notoriété sans cesse
-              grandissante.
+              organise et produit des événements centrés autour des musiques
+              actuelles et psychédéliques depuis plus de 10 ans, avait besoin de
+              refaire entièrement son site internet. Avec la multiplication des
+              événements et une notoriété croissante, une vitrine optimisée
+              devenait nécessaire.
               <br />
-              L'association organise chaque été l'un des plus grands festivals
-              de musique psychédélique en France et avait besoin d'une vitrine
-              optimisée pour permettre aux festivaliers d'accéder à l'achat de
+              Chaque été, l'association organise l'un des plus grands festivals
+              de musique psychédélique en France, et il était essentiel de
+              permettre aux festivaliers d'accéder facilement à l'achat de
               billets, aux informations sur le festival, et à la programmation,
-              avec une mise à jour du contenu à chaque nouvelle édition.
+              tout en mettant à jour le contenu pour chaque nouvelle édition.
               <br />
               Collaborant avec{' '}
               <a
@@ -119,7 +119,7 @@ const Projects = () => {
               >
                 Claire Orvain
               </a>
-              , nous avons imaginé ensemble le design, la structure,
+              , nous avons conçu ensemble le design, la structure,
               l'arborescence et l'ensemble des pages du site.
             </p>
           }
@@ -127,8 +127,8 @@ const Projects = () => {
             <div className='text-md font-body'>
               <ul className='list-inside list-image-bulletpoint'>
                 <li>Création d'une charte graphique pour le site.</li>
-                <li>Création de wireframes et maquettes.</li>
-                <li>Création de l'arborescence du site.</li>
+                <li>Conception de wireframes et maquettes.</li>
+                <li>Définition de l'arborescence du site.</li>
                 <li>Création de templates pour la mise en page.</li>
                 <li>
                   Intégration des pages avec WordPress et le thème Salient.
@@ -159,10 +159,10 @@ const Projects = () => {
           projectContext={
             <p className='text-md font-body'>
               L'agence grenobloise Extellient souhaitait effectuer une refonte
-              complète de son site internet pour s'harmoniser avec sa nouvelle
-              identité graphique, mettre à jour ses contenus et ainsi gagner en
-              attractivité, tant pour de potentiels clients que pour de futurs
-              collaborateurs.
+              complète de son site internet afin de s'harmoniser avec sa
+              nouvelle identité graphique, de mettre à jour ses contenus, et
+              ainsi de gagner en attractivité, tant pour de potentiels clients
+              que pour de futurs collaborateurs.
               <br />
               Dans ce cadre, Extellient m'a missionné en tant que stagiaire pour
               participer à cette refonte. J'ai travaillé en étroite
@@ -173,7 +173,7 @@ const Projects = () => {
           projectProcess={
             <div className='text-md font-body'>
               <ul className='list-inside list-image-bulletpoint'>
-                <li>Réalisation de wireframes et de maquettes.</li>
+                <li>Conception de wireframes et de maquettes.</li>
                 <li>Rédaction de contenus textuels.</li>
                 <li>Intégration des pages avec WordPress.</li>
                 <li>
@@ -194,10 +194,10 @@ const Projects = () => {
           projectContext={
             <p className='text-md font-body'>
               À l'occasion de l'ouverture d'un nouveau Laser Game à Échirolles,
-              dans la banlieue de Grenoble, et de la création d'un site web
-              dédié, j'ai été missionné pour mettre en œuvre et gérer le
-              référencement naturel, ainsi que pour optimiser les pages du site
-              afin d'améliorer leur indexation par les moteurs de recherche.
+              dans la banlieue de Grenoble, et de la création de son site web,
+              j'ai été missionné pour mettre en œuvre et gérer le référencement
+              naturel, ainsi que pour optimiser les pages du site afin
+              d'améliorer leur indexation par les moteurs de recherche.
               <br />
               L'objectif était d'augmenter la visibilité du site du Dock 14 dans
               les résultats de recherche et de le positionner favorablement dans
@@ -208,13 +208,13 @@ const Projects = () => {
           projectProcess={
             <div className='text-md font-body'>
               <ul className='list-inside list-image-bulletpoint'>
-                <li>Etude comparative de la concurrence.</li>
+                <li>Étude comparative de la concurrence.</li>
                 <li>Recherche de mots-clés et keywords.</li>
                 <li>Mise en place du référencement naturel.</li>
                 <li>Optimisation des méta-données.</li>
                 <li>Optimisation du SEO local.</li>
                 <li>
-                  Optimisation de l'indexation des pages par les moteurs de
+                  Amélioration de l'indexation des pages par les moteurs de
                   recherche.
                 </li>
                 <li>Maîtrise du plugin Yoast pour WordPress.</li>
@@ -237,25 +237,24 @@ const Projects = () => {
           projectContext={
             <p className='text-md font-body'>
               À l'issue de ma formation avec OpenClassrooms, il était temps de
-              créer mon propre portfolio pour présenter qui je suis, ce que je
-              sais faire et les différents projets que j'ai déjà réalisés !
+              créer mon propre portfolio pour présenter mes compétences et mes
+              réalisations.
               <br />
-              J'ai immédiatement souhaité concevoir un design original avec une
-              inspiration néo-brutaliste. Après avoir rassemblé toutes mes idées
-              et créé les maquettes de mon futur site, je me suis lancé dans le
-              code !<br />
+              Je souhaitais concevoir un design original avec une inspiration
+              néo-brutaliste. Après avoir créé les maquettes de mon futur site,
+              je me suis lancé dans le code !<br />
               J'ai choisi de créer tout le site en utilisant React pour
-              approfondir ma maîtrise de cet outil et appliquer ce que j'ai
+              approfondir ma maîtrise de ce framework et appliquer ce que j'ai
               appris tout au long de ma formation.
               <br />
               J'ai également décidé d'utiliser TypeScript pour renforcer mes
               compétences dans ce langage. Toujours animé par l'envie
-              d'apprendre de nouvelles choses, j'ai opté pour le framework
+              d'apprendre de nouvelles technologies, j'ai opté pour le framework
               Tailwind CSS, une première pour moi, qui s'est avéré être un
               véritable coup de cœur !<br />
-              Voilà, mon tout premier site a été réalisé intégralement par
-              moi-même, du design au code, jusqu'à l'hébergement. Et si vous
-              lisez ces lignes, c'est que vous l'avez déjà parcouru !
+              Voilà, mon tout premier site réalisé intégralement par moi-même,
+              du design au code, jusqu'à l'hébergement. Et si vous lisez ces
+              lignes, c'est que vous l'avez déjà parcouru !
             </p>
           }
           projectProcess={
@@ -308,29 +307,26 @@ const Projects = () => {
               utilisateur accessible aux utilisateurs connectés, et une
               fonctionnalité de mise à jour des informations utilisateur.
               <br />
-              L'utilisation de Redux-Toolkit m'a permis de comprendre et de
-              maîtriser le partage et la mise à jour du state global de
-              l'application entre tous les composants.
+              L'utilisation de Redux-Toolkit m'a permis de maîtriser la gestion
+              du state global de l'application entre tous les composants.
               <br />
-              La base de données des utilisateurs était créée à l'aide de
-              MongoDB, et le code était exécuté à l'aide de NodeJS côté serveur.
+              Le Back-End a été construit avec MongoDB et NodeJS.
               <br />
-              Pour pousser plus loin mon apprentissage, et profiter de ce projet
-              pour apprendre un nouveau langage, j'ai fait le choix personnel
-              d'utiliser TypeScript.
+              Pour approfondir mes compétences, et profiter de ce projet pour
+              apprendre un nouveau langage, j'ai choisi d'utiliser TypeScript.
               <br />
-              La documentation de l'API REST a été réalisée avec Swagger, à
-              laquelle j'ai modélisé la configuration des nouvelles routes
-              nécessaires à la communication entre l'interface et le serveur.
+              J'ai documenté l'API REST avec Swagger, modélisant ainsi les
+              routes nécessaires pour la communication entre l'interface et le
+              Back-End.
               <br />
-              Un projet complet, permettant une première expérience de gestion
+              Ce projet était une première expérience dans la gestion complète
               d'une application Full-Stack.
             </p>
           }
           projectProcess={
             <div className='text-md font-body'>
               <ul className='list-inside list-image-bulletpoint'>
-                <li>Installation du back-end avec NodeJS et MongoDB.</li>
+                <li>Installation du Back-End avec NodeJS et MongoDB.</li>
                 <li>Initialisation du projet React.</li>
                 <li>Création du routage avec React Router.</li>
                 <li>
@@ -372,18 +368,18 @@ const Projects = () => {
             <p className='text-md font-body'>
               <b>Projet n°10 de la formation OpenClassrooms.</b>
               <br />
-              L'objectif de ce projet était de partir d'un site codé avec React
-              par un autre développeur, d'identifier les différents bugs
-              présents dans le code, de les corriger, puis de finaliser le
+              L'objectif de ce projet était de reprendre un site créé en React
+              par un autre développeur, afin d'identifier et de corriger les
+              différents bugs présents dans le code, puis de finaliser le
               développement du site.
               <br />
-              Ensuite, j'ai écris de nouveaux tests d'intégration et tests
-              unitaires pour tester l'ensemble du code en utilisant Jest.
+              Ensuite, j'ai écrit des tests d'intégration et tests unitaires
+              avec Jest pour tester l'ensemble du code.
               <br />
-              La dernière étape du projet consistait à rédiger un cahier de
-              recettes complet, listant tous les scénarios de tests utilisateur
-              à réaliser pour vérifier que toutes les fonctionnalités du site
-              soient bien opérationnelles, telles que décrites par le client.
+              Enfin, j'ai rédigé un cahier de recettes listant tous les
+              scénarios de tests utilisateur à réaliser pour vérifier que toutes
+              les fonctionnalités du site soient bien opérationnelles, telles
+              qu'elles étaient décrites par le client.
             </p>
           }
           projectProcess={
@@ -395,9 +391,7 @@ const Projects = () => {
                   Identification des bugs à l'aide de React DevTools et Chrome
                   DevTools.
                 </li>
-                <li>
-                  Correction des bugs et des erreurs de logique JavaScript.
-                </li>
+                <li>Correction des erreurs de logique JavaScript.</li>
                 <li>
                   Correction de toutes les erreurs listées dans la console.
                 </li>
@@ -431,14 +425,13 @@ const Projects = () => {
               celui-ci soit mieux référencé, notamment localement.
               <br />
               Après une analyse approfondie du site existant à l'aide des outils
-              Lighthouse et Wave, j'ai pu mettre en évidence un certain nombre
-              d'améliorations à apporter pour optimiser les performances
-              générales et l'accessibilité du site pour tous les utilisateurs et
-              supports.
+              Lighthouse et Wave, j'ai identifié les améliorations à apporter
+              pour optimiser les performances générales et l'accessibilité du
+              site pour tous les utilisateurs et supports.
               <br />
-              Enfin, la dernière étape de ce projet était de produire un rapport
-              d'audit à destination de la cliente, pour présenter les
-              performances du site avant et après les modifications.
+              Enfin, j'ai produit un rapport d'audit à destination de la
+              cliente, pour présenter les performances du site avant et après
+              les modifications.
             </p>
           }
           projectProcess={
@@ -452,8 +445,8 @@ const Projects = () => {
                   compression).
                 </li>
                 <li>
-                  Optimisation de la durée d'exécution des scripts et fichiers
-                  de styles.
+                  Optimisation de la durée d'exécution des scripts et des
+                  fichiers de styles.
                 </li>
                 <li>Minimisation, compression et nettoyage du code.</li>
                 <li>Correction de la sémantique.</li>
@@ -494,13 +487,13 @@ const Projects = () => {
               fonctionnement des composants, ainsi que la configuration de la
               navigation avec React Router.
               <br />
-              Ce projet m'a également permis de découvrir et d'utiliser Vite
-              pour l'initialisation et la compilation de l'application.
+              J'ai utilisé Vite pour l'initialisation et la compilation de
+              l'application.
               <br />
               Ce projet, axé sur le Front-End, utilisait des données importées
               depuis un fichier JSON.
               <br />
-              L'implémentation du projet s'est faite à partir de maquettes et de
+              L'intégration du projet s'est faite à partir de maquettes et de
               prototypes Figma présentant les différentes pages, composants et
               animations à développer.
             </p>
@@ -536,14 +529,14 @@ const Projects = () => {
               L'objectif de ce projet était de créer un portfolio pour Sophie
               Bluel, une architecte d'intérieur.
               <br />
-              La page web devait présenter ses réalisations, avec une
+              La page web visait à présenter ses réalisations, avec une
               fonctionnalité de filtrage par catégorie.
               <br />
-              L'architecte devait pouvoir se connecter à son compte pour accéder
-              à une version éditable de son portfolio, lui permettant d'ajouter
-              ou de supprimer des projets via une modale.
+              L'architecte devait également pouvoir se connecter pour accéder à
+              une version éditable de son portfolio, lui permettant d'ajouter ou
+              de supprimer des projets via une modale.
               <br />
-              Ce projet m'a permis de comprendre l'installation d'un back-end,
+              Ce projet m'a permis de comprendre l'installation d'un Back-End,
               l'utilisation d'une API REST, la gestion des appels API pour les
               opérations CRUD, l'authentification utilisateur via un système de
               token, et la manipulation du DOM avec JavaScript pour créer des
@@ -554,11 +547,11 @@ const Projects = () => {
             <div className='text-md font-body'>
               <ul className='list-inside list-image-bulletpoint'>
                 <li>
-                  Installation et lancement des dépendances du back-end avec
+                  Installation et lancement des dépendances du Back-End avec
                   NodeJS.
                 </li>
                 <li>
-                  Utilisation et compréhension de l'API REST et de la
+                  Utilisation et compréhension de l'API REST et de sa
                   documentation Swagger.
                 </li>
                 <li>Récupération de données via des appels API.</li>
@@ -566,21 +559,18 @@ const Projects = () => {
                   Ajout dynamique des données dans le DOM avec JavaScript.
                 </li>
                 <li>Création d'une fonctionnalité de filtrage des données.</li>
-                <li>Création d'un formulaire de connexion.</li>
-                <li>
-                  Gestion de la connexion utilisateur via l'API et gestion des
-                  erreurs.
-                </li>
+                <li>Mise en place d'un formulaire de connexion.</li>
+                <li>Gestion de l'authentification utilisateur via l'API.</li>
                 <li>Stockage du token d'authentification.</li>
                 <li>
-                  Création d'une modale pour l'ajout et la suppression de
+                  Implémentation d'une modale pour l'ajout et la suppression de
                   données.
                 </li>
                 <li>
-                  Mise à jour du DOM en fonction des opérations effectuées via
-                  l'API.
+                  Mise à jour dynamique du DOM en fonction des opérations
+                  effectuées via l'API.
                 </li>
-                <li>Gestion de la fonctionnalité de déconnexion.</li>
+                <li>Gestion de la déconnexion utilisateur.</li>
               </ul>
             </div>
           }
@@ -599,14 +589,13 @@ const Projects = () => {
               L'objectif de ce projet était de dynamiser la page web de
               l'imprimerie Print It.
               <br />
-              En partant d'une version statique du site en HTML et CSS, ma tâche
-              consistait à créer un carrousel d'images dans la bannière du site
-              en utilisant JavaScript.
+              En partant d'une version statique du site en HTML et CSS, ma
+              mission consistait à créer un carrousel d'images dans la bannière
+              du site en utilisant JavaScript.
               <br />
               Ce carrousel permettait de faire défiler des images de manière
-              infinie en cliquant sur des flèches de défilement, avec des
-              indicateurs sous forme de bullet-points pour afficher la slide en
-              cours.
+              infinie avec des flèches de défilement et des indicateurs sous
+              forme de bullet-points pour visualiser la slide en cours.
             </p>
           }
           projectProcess={
@@ -637,9 +626,9 @@ const Projects = () => {
               L'objectif de ce projet était d'implémenter l'interface
               mobile-first du site de la start-up Ohmyfood, qui propose les
               menus des restaurants gastronomiques à proximité. Chaque
-              restaurant possède sa propre page avec son menu.
+              restaurant dispose de sa propre page avec son menu détaillé.
               <br />
-              Ma mission consistait à développer l'interface à partir des
+              Ma mission consistait à développer cette interface à partir des
               maquettes et prototypes Figma et à enrichir l'expérience
               utilisateur en ajoutant des animations CSS.
               <br />
@@ -651,9 +640,9 @@ const Projects = () => {
             <div className='text-md font-body'>
               <ul className='list-inside list-image-bulletpoint'>
                 <li>Découpage et architecture des fichiers SASS.</li>
-                <li>Création de variables et mixins.</li>
+                <li>Création de variables et mixins SASS.</li>
                 <li>Création d'animations (keyframes, transitions).</li>
-                <li>Création d'un loader.</li>
+                <li>Création d'un loader animé.</li>
                 <li>Développement en mobile-first.</li>
                 <li>Gestion des media-queries pour l'affichage responsive.</li>
                 <li>Versionnage du projet avec Git et Github.</li>
@@ -674,7 +663,7 @@ const Projects = () => {
               <br />
               L'objectif de ce projet était d'intégrer l'interface de la page
               d'accueil du site de l'agence de voyage Booki, en HTML et CSS, à
-              partir de la maquette Figma.
+              partir d'une maquette Figma.
               <br />
               Ma mission consistait à créer une page web entièrement responsive
               et pixel perfect, conforme aux versions desktop, tablette et
@@ -689,14 +678,14 @@ const Projects = () => {
             <div className='text-md font-body'>
               <ul className='list-inside list-image-bulletpoint'>
                 <li>Import des polices de caractère (Google Fonts).</li>
-                <li>Import des bibliothèques d'icônes (Font Awesome).</li>
+                <li>Utilisation de bibliothèques d'icônes (Font Awesome).</li>
                 <li>Découpage de la maquette pour l'intégration.</li>
                 <li>Intégration et mise en page avec flexbox.</li>
                 <li>
                   Mise en place de l'affichage responsive avec les
                   media-queries.
                 </li>
-                <li>Validation du code au W3C.</li>
+                <li>Validation du code avec le validateur W3C.</li>
               </ul>
             </div>
           }
